@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="FakeXrmEasy.9" Version="1.58.1" />
+    <PackageReference Include="FakeXrmEasy.Plugins.v9" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\CMA.Extensions\CMA.Extensions.csproj">
+			<Project>{a22a91da-e773-4bfe-ac41-2cf3bc5c8c60}</Project>
+			<Name>CMA.Extensions</Name>
+		</ProjectReference>
+	</ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Address\" />
+  </ItemGroup>
+
+</Project>

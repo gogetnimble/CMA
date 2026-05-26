@@ -1,0 +1,938 @@
+{
+  "table": "new_attendeetype",
+  "entitySetName": "new_attendeetypes",
+  "generatedUtc": "2026-04-01T01:09:10.4073000Z",
+  "totalRecords": 73,
+  "records": [
+    {
+      "id": "d82a7cf2-3b1f-e911-a980-000d3af3e521",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(d82a7cf2-3b1f-e911-a980-000d3af3e521)",
+      "body": {
+        "new_french": "Étudiant(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1073",
+        "new_name": "Student /  Étudiant(e",
+        "new_english": "Student"
+      }
+    },
+    {
+      "id": "ec0317ff-3b1f-e911-a980-000d3af3e521",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(ec0317ff-3b1f-e911-a980-000d3af3e521)",
+      "body": {
+        "new_french": "Médecin résident(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1072",
+        "new_name": "Resident /  Médecin résident(e",
+        "new_english": "Resident"
+      }
+    },
+    {
+      "id": "07777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(07777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Lauréat(e) du prix",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1004",
+        "new_name": "Award Recipient / Lauréat(e) du prix",
+        "new_english": "Award Recipient "
+      }
+    },
+    {
+      "id": "09777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(09777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d'administration",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1006",
+        "new_name": "Board Member / Membre du Conseil d'administration",
+        "new_english": "Board Member "
+      }
+    },
+    {
+      "id": "0b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personne déléguée",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1026",
+        "new_name": "Delegate / Personne déléguée",
+        "new_english": "Delegate "
+      }
+    },
+    {
+      "id": "0d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(0d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Famille",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1028",
+        "new_name": "Family / Famille",
+        "new_english": "Family "
+      }
+    },
+    {
+      "id": "0f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(0f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "  Personne invitée",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1031",
+        "new_name": "Guest /  Personne invitée",
+        "new_english": "Guest "
+      }
+    },
+    {
+      "id": "11777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(11777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Juge",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1044",
+        "new_name": "Judge / Juge",
+        "new_english": "Judge "
+      }
+    },
+    {
+      "id": "13777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(13777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Médias",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1048",
+        "new_name": "Media / Médias",
+        "new_english": "Media "
+      }
+    },
+    {
+      "id": "15777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre observateur",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1052",
+        "new_name": "Member Observer / Membre observateur",
+        "new_english": "Member Observer "
+      }
+    },
+    {
+      "id": "17777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Observateur non membre",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1053",
+        "new_name": "Non-Member Observer / Observateur non membre",
+        "new_english": "Non-Member Observer "
+      }
+    },
+    {
+      "id": "19777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(19777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Politique",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1056",
+        "new_name": "Political / Politique",
+        "new_english": "Political "
+      }
+    },
+    {
+      "id": "1b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Commanditaire",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1065",
+        "new_name": "Sponsor / Commanditaire",
+        "new_english": "Sponsor "
+      }
+    },
+    {
+      "id": "1d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(1d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personnel",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1067",
+        "new_name": "Staff / Personnel",
+        "new_english": "Staff "
+      }
+    },
+    {
+      "id": "1f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(1f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Intervenant",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1070",
+        "new_name": "Stakeholder / Intervenant",
+        "new_english": "Stakeholder "
+      }
+    },
+    {
+      "id": "21777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(21777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Fournisseur",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1071",
+        "new_name": "Supplier / Fournisseur",
+        "new_english": "Supplier "
+      }
+    },
+    {
+      "id": "7d366fb8-a1ea-e811-a96f-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(7d366fb8-a1ea-e811-a96f-000d3aff2e32)",
+      "body": {
+        "new_french": " Médecin",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1054",
+        "new_name": "Physician / Médecin",
+        "new_english": "Physician "
+      }
+    },
+    {
+      "id": "79658ac7-a1ea-e811-a96f-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(79658ac7-a1ea-e811-a96f-000d3aff2e32)",
+      "body": {
+        "new_french": " Personnel hospitalier",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1033",
+        "new_name": "Hospital staff / Personnel hospitalier",
+        "new_english": "Hospital staff "
+      }
+    },
+    {
+      "id": "23777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(23777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Représentant(e) d'une société affiliée",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1001",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Affiliate Representative / Représentant(e) d'une société affiliée",
+        "new_english": "Affiliate Representative "
+      }
+    },
+    {
+      "id": "25777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(25777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d’administration de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1015",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Board Member / Membre du Conseil d’administration de l’AMC",
+        "new_english": "CMA Board Member "
+      }
+    },
+    {
+      "id": "27777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(27777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Ancien administrateur (trice) de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1016",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Past Officer / Ancien administrateur (trice) de l’AMC",
+        "new_english": "CMA Past Officer "
+      }
+    },
+    {
+      "id": "29777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(29777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Président(e) de comité",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1025",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Committee Chair / Président(e) de comité",
+        "new_english": "Committee Chair "
+      }
+    },
+    {
+      "id": "2b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(2b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Orateur adjoint / oratrice adjointe",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1027",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Deputy Speaker /  Orateur adjoint / oratrice adjointe",
+        "new_english": "Deputy Speaker"
+      }
+    },
+    {
+      "id": "2d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(2d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Représentant d'une AMPT",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1060",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "PTMA Representative / Représentant d'une AMPT",
+        "new_english": "PTMA Representative "
+      }
+    },
+    {
+      "id": "2f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(2f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Représentant d'une AMPT - étudiant en médecine/médecine résident",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1059",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "PTMA Representative - medical student/resident /  Représentant d'une AMPT - étudiant en médecine/médecine résident",
+        "new_english": "PTMA Representative - medical student/resident"
+      }
+    },
+    {
+      "id": "31777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(31777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Conférencier",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1064",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Speaker / Conférencier",
+        "new_english": "Speaker "
+      }
+    },
+    {
+      "id": "65777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(65777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Conjoint(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1066",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Spouse / Conjoint(e)",
+        "new_english": "Spouse "
+      }
+    },
+    {
+      "id": "67777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(67777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Enfant de 4 à 7 ans",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1010",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Child 4-7 / Enfant de 4 à 7 ans",
+        "new_english": "Child 4-7 "
+      }
+    },
+    {
+      "id": "69777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(69777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Enfant de 8 à 12 ans",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1011",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Child 8-12 / Enfant de 8 à 12 ans",
+        "new_english": "Child 8-12 "
+      }
+    },
+    {
+      "id": "6b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(6b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Enfant de 13 à 17 ans",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1009",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(0d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Child 13-17 / Enfant de 13 à 17 ans",
+        "new_english": "Child 13-17 "
+      }
+    },
+    {
+      "id": "33777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(33777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Lauréat(e) d'un prix de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1013",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Award Winner / Lauréat(e) d'un prix de l’AMC",
+        "new_english": "CMA Award Winner "
+      }
+    },
+    {
+      "id": "35777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(35777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Ancien administrateur (trice) de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1017",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Past Officer / Ancien administrateur (trice) de l’AMC",
+        "new_english": "CMA Past Officer "
+      }
+    },
+    {
+      "id": "37777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(37777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d’administration de HAMC 2014",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1019",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMAH 2014 Board Member / Membre du Conseil d’administration de HAMC 2014",
+        "new_english": "CMAH 2014 Board Member "
+      }
+    },
+    {
+      "id": "39777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(39777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d'administration de la FMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1022",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMF Board Member / Membre du Conseil d'administration de la FMC",
+        "new_english": "CMF Board Member "
+      }
+    },
+    {
+      "id": "3b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(3b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du conseil d’administration de MDFH",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1046",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "MDFH Board Member / Membre du conseil d’administration de MDFH",
+        "new_english": "MDFH Board Member "
+      }
+    },
+    {
+      "id": "3d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(3d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil de Joule",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1041",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Joule Board Member / Membre du Conseil de Joule",
+        "new_english": "Joule Board Member "
+      }
+    },
+    {
+      "id": "3f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(3f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre associé(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1002",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Associate Member / Membre associé(e)",
+        "new_english": "Associate Member "
+      }
+    },
+    {
+      "id": "41777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(41777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Lauréat(e) du prix",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1005",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Award Recipient / Lauréat(e) du prix",
+        "new_english": "Award Recipient "
+      }
+    },
+    {
+      "id": "43777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(43777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Kioske",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1007",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Booth / Kioske",
+        "new_english": "Booth "
+      }
+    },
+    {
+      "id": "45777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(45777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Conseil d’administration de HAMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1021",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMAH Board / Conseil d’administration de HAMC",
+        "new_english": "CMAH Board "
+      }
+    },
+    {
+      "id": "47777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(47777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Président(e) du forum",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1029",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Fora  Chair / Président(e) du forum",
+        "new_english": "Fora  Chair "
+      }
+    },
+    {
+      "id": "49777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(49777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre honoraire",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1032",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Honorary Member / Membre honoraire",
+        "new_english": "Honorary Member "
+      }
+    },
+    {
+      "id": "4b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(4b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Invité(e) - participant(e) international",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1034",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - International Participant / Invité(e) - participant(e) international",
+        "new_english": "Invited Guest - International Participant "
+      }
+    },
+    {
+      "id": "4d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(4d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "  Invité(e) -intervenant(e) médical(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1036",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - Med Stakeholder /  Invité(e) -intervenant(e) médical(e)",
+        "new_english": "Invited Guest - Med Stakeholder "
+      }
+    },
+    {
+      "id": "4f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(4f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Senator",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1037",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - MP/Senator",
+        "new_english": "Invited Guest - MP"
+      }
+    },
+    {
+      "id": "51777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(51777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Invité(e) - intervenant(e) non médical(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1039",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - Non-Med Stakeholder / Invité(e) - intervenant(e) non médical(e)",
+        "new_english": "Invited Guest - Non-Med Stakeholder "
+      }
+    },
+    {
+      "id": "53777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(53777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Étudiant(e) en médecine",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1050",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Medical Student / Étudiant(e) en médecine",
+        "new_english": "Medical Student "
+      }
+    },
+    {
+      "id": "55777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(55777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1051",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Member / Membre",
+        "new_english": "Member "
+      }
+    },
+    {
+      "id": "57777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(57777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Présentateur (trice)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1057",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Presenter / Présentateur (trice)",
+        "new_english": "Presenter "
+      }
+    },
+    {
+      "id": "59777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(59777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personnel d'une AMPT",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1061",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "PTMA Staff / Personnel d'une AMPT",
+        "new_english": "PTMA Staff "
+      }
+    },
+    {
+      "id": "5b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(5b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Médecin résident",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1062",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(15777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Resident / Médecin résident",
+        "new_english": "Resident "
+      }
+    },
+    {
+      "id": "77777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(77777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Exposant(e) approuvé(e) par l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1012",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Approved Exhibitor / Exposant(e) approuvé(e) par l’AMC",
+        "new_english": "CMA Approved Exhibitor "
+      }
+    },
+    {
+      "id": "79777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(79777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Lauréat(e) d'un prix de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1014",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Award Winner / Lauréat(e) d'un prix de l’AMC",
+        "new_english": "CMA Award Winner "
+      }
+    },
+    {
+      "id": "7b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(7b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d’administration de HAMC 2014",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1020",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMAH 2014 Board Member / Membre du Conseil d’administration de HAMC 2014",
+        "new_english": "CMAH 2014 Board Member "
+      }
+    },
+    {
+      "id": "7d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(7d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil d'administration de la FMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1023",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMF Board Member / Membre du Conseil d'administration de la FMC",
+        "new_english": "CMF Board Member "
+      }
+    },
+    {
+      "id": "7f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(7f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Invité - député/sénateur (trice)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1038",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - MP/Senator /  Invité - député/sénateur (trice",
+        "new_english": "Invited Guest - MP/Senator"
+      }
+    },
+    {
+      "id": "81777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(81777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Invité(e) - participant(e) international",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1035",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - International Participant / Invité(e) - participant(e) international",
+        "new_english": "Invited Guest - International Participant "
+      }
+    },
+    {
+      "id": "83777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(83777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Invité(e) - intervenant(e) non médical(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1040",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Invited Guest - Non-Med Stakeholder / Invité(e) - intervenant(e) non médical(e)",
+        "new_english": "Invited Guest - Non-Med Stakeholder "
+      }
+    },
+    {
+      "id": "85777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(85777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du conseil d’administration de MDFH",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1047",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "MDFH Board Member / Membre du conseil d’administration de MDFH",
+        "new_english": "MDFH Board Member "
+      }
+    },
+    {
+      "id": "87777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(87777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Médias",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1049",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Media / Médias",
+        "new_english": "Media "
+      }
+    },
+    {
+      "id": "89777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(89777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du Conseil de Joule",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1042",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Joule Board Member / Membre du Conseil de Joule",
+        "new_english": "Joule Board Member "
+      }
+    },
+    {
+      "id": "8b777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(8b777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Présentateur (trice)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1058",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Presenter / Présentateur (trice)",
+        "new_english": "Presenter "
+      }
+    },
+    {
+      "id": "8d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(8d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personnel des sociétés affiliées, des associées et des AMPT",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1068",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Staff Affiliates, Associates and PTMA / Personnel des sociétés affiliées, des associées et des AMPT",
+        "new_english": "Staff Affiliates, Associates and PTMA "
+      }
+    },
+    {
+      "id": "28397228-7ec8-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(28397228-7ec8-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Personnel des sociétés affiliées, des associées et des AMPT",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1069",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(17777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Staff Affiliates, Associates, and PTMA / Personnel des sociétés affiliées, des associées et des AMPT",
+        "new_english": "Staff Affiliates, Associates, and PTMA "
+      }
+    },
+    {
+      "id": "6d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(6d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Hôte / Hôtesse de la soirée de remise des prix",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1003",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Award Host /  Hôte / Hôtesse de la soirée de remise des prix",
+        "new_english": "Award Host"
+      }
+    },
+    {
+      "id": "6f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(6f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1008",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Bronze",
+        "new_english": "Bronze"
+      }
+    },
+    {
+      "id": "71777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(71777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Argent",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1063",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Silver / Argent",
+        "new_english": "Silver "
+      }
+    },
+    {
+      "id": "73777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(73777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Or",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1030",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Gold / Or",
+        "new_english": "Gold "
+      }
+    },
+    {
+      "id": "75777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(75777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Platine",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1055",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1b777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Platinum / Platine",
+        "new_english": "Platinum "
+      }
+    },
+    {
+      "id": "5d777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(5d777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personnel de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1018",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMA Staff / Personnel de l’AMC",
+        "new_english": "CMA Staff "
+      }
+    },
+    {
+      "id": "5f777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(5f777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Personnel de la FMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1024",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "CMF Staff / Personnel de la FMC",
+        "new_english": "CMF Staff "
+      }
+    },
+    {
+      "id": "61777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(61777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": " Membre du personnel de MD",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1045",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "MD Staff / Membre du personnel de MD",
+        "new_english": "MD Staff "
+      }
+    },
+    {
+      "id": "63777cf7-299b-e811-a96e-000d3af3f553",
+      "relativeUrl": "/api/data/v9.2/new_attendeetypes(63777cf7-299b-e811-a96e-000d3af3f553)",
+      "body": {
+        "new_french": "Membre du personnel de Joule",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_attendeetype_id": "AT1043",
+        "new_parenttypeid@odata.bind": "/new_attendeetypes(1d777cf7-299b-e811-a96e-000d3af3f553)",
+        "new_name": "Joule Staff /Membre du personnel de Joule",
+        "new_english": "Joule Staff "
+      }
+    }
+  ]
+}

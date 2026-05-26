@@ -1,0 +1,1944 @@
+{
+  "table": "new_specialty",
+  "entitySetName": "new_specialties",
+  "generatedUtc": "2026-04-01T01:09:10.4989945Z",
+  "totalRecords": 117,
+  "records": [
+    {
+      "id": "6cb61fa3-fde9-e811-a977-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_specialties(6cb61fa3-fde9-e811-a977-000d3af3eee6)",
+      "body": {
+        "new_french": "Sans spécialité (Médecine)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "01000",
+        "new_specialty": "0001085",
+        "new_specialtycode": "29",
+        "new_name": "No specialty (Medicine) /  Sans spécialité (Médecine)",
+        "new_english": "No specialty (Medicine)"
+      }
+    },
+    {
+      "id": "2eebc1c3-fde9-e811-a977-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_specialties(2eebc1c3-fde9-e811-a977-000d3af3eee6)",
+      "body": {
+        "new_french": "Sans spécialité (Chirurgie)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "01001",
+        "new_specialty": "0001086",
+        "new_specialtycode": "46",
+        "new_name": "No Specialty (Surgery) /  Sans spécialité (Chirurgie)",
+        "new_english": "No Specialty (Surgery)"
+      }
+    },
+    {
+      "id": "3841207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3841207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Médecine des troubles du sommeil",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00094",
+        "new_specialty": "0800002",
+        "new_specialtycode": "821",
+        "new_name": "Sleep Disorder Medicine /  Médecine des troubles du sommeil",
+        "new_english": "Sleep Disorder Medicine"
+      }
+    },
+    {
+      "id": "3941207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3941207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Transplantation d’organes solides",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00095",
+        "new_specialty": "0800003",
+        "new_specialtycode": "805",
+        "new_name": "Solid Organ Transplantation /  Transplantation d’organes solides",
+        "new_english": "Solid Organ Transplantation"
+      }
+    },
+    {
+      "id": "3a41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3a41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Médecine du sport et de l’exercice",
+        "new_type": 100000002,
+        "statecode": 1,
+        "statuscode": 2,
+        "new_group": 100000019,
+        "new_specialty_id": "00096",
+        "new_specialty": "0800004",
+        "new_specialtycode": "804",
+        "new_name": "Sport and Exercise Medicine /  Médecine du sport et de l’exercice",
+        "new_english": "Sport and Exercise Medicine"
+      }
+    },
+    {
+      "id": "3b41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3b41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Médecine transfusionnelle",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000005,
+        "new_specialty_id": "00097",
+        "new_specialty": "0800005",
+        "new_specialtycode": "809",
+        "new_name": "Transfusion Medicine /  Médecine transfusionnelle",
+        "new_english": "Transfusion Medicine"
+      }
+    },
+    {
+      "id": "3c41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3c41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Chirurgie générale de traumatismes",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000004,
+        "new_specialty_id": "00098",
+        "new_specialty": "0800006",
+        "new_specialtycode": "808",
+        "new_name": "Trauma General Surgery /  Chirurgie générale de traumatismes",
+        "new_english": "Trauma General Surgery"
+      }
+    },
+    {
+      "id": "3d41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3d41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Médecine d’urgence",
+        "new_type": 100000002,
+        "new_programnumberofyears": 2,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000003,
+        "new_specialty_id": "00099",
+        "new_specialty": "0800007",
+        "new_specialtycode": "903",
+        "new_name": "Emergency Medicine /  Médecine d’urgence",
+        "new_english": "Emergency Medicine"
+      }
+    },
+    {
+      "id": "3e41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3e41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Compétences chirurgicales améliorées",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000004,
+        "new_specialty_id": "00100",
+        "new_specialty": "0800008",
+        "new_specialtycode": "902",
+        "new_name": "Enhanced Surgical Skills /  Compétences chirurgicales améliorées",
+        "new_english": "Enhanced Surgical Skills"
+      }
+    },
+    {
+      "id": "3f41207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(3f41207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Anesthésie en médecine familiale",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000020,
+        "new_specialty_id": "00101",
+        "new_specialty": "0800009",
+        "new_specialtycode": "901",
+        "new_name": "Family Practice Anesthesia /  Anesthésie en médecine familiale",
+        "new_english": "Family Practice Anesthesia"
+      }
+    },
+    {
+      "id": "4041207d-dfe7-e811-a96f-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_specialties(4041207d-dfe7-e811-a96f-000d3aff2e2f)",
+      "body": {
+        "new_french": "Soins palliatifs",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00102",
+        "new_specialty": "0800010",
+        "new_specialtycode": "900",
+        "new_name": "Palliative Care /  Soins palliatifs",
+        "new_english": "Palliative Care"
+      }
+    },
+    {
+      "id": "e302cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e302cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Ultrasonographie clinique en contexte de soins actifs",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00104",
+        "new_specialty": "0800012",
+        "new_specialtycode": "819",
+        "new_name": "Acute Care Point of Care Ultrasonography /  Ultrasonographie clinique en contexte de soins actifs",
+        "new_english": "Acute Care Point of Care Ultrasonography"
+      }
+    },
+    {
+      "id": "e502cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e502cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Toxicomanie",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00105",
+        "new_specialty": "0800013",
+        "new_specialtycode": "817",
+        "new_name": "Addiction Medicine /  Toxicomanie",
+        "new_english": "Addiction Medicine"
+      }
+    },
+    {
+      "id": "e702cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e702cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Oncologie chez l’adolescent et le jeune adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000014,
+        "new_specialty_id": "00106",
+        "new_specialty": "0800014",
+        "new_specialtycode": "810",
+        "new_name": "Adolescent and Young Adult (AYA) Oncology /  Oncologie chez l’adolescent et le jeune adulte",
+        "new_english": "Adolescent and Young Adult (AYA) Oncology"
+      }
+    },
+    {
+      "id": "e802cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e802cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Électrophysiologie cardiaque de l’adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00107",
+        "new_specialty": "0800015",
+        "new_specialtycode": "803",
+        "new_name": "Adult Cardiac Electrophysiology /  Électrophysiologie cardiaque de l’adulte",
+        "new_english": "Adult Cardiac Electrophysiology"
+      }
+    },
+    {
+      "id": "e902cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e902cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Échocardiographie de l’adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00108",
+        "new_specialty": "0800016",
+        "new_specialtycode": "802",
+        "new_name": "Adult Echocardiography /  Échocardiographie de l’adulte",
+        "new_english": "Adult Echocardiography"
+      }
+    },
+    {
+      "id": "ea02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ea02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Hépatologie de l’adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00109",
+        "new_specialty": "0800017",
+        "new_specialtycode": "812",
+        "new_name": "Adult Hepatology /  Hépatologie de l’adulte",
+        "new_english": "Adult Hepatology"
+      }
+    },
+    {
+      "id": "eb02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(eb02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Cardiologie interventionnelle de l’adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00110",
+        "new_specialty": "0800018",
+        "new_specialtycode": "801",
+        "new_name": "Adult Interventional Cardiology /  Cardiologie interventionnelle de l’adulte",
+        "new_english": "Adult Interventional Cardiology"
+      }
+    },
+    {
+      "id": "ec02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ec02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecine de la thrombose chez l’adulte",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00111",
+        "new_specialty": "0800019",
+        "new_specialtycode": "814",
+        "new_name": "Adult Thrombosis Medicine /  Médecine de la thrombose chez l’adulte",
+        "new_english": "Adult Thrombosis Medicine"
+      }
+    },
+    {
+      "id": "ed02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ed02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecine aérospatiale",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00112",
+        "new_specialty": "0800020",
+        "new_specialtycode": "811",
+        "new_name": "Aerospace Medicine /  Médecine aérospatiale",
+        "new_english": "Aerospace Medicine"
+      }
+    },
+    {
+      "id": "ee02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ee02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Curiethérapie",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00113",
+        "new_specialty": "0800021",
+        "new_specialtycode": "816",
+        "new_name": "Brachytherapy /  Curiethérapie",
+        "new_english": "Brachytherapy"
+      }
+    },
+    {
+      "id": "ef02cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ef02cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Pédiatrie de la maltraitance",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000014,
+        "new_specialty_id": "00114",
+        "new_specialty": "0800022",
+        "new_specialtycode": "806",
+        "new_name": "Child Maltreatment Pediatrics /  Pédiatrie de la maltraitance",
+        "new_english": "Child Maltreatment Pediatrics"
+      }
+    },
+    {
+      "id": "f002cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f002cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecin clinicien enseignant",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00115",
+        "new_specialty": "0800023",
+        "new_specialtycode": "807",
+        "new_name": "Clinician Educator /  Médecin clinicien enseignant",
+        "new_english": "Clinician Educator"
+      }
+    },
+    {
+      "id": "f102cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f102cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Cytopathologie",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00116",
+        "new_specialty": "0800024",
+        "new_specialtycode": "905",
+        "new_name": "Cytopathology /  Cytopathologie",
+        "new_english": "Cytopathology"
+      }
+    },
+    {
+      "id": "f202cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f202cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000003,
+        "new_specialty_id": "00117",
+        "new_specialty": "0800025",
+        "new_specialtycode": "820"
+      }
+    },
+    {
+      "id": "f302cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f302cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Transplantation de cellules souches hématopoïétiques",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000013,
+        "new_specialty_id": "00118",
+        "new_specialty": "0800026",
+        "new_specialtycode": "828",
+        "new_name": "Hematopoietic Stem Cell Transplantation /  Transplantation de cellules souches hématopoïétiques",
+        "new_english": "Hematopoietic Stem Cell Transplantation"
+      }
+    },
+    {
+      "id": "f402cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f402cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecine hyperbare",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00119",
+        "new_specialty": "0800027",
+        "new_specialtycode": "813",
+        "new_name": "Hyperbaric Medicine /  Médecine hyperbare",
+        "new_english": "Hyperbaric Medicine"
+      }
+    },
+    {
+      "id": "f502cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f502cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Urologie pédiatrique",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000014,
+        "new_specialty_id": "00120",
+        "new_specialty": "0800028",
+        "new_specialtycode": "826",
+        "new_name": "Pediatric Urology /  Urologie pédiatrique",
+        "new_english": "Pediatric Urology"
+      }
+    },
+    {
+      "id": "f602cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f602cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Toxicomanie",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00121",
+        "new_specialty": "0800029",
+        "new_specialtycode": "904",
+        "new_name": "Addiction Medicine /  Toxicomanie",
+        "new_english": "Addiction Medicine"
+      }
+    },
+    {
+      "id": "f702cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f702cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Soins aux personnes âgées",
+        "new_type": 100000002,
+        "new_programnumberofyears": 1,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000016,
+        "new_specialty_id": "00122",
+        "new_specialty": "0800030",
+        "new_specialtycode": "906",
+        "new_name": "Care of the Elderly /  Soins aux personnes âgées",
+        "new_english": "Care of the Elderly"
+      }
+    },
+    {
+      "id": "f802cc7d-dfe7-e811-a972-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f802cc7d-dfe7-e811-a972-000d3aff2e30)",
+      "body": {
+        "new_french": "Sécurité des patients et amélioration de la qualité",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000019,
+        "new_specialty_id": "00123",
+        "new_specialty": "0800031",
+        "new_specialtycode": "823",
+        "new_name": "Patient Safety and Quality Improvement /  Sécurité des patients et amélioration de la qualité",
+        "new_english": "Patient Safety and Quality Improvement"
+      }
+    },
+    {
+      "id": "5d95df05-dfe7-e811-a96f-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_specialties(5d95df05-dfe7-e811-a96f-000d3aff2e32)",
+      "body": {
+        "new_french": "Insuffisance cardiaque avancée et transplantation cardiaque",
+        "new_type": 100000002,
+        "statecode": 0,
+        "statuscode": 1,
+        "new_group": 100000005,
+        "new_specialty_id": "00093",
+        "new_specialty": "0800001",
+        "new_specialtycode": "818",
+        "new_name": "Advanced Heart Failure and Cardiac Transplantation /  Insuffisance cardiaque avancée et transplantation cardiaque",
+        "new_english": "Advanced Heart Failure and Cardiac Transplantation"
+      }
+    },
+    {
+      "id": "4e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(4e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 4,
+        "statuscode": 1,
+        "new_specialtycode": "1",
+        "new_specialty": "0001000",
+        "new_specialty_id": "00001",
+        "new_french": "Médecine interne",
+        "new_type": 100000000,
+        "new_name": "Internal Medicine /  Médecine interne",
+        "new_english": "Internal Medicine"
+      }
+    },
+    {
+      "id": "50537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(50537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 3,
+        "statuscode": 1,
+        "new_specialtycode": "2",
+        "new_specialty": "0001001",
+        "new_specialty_id": "00002",
+        "new_french": "Cardiologie",
+        "new_type": 100000001,
+        "new_name": "Cardiology /  Cardiologie",
+        "new_english": "Cardiology"
+      }
+    },
+    {
+      "id": "52537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(52537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "4",
+        "new_specialty": "0001002",
+        "new_specialty_id": "00033",
+        "new_french": "Hématologie",
+        "new_type": 100000001,
+        "new_name": "Hematology /  Hématologie",
+        "new_english": "Hematology"
+      }
+    },
+    {
+      "id": "54537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(54537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "6",
+        "new_specialty": "0001003",
+        "new_specialty_id": "00034",
+        "new_french": "Pneumologie",
+        "new_type": 100000001,
+        "new_name": "Respirology /  Pneumologie",
+        "new_english": "Respirology"
+      }
+    },
+    {
+      "id": "56537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(56537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "8",
+        "new_specialty": "0001004",
+        "new_specialty_id": "00003",
+        "new_french": "Immunologie clinique et allergie",
+        "new_type": 100000001,
+        "new_name": "Clinical Immunology and Allergy /  Immunologie clinique et allergie",
+        "new_english": "Clinical Immunology and Allergy"
+      }
+    },
+    {
+      "id": "58537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(58537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000000,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "10",
+        "new_specialty": "0001005",
+        "new_specialty_id": "00004",
+        "new_french": "Anesthésiologie",
+        "new_type": 100000000,
+        "new_name": "Anesthesiology /  Anesthésiologie",
+        "new_english": "Anesthesiology"
+      }
+    },
+    {
+      "id": "5a537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(5a537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000002,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "11",
+        "new_specialty": "0001006",
+        "new_specialty_id": "00005",
+        "new_french": "Dermatologie",
+        "new_type": 100000000,
+        "new_name": "Dermatology /  Dermatologie",
+        "new_english": "Dermatology"
+      }
+    },
+    {
+      "id": "5c537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(5c537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "12",
+        "new_specialty": "0001007",
+        "new_specialty_id": "00006",
+        "new_french": "Neurologie",
+        "new_type": 100000000,
+        "new_name": "Neurology /  Neurologie",
+        "new_english": "Neurology"
+      }
+    },
+    {
+      "id": "5e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(5e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "statuscode": 1,
+        "new_specialtycode": "13",
+        "new_specialty": "0001008",
+        "new_specialty_id": "00007",
+        "new_french": "Neurologie et/ou psychiatrie",
+        "new_type": 100000000,
+        "new_name": "Neurology and/or Psychiatry /  Neurologie et/ou psychiatrie",
+        "new_english": "Neurology and/or Psychiatry"
+      }
+    },
+    {
+      "id": "60537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(60537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "14",
+        "new_specialty": "0001009",
+        "new_specialty_id": "00008",
+        "new_french": "Psychiatrie",
+        "new_type": 100000000,
+        "new_name": "Psychiatry /  Psychiatrie",
+        "new_english": "Psychiatry"
+      }
+    },
+    {
+      "id": "62537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(62537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 4,
+        "statuscode": 1,
+        "new_specialtycode": "15",
+        "new_specialty": "0001010",
+        "new_specialty_id": "00009",
+        "new_french": "Pédiatrie",
+        "new_type": 100000000,
+        "new_name": "Pediatrics /  Pédiatrie",
+        "new_english": "Pediatrics"
+      }
+    },
+    {
+      "id": "64537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(64537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 1,
+        "new_group": 100000015,
+        "statuscode": 2,
+        "new_specialtycode": "16",
+        "new_specialty": "0001011",
+        "new_specialty_id": "00010",
+        "new_french": "Médecine physique et réadaptation",
+        "new_type": 100000000,
+        "new_name": "Physical Medicine and Rehabilitation /  Médecine physique et réadaptation",
+        "new_english": "Physical Medicine and Rehabilitation"
+      }
+    },
+    {
+      "id": "66537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(66537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000016,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "17",
+        "new_specialty": "0001012",
+        "new_specialty_id": "00011",
+        "new_french": "Hygiène publique",
+        "new_type": 100000000,
+        "new_name": "Public Health /  Hygiène publique",
+        "new_english": "Public Health"
+      }
+    },
+    {
+      "id": "68537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(68537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "18",
+        "new_specialty": "0001013",
+        "new_specialty_id": "00012",
+        "new_french": "Radiologie diagnostique",
+        "new_type": 100000000,
+        "new_name": "Diagnostic Radiology /  Radiologie diagnostique",
+        "new_english": "Diagnostic Radiology"
+      }
+    },
+    {
+      "id": "6a537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(6a537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "19",
+        "new_specialty": "0001014",
+        "new_specialty_id": "00013",
+        "new_french": "Oncologie radiologique",
+        "new_type": 100000000,
+        "new_name": "Radiation Oncology /  Oncologie radiologique",
+        "new_english": "Radiation Oncology"
+      }
+    },
+    {
+      "id": "6c537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(6c537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "21",
+        "new_specialty": "0001015",
+        "new_specialty_id": "00014",
+        "new_french": "Cardiologie pédiatrie",
+        "new_type": 100000001,
+        "new_name": "Pediatric Cardiology /  Cardiologie pédiatrie",
+        "new_english": "Pediatric Cardiology"
+      }
+    },
+    {
+      "id": "6e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(6e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "22",
+        "new_specialty": "0001016",
+        "new_specialty_id": "00035",
+        "new_french": "Génétique méd. et génomique",
+        "new_type": 100000000,
+        "new_name": "Med. Genetics & Genomics /  Génétique méd. et génomique",
+        "new_english": "Med. Genetics & Genomics"
+      }
+    },
+    {
+      "id": "70537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(70537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "statuscode": 1,
+        "new_specialtycode": "23",
+        "new_specialty": "0001017",
+        "new_specialty_id": "00015",
+        "new_french": "Radiologie thérapeutique",
+        "new_type": 100000000,
+        "new_name": "Therapeutic Radiology /  Radiologie thérapeutique",
+        "new_english": "Therapeutic Radiology"
+      }
+    },
+    {
+      "id": "72537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(72537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000009,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "24",
+        "new_specialty": "0001018",
+        "new_specialty_id": "00016",
+        "new_french": "Médecine du travail",
+        "new_type": 100000001,
+        "new_name": "Occupational Medicine /  Médecine du travail",
+        "new_english": "Occupational Medicine"
+      }
+    },
+    {
+      "id": "74537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(74537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000007,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "25",
+        "new_specialty": "0001019",
+        "new_specialty_id": "00017",
+        "new_french": "Médecine nucléaire",
+        "new_type": 100000000,
+        "new_name": "Nuclear Medicine /  Médecine nucléaire",
+        "new_english": "Nuclear Medicine"
+      }
+    },
+    {
+      "id": "76537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(76537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000003,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "26",
+        "new_specialty": "0001020",
+        "new_specialty_id": "00018",
+        "new_french": "Médecine d'urgence",
+        "new_type": 100000000,
+        "new_name": "Emergency Medicine /  Médecine d'urgence",
+        "new_english": "Emergency Medicine"
+      }
+    },
+    {
+      "id": "7a537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(7a537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "28",
+        "new_specialty": "0001021",
+        "new_specialty_id": "00020",
+        "new_french": "Scientifiques médicaux (Médecine)",
+        "new_type": 100000000,
+        "new_name": "Medical Scientists (Medicine) /  Scientifiques médicaux (Médecine)",
+        "new_english": "Medical Scientists (Medicine)"
+      }
+    },
+    {
+      "id": "7e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(7e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "30",
+        "new_specialty": "0001022",
+        "new_specialty_id": "00022",
+        "new_french": "Chirurgie générale",
+        "new_type": 100000000,
+        "new_name": "General Surgery /  Chirurgie générale",
+        "new_english": "General Surgery"
+      }
+    },
+    {
+      "id": "80537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(80537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 6,
+        "statuscode": 1,
+        "new_specialtycode": "32",
+        "new_specialty": "0001023",
+        "new_specialty_id": "00023",
+        "new_french": "Neurochirurgie",
+        "new_type": 100000000,
+        "new_name": "Neurosurgery /  Neurochirurgie",
+        "new_english": "Neurosurgery"
+      }
+    },
+    {
+      "id": "82537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(82537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000011,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "33",
+        "new_specialty": "0001024",
+        "new_specialty_id": "00024",
+        "new_french": "Chirurgie orthopédique",
+        "new_type": 100000000,
+        "new_name": "Orthopedic Surgery /  Chirurgie orthopédique",
+        "new_english": "Orthopedic Surgery"
+      }
+    },
+    {
+      "id": "84537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(84537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "34",
+        "new_specialty": "0001025",
+        "new_specialty_id": "00025",
+        "new_french": "Chirurgie plastique",
+        "new_type": 100000000,
+        "new_name": "Plastic Surgery /  Chirurgie plastique",
+        "new_english": "Plastic Surgery"
+      }
+    },
+    {
+      "id": "86537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(86537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000018,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "36",
+        "new_specialty": "0001026",
+        "new_specialty_id": "00026",
+        "new_certifyingbody": 100000001,
+        "new_french": "Urologie",
+        "new_type": 100000000,
+        "new_name": "Urology /  Urologie",
+        "new_english": "Urology"
+      }
+    },
+    {
+      "id": "88537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(88537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000010,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "37",
+        "new_specialty": "0001027",
+        "new_specialty_id": "00027",
+        "new_french": "Ophtalmologie",
+        "new_type": 100000000,
+        "new_name": "Ophthalmology /  Ophtalmologie",
+        "new_english": "Ophthalmology"
+      }
+    },
+    {
+      "id": "8a537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(8a537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "38",
+        "new_specialty": "0001028",
+        "new_specialty_id": "00028",
+        "new_certifyingbody": 100000001,
+        "new_french": "Oto-rhino-laryngologie et chirurgie cervico-faciale",
+        "new_type": 100000000,
+        "new_name": "Otolaryngology-Head & Neck Surgery /  Oto-rhino-laryngologie et chirurgie cervico-faciale",
+        "new_english": "Otolaryngology-Head & Neck Surgery"
+      }
+    },
+    {
+      "id": "8c537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(8c537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "statuscode": 1,
+        "new_specialtycode": "39",
+        "new_specialty": "0001029",
+        "new_specialty_id": "00029",
+        "new_french": "Chirurgie cardiothoracique",
+        "new_type": 100000000,
+        "new_name": "Cardiothoracic Surgery /  Chirurgie cardiothoracique",
+        "new_english": "Cardiothoracic Surgery"
+      }
+    },
+    {
+      "id": "8e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(8e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "40",
+        "new_specialty": "0001030",
+        "new_specialty_id": "00030",
+        "new_french": "Chirurgie thoracique",
+        "new_type": 100000001,
+        "new_name": "Thoracic Surgery /  Chirurgie thoracique",
+        "new_english": "Thoracic Surgery"
+      }
+    },
+    {
+      "id": "90537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(90537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 6,
+        "statuscode": 1,
+        "new_specialtycode": "41",
+        "new_specialty": "0001031",
+        "new_specialty_id": "00031",
+        "new_french": "Chirurgie cardiaque",
+        "new_type": 100000000,
+        "new_name": "Cardiac Surgery /  Chirurgie cardiaque",
+        "new_english": "Cardiac Surgery"
+      }
+    },
+    {
+      "id": "92537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(92537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "45",
+        "new_specialty": "0001032",
+        "new_specialty_id": "00032",
+        "new_french": "Scientifiques médicaux (Chirurgie)",
+        "new_type": 100000000,
+        "new_name": "Medical Scientists (Surgery) /  Scientifiques médicaux (Chirurgie)",
+        "new_english": "Medical Scientists (Surgery)"
+      }
+    },
+    {
+      "id": "96537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(96537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000008,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "47",
+        "new_specialty": "0001033",
+        "new_specialty_id": "00051",
+        "new_french": "Obstétrique-gynécologie",
+        "new_type": 100000000,
+        "new_name": "Obstetrics and Gynecology /  Obstétrique-gynécologie",
+        "new_english": "Obstetrics and Gynecology"
+      }
+    },
+    {
+      "id": "98537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(98537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "50",
+        "new_specialty": "0001034",
+        "new_specialty_id": "00052",
+        "new_french": "Pathologie générale",
+        "new_type": 100000000,
+        "new_name": "General Pathology /  Pathologie générale",
+        "new_english": "General Pathology"
+      }
+    },
+    {
+      "id": "9a537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(9a537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "51",
+        "new_specialty": "0001035",
+        "new_specialty_id": "00053",
+        "new_french": "Pathologie anatomique",
+        "new_type": 100000000,
+        "new_name": "Anatomical Pathology /  Pathologie anatomique",
+        "new_english": "Anatomical Pathology"
+      }
+    },
+    {
+      "id": "9c537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(9c537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "new_programnumberofyears": 4,
+        "statuscode": 1,
+        "new_specialtycode": "52",
+        "new_specialty": "0001036",
+        "new_specialty_id": "00054",
+        "new_french": "Pathologie hématologique",
+        "new_type": 100000000,
+        "new_name": "Hematological Pathology /  Pathologie hématologique",
+        "new_english": "Hematological Pathology"
+      }
+    },
+    {
+      "id": "9e537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(9e537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "53",
+        "new_specialty": "0001037",
+        "new_specialty_id": "00055",
+        "new_french": "Biochimie médicale",
+        "new_type": 100000001,
+        "new_name": "Medical Biochemistry /  Biochimie médicale",
+        "new_english": "Medical Biochemistry"
+      }
+    },
+    {
+      "id": "a0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(a0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000001,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "54",
+        "new_specialty": "0001038",
+        "new_specialty_id": "00056",
+        "new_french": "Microbiologie médicale",
+        "new_type": 100000000,
+        "new_name": "Medical Microbiology /  Microbiologie médicale",
+        "new_english": "Medical Microbiology"
+      }
+    },
+    {
+      "id": "a2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(a2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "55",
+        "new_specialty": "0001039",
+        "new_specialty_id": "00057",
+        "new_french": "Neuropathologie",
+        "new_type": 100000000,
+        "new_name": "Neuropathology /  Neuropathologie",
+        "new_english": "Neuropathology"
+      }
+    },
+    {
+      "id": "a4537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(a4537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "statuscode": 1,
+        "new_specialtycode": "56",
+        "new_specialty": "0001040",
+        "new_specialty_id": "00058",
+        "new_french": "Pathologie et bactériologie",
+        "new_type": 100000000,
+        "new_name": "Pathology and Bacteriology /  Pathologie et bactériologie",
+        "new_english": "Pathology and Bacteriology"
+      }
+    },
+    {
+      "id": "a6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(a6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "57",
+        "new_specialty": "0001041",
+        "new_specialty_id": "00036",
+        "new_french": "Chirurgie colorectale",
+        "new_type": 100000001,
+        "new_name": "Colorectal Surgery /  Chirurgie colorectale",
+        "new_english": "Colorectal Surgery"
+      }
+    },
+    {
+      "id": "a8537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(a8537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "58",
+        "new_specialty": "0001042",
+        "new_specialty_id": "00037",
+        "new_french": "Pharmacologie clin./toxicologie",
+        "new_type": 100000001,
+        "new_name": "Clin. Pharmacology/Toxicology /  Pharmacologie clin./toxicologie",
+        "new_english": "Clin. Pharmacology/Toxicology"
+      }
+    },
+    {
+      "id": "aa537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(aa537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "59",
+        "new_specialty": "0001043",
+        "new_specialty_id": "00059",
+        "new_french": "Médecine de soins intensifs",
+        "new_type": 100000001,
+        "new_name": "Critical Care Medicine /  Médecine de soins intensifs",
+        "new_english": "Critical Care Medicine"
+      }
+    },
+    {
+      "id": "ac537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ac537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000008,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "60",
+        "new_specialty": "0001044",
+        "new_specialty_id": "00038",
+        "new_french": "Médecine maternelle et fétale",
+        "new_type": 100000001,
+        "new_name": "Maternal-Fetal Medicine /  Médecine maternelle et fétale",
+        "new_english": "Maternal-Fetal Medicine"
+      }
+    },
+    {
+      "id": "ae537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ae537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "61",
+        "new_specialty": "0001045",
+        "new_specialty_id": "00039",
+        "new_french": "Médecine néonatale et périnatale",
+        "new_type": 100000001,
+        "new_name": "Neonatal-Perinatal Medicine /  Médecine néonatale et périnatale",
+        "new_english": "Neonatal-Perinatal Medicine"
+      }
+    },
+    {
+      "id": "b0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(b0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000008,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "62",
+        "new_specialty": "0001046",
+        "new_specialty_id": "00040",
+        "new_french": "Oncologie gynécologique",
+        "new_type": 100000001,
+        "new_name": "Gynecologic Oncology /  Oncologie gynécologique",
+        "new_english": "Gynecologic Oncology"
+      }
+    },
+    {
+      "id": "b2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(b2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000008,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "63",
+        "new_specialty": "0001047",
+        "new_specialty_id": "00041",
+        "new_french": "Endocrinologie gyn repro & l'infertilit",
+        "new_type": 100000001,
+        "new_name": "Gyn. Repro. Endocrinology & Infertility /  Endocrinologie gyn repro & l'infertilit",
+        "new_english": "Gyn. Repro. Endocrinology & Infertility"
+      }
+    },
+    {
+      "id": "b4537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(b4537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "64",
+        "new_specialty": "0001048",
+        "new_specialty_id": "00042",
+        "new_french": "Chirurgie générale oncologique",
+        "new_type": 100000001,
+        "new_name": "General Surgical Oncology /  Chirurgie générale oncologique",
+        "new_english": "General Surgical Oncology"
+      }
+    },
+    {
+      "id": "b6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(b6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "65",
+        "new_specialty": "0001049",
+        "new_specialty_id": "00043",
+        "new_french": "Chirurgie pédiatrique",
+        "new_type": 100000001,
+        "new_name": "Pediatric Surgery /  Chirurgie pédiatrique",
+        "new_english": "Pediatric Surgery"
+      }
+    },
+    {
+      "id": "b8537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(b8537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000018,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "67",
+        "new_specialty": "0001050",
+        "new_specialty_id": "00060",
+        "new_french": "Nephrologie",
+        "new_type": 100000001,
+        "new_name": "Nephrology /  Nephrologie",
+        "new_english": "Nephrology"
+      }
+    },
+    {
+      "id": "ba537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ba537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "68",
+        "new_specialty": "0001051",
+        "new_specialty_id": "00061",
+        "new_french": "Prog. formation de cliniciens-chercheur",
+        "new_type": 100000002,
+        "new_name": "Clinician Investigator Program /  Prog. formation de cliniciens-chercheur",
+        "new_english": "Clinician Investigator Program"
+      }
+    },
+    {
+      "id": "bc537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(bc537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000016,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "69",
+        "new_specialty": "0001052",
+        "new_specialty_id": "00062",
+        "new_french": "Santé publique et médecine de prévention",
+        "new_type": 100000000,
+        "new_name": "Public Health & Preventive Medicine /  Santé publique et médecine de prévention",
+        "new_english": "Public Health & Preventive Medicine"
+      }
+    },
+    {
+      "id": "be537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(be537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000004,
+        "new_programnumberofyears": 5,
+        "statuscode": 1,
+        "new_specialtycode": "70",
+        "new_specialty": "0001053",
+        "new_specialty_id": "00063",
+        "new_french": "Chirurgie vasculaire",
+        "new_type": 100000000,
+        "new_name": "Vascular Surgery /  Chirurgie vasculaire",
+        "new_english": "Vascular Surgery"
+      }
+    },
+    {
+      "id": "c0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(c0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "73",
+        "new_specialty": "0001054",
+        "new_specialty_id": "00064",
+        "new_french": "Gastroentérologie",
+        "new_type": 100000001,
+        "new_name": "Gastroenterology /  Gastroentérologie",
+        "new_english": "Gastroenterology"
+      }
+    },
+    {
+      "id": "c2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(c2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "75",
+        "new_specialty": "0001055",
+        "new_specialty_id": "00065",
+        "new_french": "Electroencéphalographie",
+        "new_type": 100000000,
+        "new_name": "Electroencephalography /  Electroencéphalographie",
+        "new_english": "Electroencephalography"
+      }
+    },
+    {
+      "id": "c6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(c6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "77",
+        "new_specialty": "0001056",
+        "new_specialty_id": "00067",
+        "new_french": "Rhumatologie",
+        "new_type": 100000001,
+        "new_name": "Rheumatology /  Rhumatologie",
+        "new_english": "Rheumatology"
+      }
+    },
+    {
+      "id": "c8537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(c8537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "79",
+        "new_specialty": "0001057",
+        "new_specialty_id": "00068",
+        "new_french": "Médecine de l'adolescence",
+        "new_type": 100000001,
+        "new_name": "Adolescent Medicine /  Médecine de l'adolescence",
+        "new_english": "Adolescent Medicine"
+      }
+    },
+    {
+      "id": "ca537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ca537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "82",
+        "new_specialty": "0001058",
+        "new_specialty_id": "00069",
+        "new_french": "Maladies infectieuses",
+        "new_type": 100000001,
+        "new_name": "Infectious Diseases /  Maladies infectieuses",
+        "new_english": "Infectious Diseases"
+      }
+    },
+    {
+      "id": "cc537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(cc537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "83",
+        "new_specialty": "0001059",
+        "new_specialty_id": "00044",
+        "new_french": "Oncologie médicale",
+        "new_type": 100000001,
+        "new_name": "Medical Oncology /  Oncologie médicale",
+        "new_english": "Medical Oncology"
+      }
+    },
+    {
+      "id": "ce537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ce537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "87",
+        "new_specialty": "0001060",
+        "new_specialty_id": "00070",
+        "new_french": "Physiatrie",
+        "new_type": 100000000,
+        "new_name": "Physiatry /  Physiatrie",
+        "new_english": "Physiatry"
+      }
+    },
+    {
+      "id": "d0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(d0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "90",
+        "new_specialty": "0001061",
+        "new_specialty_id": "00071",
+        "new_french": "Endocrinologie et métabolisme",
+        "new_type": 100000001,
+        "new_name": "Endocrinology and Metabolism /  Endocrinologie et métabolisme",
+        "new_english": "Endocrinology and Metabolism"
+      }
+    },
+    {
+      "id": "d2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(d2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "new_programnumberofyears": 1,
+        "statuscode": 1,
+        "new_specialtycode": "94",
+        "new_specialty": "0001062",
+        "new_specialty_id": "00045",
+        "new_french": "Radiologie pédiatrique",
+        "new_type": 100000001,
+        "new_name": "Pediatric Radiology /  Radiologie pédiatrique",
+        "new_english": "Pediatric Radiology"
+      }
+    },
+    {
+      "id": "d4537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(d4537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "95",
+        "new_specialty": "0001063",
+        "new_specialty_id": "00046",
+        "new_french": "Neuroradiologie",
+        "new_type": 100000001,
+        "new_name": "Neuroradiology /  Neuroradiologie",
+        "new_english": "Neuroradiology"
+      }
+    },
+    {
+      "id": "d6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(d6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "96",
+        "new_specialty": "0001064",
+        "new_specialty_id": "00047",
+        "new_french": "Gériatrie",
+        "new_type": 100000001,
+        "new_name": "Geriatric Medicine /  Gériatrie",
+        "new_english": "Geriatric Medicine"
+      }
+    },
+    {
+      "id": "d8537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(d8537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000020,
+        "statuscode": 1,
+        "new_specialtycode": "98",
+        "new_specialty": "0001065",
+        "new_specialty_id": "00072",
+        "new_french": "Médecine familiale",
+        "new_type": 100000000,
+        "new_name": "Family Medicine /  Médecine familiale",
+        "new_english": "Family Medicine"
+      }
+    },
+    {
+      "id": "da537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(da537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "new_programnumberofyears": 1,
+        "statuscode": 1,
+        "new_specialtycode": "99",
+        "new_specialty": "0001066",
+        "new_specialty_id": "00073",
+        "new_french": "Psychiatrie légale",
+        "new_type": 100000001,
+        "new_name": "Forensic Psychiatry /  Psychiatrie légale",
+        "new_english": "Forensic Psychiatry"
+      }
+    },
+    {
+      "id": "dc537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(dc537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "100",
+        "new_specialty": "0001067",
+        "new_specialty_id": "00074",
+        "new_french": "Gérontopsychiatrie",
+        "new_type": 100000001,
+        "new_name": "Geriatric Psychiatry /  Gérontopsychiatrie",
+        "new_english": "Geriatric Psychiatry"
+      }
+    },
+    {
+      "id": "de537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(de537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000008,
+        "statuscode": 1,
+        "new_specialtycode": "101",
+        "new_specialty": "0001068",
+        "new_specialty_id": "00075",
+        "new_french": "Endocrinologie gynécologique",
+        "new_type": 100000001,
+        "new_name": "Gynecologic Reproductive /  Endocrinologie gynécologique",
+        "new_english": "Gynecologic Reproductive"
+      }
+    },
+    {
+      "id": "e0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000000,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "102",
+        "new_specialty": "0001069",
+        "new_specialty_id": "00076",
+        "new_french": "Médecine de douleur",
+        "new_type": 100000001,
+        "new_name": "Pain Medicine /  Médecine de douleur",
+        "new_english": "Pain Medicine"
+      }
+    },
+    {
+      "id": "e2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "103",
+        "new_specialty": "0001070",
+        "new_specialty_id": "00077",
+        "new_french": "Médecine d'urgence pédiatrique",
+        "new_type": 100000001,
+        "new_name": "Pediatric Emergency Medicine /  Médecine d'urgence pédiatrique",
+        "new_english": "Pediatric Emergency Medicine"
+      }
+    },
+    {
+      "id": "e4537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e4537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 3,
+        "statuscode": 1,
+        "new_specialtycode": "104",
+        "new_specialty": "0001071",
+        "new_specialty_id": "00078",
+        "new_french": "Hématologie/oncologie pédiatrique",
+        "new_type": 100000001,
+        "new_name": "Pediatric Hematology /  Hématologie/oncologie pédiatrique",
+        "new_english": "Pediatric Hematology"
+      }
+    },
+    {
+      "id": "e6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "statuscode": 1,
+        "new_specialtycode": "105",
+        "new_specialty": "0001072",
+        "new_specialty_id": "00079",
+        "new_french": "Médecine transfusionnelle",
+        "new_type": 100000002,
+        "new_name": "Transfusion Medicine /  Médecine transfusionnelle",
+        "new_english": "Transfusion Medicine"
+      }
+    },
+    {
+      "id": "e8537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(e8537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000014,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "106",
+        "new_specialty": "0001073",
+        "new_specialty_id": "00080",
+        "new_french": "Pédiatrie du développement",
+        "new_type": 100000001,
+        "new_name": "Developmental Pediatrics /  Pédiatrie du développement",
+        "new_english": "Developmental Pediatrics"
+      }
+    },
+    {
+      "id": "ea537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ea537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "108",
+        "new_specialty": "0001074",
+        "new_specialty_id": "00081",
+        "new_french": "Médecine palliative",
+        "new_type": 100000001,
+        "new_name": "Palliative Medicine /  Médecine palliative",
+        "new_english": "Palliative Medicine"
+      }
+    },
+    {
+      "id": "ec537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ec537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "109",
+        "new_specialty": "0001075",
+        "new_specialty_id": "00082",
+        "new_french": "Electrophysiologie cardiaque d'adulte",
+        "new_type": 100000002,
+        "new_name": "Adult Cardiac Electrophysiology /  Electrophysiologie cardiaque d'adulte",
+        "new_english": "Adult Cardiac Electrophysiology"
+      }
+    },
+    {
+      "id": "ee537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ee537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "110",
+        "new_specialty": "0001076",
+        "new_specialty_id": "00083",
+        "new_french": "Echocardiographie d'adulte",
+        "new_type": 100000002,
+        "new_name": "Adult Echocardiography /  Echocardiographie d'adulte",
+        "new_english": "Adult Echocardiography"
+      }
+    },
+    {
+      "id": "f0537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f0537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "111",
+        "new_specialty": "0001077",
+        "new_specialty_id": "00084",
+        "new_french": "Educateur clinicien",
+        "new_type": 100000002,
+        "new_name": "Clinician Educator /  Educateur clinicien",
+        "new_english": "Clinician Educator"
+      }
+    },
+    {
+      "id": "f2537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f2537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "112",
+        "new_specialty": "0001078",
+        "new_specialty_id": "00085",
+        "new_french": "Cytopathologie",
+        "new_type": 100000002,
+        "new_name": "Cytopathology /  Cytopathologie",
+        "new_english": "Cytopathology"
+      }
+    },
+    {
+      "id": "f4537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f4537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "113",
+        "new_specialty": "0001079",
+        "new_specialty_id": "00086",
+        "new_french": "Cardiologie d'intervention",
+        "new_type": 100000001,
+        "new_name": "Interventional Cardiology /  Cardiologie d'intervention",
+        "new_english": "Interventional Cardiology"
+      }
+    },
+    {
+      "id": "f6537cfa-eb2a-e211-a68d-101f742f742c",
+      "relativeUrl": "/api/data/v9.2/new_specialties(f6537cfa-eb2a-e211-a68d-101f742f742c)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000019,
+        "statuscode": 1,
+        "new_specialtycode": "114",
+        "new_specialty": "0001080",
+        "new_specialty_id": "00087",
+        "new_french": "Médecine du sport et de l'exercise",
+        "new_type": 100000002,
+        "new_name": "Sport and Exercise Medicine /  Médecine du sport et de l'exercise",
+        "new_english": "Sport and Exercise Medicine"
+      }
+    },
+    {
+      "id": "0a7a3c09-2e97-e411-80c4-2c44fd87f407",
+      "relativeUrl": "/api/data/v9.2/new_specialties(0a7a3c09-2e97-e411-80c4-2c44fd87f407)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000005,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "117",
+        "new_specialty": "0001081",
+        "new_specialty_id": "00088",
+        "new_french": "Médecine interne générale",
+        "new_type": 100000001,
+        "new_name": "General Internal Medicine /  Médecine interne générale",
+        "new_english": "General Internal Medicine"
+      }
+    },
+    {
+      "id": "9b200f9d-6ca5-e411-80c4-2c44fd87f407",
+      "relativeUrl": "/api/data/v9.2/new_specialties(9b200f9d-6ca5-e411-80c4-2c44fd87f407)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000017,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "119",
+        "new_specialty": "0001082",
+        "new_specialty_id": "00089",
+        "new_french": "Radiologie d'intervention",
+        "new_type": 100000001,
+        "new_name": "Interventional Radiology /  Radiologie d'intervention",
+        "new_english": "Interventional Radiology"
+      }
+    },
+    {
+      "id": "65d2d250-2272-e311-9f66-9c8e991416c6",
+      "relativeUrl": "/api/data/v9.2/new_specialties(65d2d250-2272-e311-9f66-9c8e991416c6)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000006,
+        "new_programnumberofyears": 2,
+        "statuscode": 1,
+        "new_specialtycode": "115",
+        "new_specialty": "0001083",
+        "new_specialty_id": "00090",
+        "new_french": "Psychiatrie de l'enfant et de l'adolescent",
+        "new_type": 100000001,
+        "new_name": "Child and Adolescent Psychiatry /  Psychiatrie de l'enfant et de l'adolescent",
+        "new_english": "Child and Adolescent Psychiatry"
+      }
+    },
+    {
+      "id": "ecc3dca2-fc76-e311-9f66-9c8e991416c6",
+      "relativeUrl": "/api/data/v9.2/new_specialties(ecc3dca2-fc76-e311-9f66-9c8e991416c6)",
+      "body": {
+        "statecode": 0,
+        "new_group": 100000013,
+        "new_programnumberofyears": 1,
+        "statuscode": 1,
+        "new_specialtycode": "116",
+        "new_specialty": "0001084",
+        "new_specialty_id": "00091",
+        "new_french": "Médecine légale",
+        "new_type": 100000001,
+        "new_name": "Forensic Pathology /  Médecine légale",
+        "new_english": "Forensic Pathology"
+      }
+    }
+  ]
+}

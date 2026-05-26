@@ -1,0 +1,65 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0
+
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: Build & Publish Target Function App
+          caches:
+            - dotnetcore
+          script:
+            # -----------------------------
+            # 1. Restore CMA.App.Http project dependencies
+            # -----------------------------
+            - dotnet restore Cma.App.Http/Cma.App.Http.csproj
+
+
+            # -----------------------------
+            # 2. Build Cma.App.Http 
+            # -----------------------------
+            - dotnet build Cma.App.Http/Cma.App.Http.csproj \
+                --configuration Release \
+                --no-restore
+
+            # -----------------------------
+            # 3. Publish only Cma.App.Http/Cma.App.Http.csproj
+            # -----------------------------
+            - dotnet publish Cma.App.Http/Cma.App.Http.csproj \
+                --configuration Release \
+                --output published
+
+            # -----------------------------
+            # 4. Zip the published output
+            # -----------------------------
+            - cd published
+            - zip -r ../functionapp.zip .
+            - cd ..
+
+          artifacts:
+            - functionapp.zip
+
+      - step:
+          name: Deploy to Azure Function App (Dev)
+          image: mcr.microsoft.com/azure-cli:latest
+          script:
+            # -----------------------------
+            # 1. Authenticate to Azure
+            # -----------------------------
+            - echo "$AZURE_CREDENTIALS" > azure.json
+            - az login --service-principal \
+                --username $(jq -r .clientId azure.json) \
+                --password $(jq -r .clientSecret azure.json) \
+                --tenant $(jq -r .tenantId azure.json)
+
+            # -----------------------------
+            # 2. Set subscription
+            # -----------------------------
+            - az account set --subscription "$AZURE_SUBSCRIPTION_ID"
+
+            # -----------------------------
+            # 3. Deploy ZIP to Function App
+            # -----------------------------
+            - az functionapp deployment source config-zip \
+                --resource-group "$AZURE_RESOURCE_GROUP" \
+                --name "$AZURE_FUNCTIONAPP_NAME" \
+                --src functionapp.zip

@@ -1,0 +1,107 @@
+{
+  "table": "new_psi",
+  "entitySetName": "new_psis",
+  "generatedUtc": "2026-04-01T01:09:10.4838744Z",
+  "totalRecords": 9,
+  "records": [
+    {
+      "id": "31d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(31d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Improving Physician Wellness by Reducing Administrative Burden",
+        "statuscode": 1,
+        "new_frenchname": "Allègement du fardeau administratif pour le bien-être des médecins",
+        "new_name": "Administrative Burden / Fardeau administratif"
+      }
+    },
+    {
+      "id": "33d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(33d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Ageing With Dignity in the Community",
+        "statuscode": 1,
+        "new_frenchname": "Vieillir dans la dignité au sein de la communauté",
+        "new_name": "Ageing with Dignity / Vieillir dans la dignité"
+      }
+    },
+    {
+      "id": "35d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(35d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Integrated Health Human Resource Planning (IHHRP) Framework",
+        "statuscode": 1,
+        "new_frenchname": "Planification intégrée des ressources humaines de la santé",
+        "new_name": "IHHR Planning / Planification de la PIRHS"
+      }
+    },
+    {
+      "id": "37d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(37d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Indigenous-led Health transformation supported by a culturally safe, trauma-informed system free of racism",
+        "statuscode": 1,
+        "new_frenchname": "Transformation de la santé pas les Autochtones soutenue par un système exempt de racisme, tenant compte de leurs réalités culturelles et de leurs traumatismes",
+        "new_name": "Indigenous Health / Santé des autochtones"
+      }
+    },
+    {
+      "id": "39d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(39d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Net Zero Carbon Emissions Health System",
+        "statuscode": 1,
+        "new_frenchname": "Système de santé carboneutre",
+        "new_name": "Net Zero Emissions / Système de santé carboneutre"
+      }
+    },
+    {
+      "id": "3bd6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(3bd6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Pan-Canadian Licensure",
+        "statuscode": 1,
+        "new_frenchname": "Permis d’exercice pancanadien",
+        "new_name": "Pan-Canadian Licensure / Permis d’exercice pancanadien"
+      }
+    },
+    {
+      "id": "3dd6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(3dd6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Health Workforce Framework for Psychological, Physical and Cultural Safety (PPCS)",
+        "statuscode": 1,
+        "new_frenchname": "Cadre pour la sécurité physique, psychologique et culturelle (SPPC) des travailleurs et travailleuses de la santé",
+        "new_name": "PPCS Framework / Sécurité physique, psychologique et culturelle (SPPC)"
+      }
+    },
+    {
+      "id": "3fd6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(3fd6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Public & Private Health Care in Canada",
+        "statuscode": 1,
+        "new_frenchname": "Soins de santé publics-privés",
+        "new_name": "Public & Private Health Care / Soins de santé publics-privés"
+      }
+    },
+    {
+      "id": "41d6a40d-adf5-ee11-a1fe-6045bd5f70d2",
+      "relativeUrl": "/api/data/v9.2/new_psis(41d6a40d-adf5-ee11-a1fe-6045bd5f70d2)",
+      "body": {
+        "statecode": 0,
+        "new_englishname": "Public Apology to all Indigenous Peoples",
+        "statuscode": 1,
+        "new_frenchname": "Excuses publiques à tous les peuples autochtones",
+        "new_name": "Public Apology / Excuses publiques"
+      }
+    }
+  ]
+}

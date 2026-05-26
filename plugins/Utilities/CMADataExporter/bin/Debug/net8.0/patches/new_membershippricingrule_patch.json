@@ -1,0 +1,2073 @@
+{
+  "table": "new_membershippricingrule",
+  "entitySetName": "new_membershippricingrules",
+  "generatedUtc": "2026-04-01T01:09:10.4732138Z",
+  "totalRecords": 118,
+  "records": [
+    {
+      "id": "a5a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a5a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student in Canada (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(bcf0e621-c53b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "1.1"
+      }
+    },
+    {
+      "id": "a7a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a7a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student MAL outside Canada - Other in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(bcf0e621-c53b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "1.11"
+      }
+    },
+    {
+      "id": "a9a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a9a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student MAL outside Canada - Other (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(c7f136d1-c53b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "1.12"
+      }
+    },
+    {
+      "id": "aba160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(aba160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Student MAL outside Canada - US in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(bcf0e621-c53b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "1.13"
+      }
+    },
+    {
+      "id": "ada160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ada160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Student MAL outside Canada - US (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(c7f136d1-c53b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "1.14"
+      }
+    },
+    {
+      "id": "afa160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(afa160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident in Canada (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(d7bfc859-c63b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "2.1"
+      }
+    },
+    {
+      "id": "b1a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b1a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident MAL outside Canada - Other in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(d7bfc859-c63b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "2.11"
+      }
+    },
+    {
+      "id": "b3a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b3a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident  MAL outside Canada - Other (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(2780e199-c63b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "2.12"
+      }
+    },
+    {
+      "id": "b5a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b5a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Resident  MAL outside Canada - US in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(d7bfc859-c63b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "2.13"
+      }
+    },
+    {
+      "id": "b7a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b7a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Resident  MAL outside Canada - US (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(2780e199-c63b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "2.14"
+      }
+    },
+    {
+      "id": "b9a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b9a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - Retired in Canada (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.1"
+      }
+    },
+    {
+      "id": "bba160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bba160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - Retired outside Canada - Other in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "3.21"
+      }
+    },
+    {
+      "id": "bda160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bda160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - Retired outside Canada - Other (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(b2adee25-d23b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "3.22"
+      }
+    },
+    {
+      "id": "bfa160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bfa160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - Retired outside Canada - US in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "3.23"
+      }
+    },
+    {
+      "id": "c1a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c1a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - Retired outside Canada - US (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(b2adee25-d23b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "3.24"
+      }
+    },
+    {
+      "id": "c3a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c3a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada -Parental Leave - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_countrycode": 100000038,
+        "new_order": "3.31"
+      }
+    },
+    {
+      "id": "c5a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c5a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Parental Leave - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_countrycode": 100000038,
+        "new_order": "3.32"
+      }
+    },
+    {
+      "id": "c7a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c7a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Part Time in Canada - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.41"
+      }
+    },
+    {
+      "id": "c9a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c9a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Part Time in Canada - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.42"
+      }
+    },
+    {
+      "id": "cba160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cba160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - First 5  Years  - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.51"
+      }
+    },
+    {
+      "id": "cda160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cda160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - First 5 Years  - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.52"
+      }
+    },
+    {
+      "id": "cfa160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cfa160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - In Canada - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.61"
+      }
+    },
+    {
+      "id": "d1a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d1a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - In Canada - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "3.62"
+      }
+    },
+    {
+      "id": "d3a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d3a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e0fe1457-d13b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "3.71"
+      }
+    },
+    {
+      "id": "d5a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d5a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US in CAF - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "3.72"
+      }
+    },
+    {
+      "id": "d7a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d7a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US in CAF  - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "3.73"
+      }
+    },
+    {
+      "id": "d9a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d9a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US in CAF  - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "3.74"
+      }
+    },
+    {
+      "id": "dba160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(dba160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "3.75"
+      }
+    },
+    {
+      "id": "dea160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(dea160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e0fe1457-d13b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "3.99"
+      }
+    },
+    {
+      "id": "e0a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(e0a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other in CAF - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "3.82"
+      }
+    },
+    {
+      "id": "e2a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(e2a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other in CAF  - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "3.83"
+      }
+    },
+    {
+      "id": "e4a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(e4a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other in CAF  - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "3.84"
+      }
+    },
+    {
+      "id": "e6a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(e6a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "3.85"
+      }
+    },
+    {
+      "id": "e8a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(e8a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - Retired in Canada (Lifetime)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.1"
+      }
+    },
+    {
+      "id": "eaa160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(eaa160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - Retired outside Canada - Other in CAF (Lifetime)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.21"
+      }
+    },
+    {
+      "id": "eca160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(eca160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - Retired outside Canada - Other (Lifetime)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(b2adee25-d23b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.22"
+      }
+    },
+    {
+      "id": "eea160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(eea160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - Retired outside Canada - US in CAF (Lifetime)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(4995f438-d03b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.23"
+      }
+    },
+    {
+      "id": "f0a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f0a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - Retired outside Canada - US (Lifetime)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000002,
+        "new_membershipproductid@odata.bind": "/products(b2adee25-d23b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "4.24"
+      }
+    },
+    {
+      "id": "f2a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f2a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Parental Leave - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_countrycode": 100000038,
+        "new_order": "4.31"
+      }
+    },
+    {
+      "id": "f4a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f4a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Parental Leave - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_countrycode": 100000038,
+        "new_order": "4.32"
+      }
+    },
+    {
+      "id": "f6a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f6a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Part Time in Canada - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.41"
+      }
+    },
+    {
+      "id": "f8a160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f8a160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Part Time in Canada - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.42"
+      }
+    },
+    {
+      "id": "faa160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(faa160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - First 5 Years  - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.51"
+      }
+    },
+    {
+      "id": "fca160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(fca160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - First 5 Years  - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.52"
+      }
+    },
+    {
+      "id": "fea160af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(fea160af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - In Canada - JOIN (TERM)",
+        "new_applicationtypecode": 100000001,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.61"
+      }
+    },
+    {
+      "id": "00a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(00a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - In Canada - RENEW (TERM)",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_countrycode": 100000038,
+        "new_order": "4.62"
+      }
+    },
+    {
+      "id": "02a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(02a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - outside Canada - US (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e0fe1457-d13b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "4.71"
+      }
+    },
+    {
+      "id": "04a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(04a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - outside Canada - US in CAF - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.72"
+      }
+    },
+    {
+      "id": "06a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(06a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - outside Canada - US in CAF  - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.73"
+      }
+    },
+    {
+      "id": "08a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(08a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - outside Canada - US in CAF  - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.74"
+      }
+    },
+    {
+      "id": "0aa260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0aa260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Specialist - outside Canada - US in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.75"
+      }
+    },
+    {
+      "id": "0ca260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0ca260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e0fe1457-d13b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.99"
+      }
+    },
+    {
+      "id": "0ea260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0ea260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other in CAF - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(8245b966-e042-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.82"
+      }
+    },
+    {
+      "id": "10a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(10a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other in CAF  - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(a15f9694-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.83"
+      }
+    },
+    {
+      "id": "12a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(12a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other in CAF  - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(a1c8d013-c73b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.84"
+      }
+    },
+    {
+      "id": "14a260af-d93b-f011-b4cd-000d3ae98069",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(14a260af-d93b-f011-b4cd-000d3ae98069)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other in CAF (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(6cc6c01e-c93b-f011-b4cc-002248b1f6dd)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.85"
+      }
+    },
+    {
+      "id": "ead38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ead38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "new_name": "Specialist - Retired in Canada",
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.1"
+      }
+    },
+    {
+      "id": "ecd38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ecd38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "new_name": "Specialist - Retired outside Canada - Other in CAF",
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.21"
+      }
+    },
+    {
+      "id": "eed38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(eed38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - Retired outside Canada - Other",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(0c3b6759-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.22"
+      }
+    },
+    {
+      "id": "f0d38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f0d38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000002,
+        "new_name": "Specialist - Retired outside Canada - US in CAF",
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.23"
+      }
+    },
+    {
+      "id": "f2d38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f2d38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000002,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - Retired outside Canada - US",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(0c3b6759-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "4.24"
+      }
+    },
+    {
+      "id": "f4d38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f4d38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Mat. Leave - JOIN",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.31"
+      }
+    },
+    {
+      "id": "f6d38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f6d38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Mat. Leave - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.32"
+      }
+    },
+    {
+      "id": "f8d38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(f8d38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_applicationtypecode": 100000001,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Part Time in Canada - JOIN",
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.41"
+      }
+    },
+    {
+      "id": "fad38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(fad38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - Part Time in Canada - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.42"
+      }
+    },
+    {
+      "id": "fdd38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(fdd38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_applicationtypecode": 100000001,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - First Year  - JOIN",
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.51"
+      }
+    },
+    {
+      "id": "ffd38918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ffd38918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - in Canada - First Year  - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.52"
+      }
+    },
+    {
+      "id": "01d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(01d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - In Canada - JOIN",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.61"
+      }
+    },
+    {
+      "id": "03d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(03d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - In Canada - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_order": "4.62"
+      }
+    },
+    {
+      "id": "05d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(05d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - US",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(dfb3fa2c-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_order": "4.71"
+      }
+    },
+    {
+      "id": "07d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(07d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000008,
+        "new_name": "Specialist - outside Canada - US in CAF - Mat. Leave",
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.72"
+      }
+    },
+    {
+      "id": "09d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(09d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - US in CAF  - Part Time",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.73"
+      }
+    },
+    {
+      "id": "0bd48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0bd48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - US in CAF  - First Year",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.74"
+      }
+    },
+    {
+      "id": "0dd48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0dd48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - US in CAF",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_order": "4.75"
+      }
+    },
+    {
+      "id": "0fd48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(0fd48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - Other",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(dfb3fa2c-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.81"
+      }
+    },
+    {
+      "id": "11d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(11d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "new_name": "Specialist - outside Canada - Other in CAF - Mat. Leave",
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.82"
+      }
+    },
+    {
+      "id": "13d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(13d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - Other in CAF  - Part Time",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.83"
+      }
+    },
+    {
+      "id": "15d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(15d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - Other in CAF  - First Year",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.84"
+      }
+    },
+    {
+      "id": "17d48918-a05b-e911-a996-000d3af3e0db",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(17d48918-a05b-e911-a996-000d3af3e0db)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Specialist - outside Canada - Other in CAF",
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_order": "4.85"
+      }
+    },
+    {
+      "id": "958ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(958ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student MAL outside Canada - Other in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 0.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e740749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 0.0,
+        "new_order": "1.11"
+      }
+    },
+    {
+      "id": "998ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(998ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Student MAL outside Canada - US in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 0.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e740749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 0.0,
+        "new_order": "1.13"
+      }
+    },
+    {
+      "id": "9b8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(9b8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Student MAL outside Canada - US",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 12.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(f96a80ca-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_price": 12.0,
+        "new_order": "1.14"
+      }
+    },
+    {
+      "id": "9d8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(9d8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident in Canada",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationppreview": "01: $         0\n02: $         0\n03: $         0\n04: $         0\n05: $         0\n06: $         0\n07: $         0\n08: $         0\n09: $         0\n10: $         0\n11: $         0\n12: $         0\n",
+        "new_membershipproductid@odata.bind": "/products(df40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 50.0,
+        "new_order": "2.1"
+      }
+    },
+    {
+      "id": "9f8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(9f8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident MAL outside Canada - Other in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(df40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 50.0,
+        "new_order": "2.11"
+      }
+    },
+    {
+      "id": "a18ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a18ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Resident  MAL outside Canada - Other",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(47c1e8ab-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_price": 50.0,
+        "new_order": "2.12"
+      }
+    },
+    {
+      "id": "a38ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a38ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Resident  MAL outside Canada - US in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(df40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 50.0,
+        "new_order": "2.13"
+      }
+    },
+    {
+      "id": "a58ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a58ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "Resident  MAL outside Canada - US",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 50.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(47c1e8ab-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_price": 50.0,
+        "new_order": "2.14"
+      }
+    },
+    {
+      "id": "a78ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a78ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "new_name": "GP - Retired in Canada",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 173.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 173.0,
+        "new_order": "3.1"
+      }
+    },
+    {
+      "id": "a98ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(a98ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "new_name": "GP - Retired outside Canada - Other in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 173.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 173.0,
+        "new_order": "3.21"
+      }
+    },
+    {
+      "id": "ab8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ab8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000002,
+        "new_name": "GP - Retired outside Canada - Other",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 173.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(0c3b6759-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_price": 173.0,
+        "new_order": "3.22"
+      }
+    },
+    {
+      "id": "ad8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(ad8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000002,
+        "new_name": "GP - Retired outside Canada - US in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 173.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e140749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 173.0,
+        "new_order": "3.23"
+      }
+    },
+    {
+      "id": "af8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(af8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000002,
+        "new_name": "GP - Retired outside Canada - US",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 173.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(0c3b6759-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_price": 173.0,
+        "new_order": "3.24"
+      }
+    },
+    {
+      "id": "b18ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b18ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Mat. Leave - JOIN",
+        "new_prorationppreview": "01: $        98\n02: $        98\n03: $        98\n04: $        98\n05: $        98\n06: $        98\n07: $        49\n08: $        49\n09: $        49\n10: $        49\n11: $        49\n12: $        49\n",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 195.0,
+        "new_order": "3.31"
+      }
+    },
+    {
+      "id": "b38ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b38ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Mat. Leave - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 195.0,
+        "new_order": "3.32"
+      }
+    },
+    {
+      "id": "b58ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b58ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Part Time in Canada - JOIN",
+        "new_prorationppreview": "01: $        98\n02: $        98\n03: $        98\n04: $        98\n05: $        98\n06: $        98\n07: $        49\n08: $        49\n09: $        49\n10: $        49\n11: $        49\n12: $        49\n",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 98.0,
+        "new_order": "3.41"
+      }
+    },
+    {
+      "id": "b78ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b78ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - Part Time in Canada - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 98.0,
+        "new_order": "3.42"
+      }
+    },
+    {
+      "id": "b98ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(b98ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - First Year  - JOIN",
+        "new_prorationppreview": "01: $        98\n02: $        98\n03: $        98\n04: $        98\n05: $        98\n06: $        98\n07: $        49\n08: $        49\n09: $        49\n10: $        49\n11: $        49\n12: $        49\n",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 98.0,
+        "new_order": "3.51"
+      }
+    },
+    {
+      "id": "bb8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bb8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - in Canada - First Year  - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 98.0,
+        "new_order": "3.52"
+      }
+    },
+    {
+      "id": "bd8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bd8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - In Canada - JOIN",
+        "new_prorationppreview": "01: $       195\n02: $       195\n03: $       195\n04: $       195\n05: $       195\n06: $       195\n07: $        98\n08: $        98\n09: $        98\n10: $        98\n11: $        98\n12: $        98\n",
+        "new_applicationtypecode": 100000001,
+        "new_prorationmonths": 6,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 195.0,
+        "new_order": "3.61"
+      }
+    },
+    {
+      "id": "bf8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(bf8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "exchangerate": 1.0,
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "new_name": "GP - In Canada - RENEW",
+        "new_applicationtypecode": 100000000,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 195.0,
+        "new_order": "3.62"
+      }
+    },
+    {
+      "id": "c18ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c18ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(dfb3fa2c-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000232,
+        "new_price": 195.0,
+        "new_order": "3.71"
+      }
+    },
+    {
+      "id": "c38ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c38ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000008,
+        "new_name": "GP - outside Canada - US in CAF - Mat. Leave",
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 195.0,
+        "new_order": "3.72"
+      }
+    },
+    {
+      "id": "c58ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c58ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000006,
+        "new_name": "GP - outside Canada - US in CAF  - Part Time",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 98.0,
+        "new_order": "3.73"
+      }
+    },
+    {
+      "id": "c78ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c78ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_practicestatus": 100000010,
+        "new_name": "GP - outside Canada - US in CAF  - First Year",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 98.0,
+        "new_order": "3.74"
+      }
+    },
+    {
+      "id": "c98ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(c98ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_name": "GP - outside Canada - US in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000232,
+        "new_price": 195.0,
+        "new_order": "3.75"
+      }
+    },
+    {
+      "id": "cb8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cb8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(dfb3fa2c-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_price": 195.0,
+        "new_order": "3.81"
+      }
+    },
+    {
+      "id": "cd8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cd8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000008,
+        "new_name": "GP - outside Canada - Other in CAF - Mat. Leave",
+        "new_enddate": "2025-08-31",
+        "new_matpatleavediscountpercent": 50.0,
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 195.0,
+        "new_order": "3.82"
+      }
+    },
+    {
+      "id": "cf8ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(cf8ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000006,
+        "new_name": "GP - outside Canada - Other in CAF  - Part Time",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(d940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 98.0,
+        "new_order": "3.83"
+      }
+    },
+    {
+      "id": "d18ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d18ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_practicestatus": 100000010,
+        "new_name": "GP - outside Canada - Other in CAF  - First Year",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 98.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(c940749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 98.0,
+        "new_order": "3.84"
+      }
+    },
+    {
+      "id": "d38ea63b-d54f-e911-a99a-000d3af3e0fd",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(d38ea63b-d54f-e911-a99a-000d3af3e0fd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other in CAF",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 195.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_prorationmonths": 3,
+        "new_membershipproductid@odata.bind": "/products(cb40749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_canadianarmedforces": 1,
+        "new_countrycode": 100000002,
+        "new_price": 195.0,
+        "new_order": "3.85"
+      }
+    },
+    {
+      "id": "7277b357-cc4f-e911-a991-000d3af3e97b",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(7277b357-cc4f-e911-a991-000d3af3e97b)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student in Canada",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 12.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(e740749d-eb2a-e211-ac0d-9c8e991416d0)",
+        "new_countrycode": 100000038,
+        "new_price": 12.0,
+        "new_order": "1.1"
+      }
+    },
+    {
+      "id": "7677b357-cc4f-e911-a991-000d3af3e97b",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(7677b357-cc4f-e911-a991-000d3af3e97b)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Student MAL outside Canada - Other",
+        "new_enddate": "2025-08-31",
+        "new_price_base": 12.0,
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_membershipproductid@odata.bind": "/products(f96a80ca-5996-e811-80f2-2c44fd87f407)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_price": 12.0,
+        "new_order": "1.12"
+      }
+    },
+    {
+      "id": "3725b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(3725b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other  - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(45ed6922-de42-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "3.93"
+      }
+    },
+    {
+      "id": "3925b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(3925b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(bd197892-dd42-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "3.94"
+      }
+    },
+    {
+      "id": "3b25b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(3b25b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "GP - outside Canada - Other - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(a53cb2e4-e042-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "3.95"
+      }
+    },
+    {
+      "id": "3d25b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(3d25b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other - Part Time (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000006,
+        "new_membershipproductid@odata.bind": "/products(45ed6922-de42-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.93"
+      }
+    },
+    {
+      "id": "3f25b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(3f25b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other - First 5 Years (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000010,
+        "new_membershipproductid@odata.bind": "/products(bd197892-dd42-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.94"
+      }
+    },
+    {
+      "id": "4125b4da-fa42-f011-8779-002248aeebe5",
+      "relativeUrl": "/api/data/v9.2/new_membershippricingrules(4125b4da-fa42-f011-8779-002248aeebe5)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Specialist - outside Canada - Other - Parental Leave (TERM)",
+        "new_startdate": "2025-09-01",
+        "new_contactsubtypeid@odata.bind": "/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+        "exchangerate": 1.0,
+        "new_practicestatus": 100000008,
+        "new_membershipproductid@odata.bind": "/products(a53cb2e4-e042-f011-877a-000d3ae969da)",
+        "new_canadianarmedforces": 0,
+        "new_countrycode": 100000002,
+        "new_order": "4.95"
+      }
+    }
+  ]
+}

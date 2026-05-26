@@ -1,0 +1,237 @@
+{
+  "table": "new_opportunitytype",
+  "entitySetName": "new_opportunitytypes",
+  "generatedUtc": "2026-04-01T01:09:10.4790800Z",
+  "totalRecords": 18,
+  "records": [
+    {
+      "id": "12926a54-7267-ee11-9ae7-000d3ae9b20c",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(12926a54-7267-ee11-9ae7-000d3ae9b20c)",
+      "body": {
+        "new_opportunitytype_id": "OT1100",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Affinity Partnership",
+        "new_name": "Affinity Partnership"
+      }
+    },
+    {
+      "id": "6d1be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Assurance AMPT",
+        "new_opportunitytype_id": "OT1014",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "PTMA Insurance ",
+        "new_name": "PTMA Insurance / Assurance AMPT"
+      }
+    },
+    {
+      "id": "6f1be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " L’AMC",
+        "new_opportunitytype_id": "OT1003",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "CMA ",
+        "new_name": "CMA / L’AMC"
+      }
+    },
+    {
+      "id": "8ef18766-7267-ee11-9ae7-000d3ae9b20c",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(8ef18766-7267-ee11-9ae7-000d3ae9b20c)",
+      "body": {
+        "new_opportunitytype_id": "OT1101",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "HCUG 2023",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(12926a54-7267-ee11-9ae7-000d3ae9b20c)",
+        "new_name": "HCUG 2023"
+      }
+    },
+    {
+      "id": "711be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(711be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Durée déterminée",
+        "new_opportunitytype_id": "OT1015",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Term Life ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Term Life / Durée déterminée"
+      }
+    },
+    {
+      "id": "731be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(731be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Invalidité",
+        "new_opportunitytype_id": "OT1005",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Disability ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Disability / Invalidité"
+      }
+    },
+    {
+      "id": "751be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(751be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Soins de longue durée",
+        "new_opportunitytype_id": "OT1009",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Long-Term Care ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Long-Term Care / Soins de longue durée"
+      }
+    },
+    {
+      "id": "771be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(771be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Service à la clientèle",
+        "new_opportunitytype_id": "OT1002",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Client Servicing ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Client Servicing / Service à la clientèle"
+      }
+    },
+    {
+      "id": "791be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(791be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Maladie grave",
+        "new_opportunitytype_id": "OT1004",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Critical Illness ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Critical Illness / Maladie grave"
+      }
+    },
+    {
+      "id": "7b1be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(7b1be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Autre",
+        "new_opportunitytype_id": "OT1012",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Other ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6d1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Other / Autre"
+      }
+    },
+    {
+      "id": "7d1be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(7d1be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Adhésion",
+        "new_opportunitytype_id": "OT1011",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Membership ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Membership / Adhésion"
+      }
+    },
+    {
+      "id": "7f1be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(7f1be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": "Facturation.net",
+        "new_opportunitytype_id": "OT1006",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Facturation.net",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Facturation.net"
+      }
+    },
+    {
+      "id": "811be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(811be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": "MD",
+        "new_opportunitytype_id": "OT1010",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "MD",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "MD"
+      }
+    },
+    {
+      "id": "831be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(831be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": "Joule",
+        "new_opportunitytype_id": "OT1008",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Joule",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Joule"
+      }
+    },
+    {
+      "id": "851be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(851be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " AMPT",
+        "new_opportunitytype_id": "OT1013",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "PTMA ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "PTMA / AMPT"
+      }
+    },
+    {
+      "id": "871be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(871be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": "Influenceur/Influenceuse",
+        "new_opportunitytype_id": "OT1007",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "Influencer",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "Influencer / Influenceur/Influenceuse"
+      }
+    },
+    {
+      "id": "891be784-2b9b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(891be784-2b9b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " À risque",
+        "new_opportunitytype_id": "OT1001",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "At Risk ",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "At Risk / À risque"
+      }
+    },
+    {
+      "id": "806ae054-7f10-f011-998a-002248b25979",
+      "relativeUrl": "/api/data/v9.2/new_opportunitytypes(806ae054-7f10-f011-998a-002248b25979)",
+      "body": {
+        "new_french": "ILM - Institut de leadership des médecins",
+        "new_opportunitytype_id": "OT1118",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_english": "PLI - Physician Leadership Institute",
+        "new_parenttypeid@odata.bind": "/new_opportunitytypes(6f1be784-2b9b-e811-a96b-000d3af3f58a)",
+        "new_name": "PLI - Physician Leadership Institute /  ILM - Institut de leadership des médecins"
+      }
+    }
+  ]
+}

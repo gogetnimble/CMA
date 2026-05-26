@@ -1,0 +1,6 @@
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.csproj.AssemblyReference.cache
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.AssemblyInfoInputs.cache
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.AssemblyInfo.cs
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.csproj.CoreCompileInputs.cache
+C:\cma-codebase\crmworks\core\Plugins\Tests\CMA.Extensions.Pluings.Address.Tests\obj\Debug\net8.0\CMA.Extensions.Pluings.Address.Tests.sourcelink.json

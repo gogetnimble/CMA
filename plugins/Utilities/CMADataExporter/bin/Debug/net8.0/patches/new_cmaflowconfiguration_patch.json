@@ -1,0 +1,20 @@
+{
+  "table": "new_cmaflowconfiguration",
+  "entitySetName": "new_cmaflowconfigurations",
+  "generatedUtc": "2026-04-01T01:09:10.4101397Z",
+  "totalRecords": 1,
+  "records": [
+    {
+      "id": "f3c8baa8-e35d-f011-877b-000d3ae969da",
+      "relativeUrl": "/api/data/v9.2/new_cmaflowconfigurations(f3c8baa8-e35d-f011-877b-000d3ae969da)",
+      "body": {
+        "statecode": 0,
+        "new_environmenturl": "https://cmaamc.crm3.dynamics.com/",
+        "new_commercialpurpose": "CMA Production - Commercial",
+        "new_complianceprofile": "CMA Production Compliance Profile",
+        "new_name": "Canadian Medical Association",
+        "statuscode": 1
+      }
+    }
+  ]
+}

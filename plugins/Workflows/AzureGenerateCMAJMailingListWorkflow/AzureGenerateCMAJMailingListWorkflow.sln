@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureGenerateCMAJMailingListWorkflow", "AzureGenerateCMAJMailingListWorkflow\AzureGenerateCMAJMailingListWorkflow.csproj", "{F2F7826E-DDC0-466B-86AE-4D22F9BF70D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F7826E-DDC0-466B-86AE-4D22F9BF70D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F7826E-DDC0-466B-86AE-4D22F9BF70D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F7826E-DDC0-466B-86AE-4D22F9BF70D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F7826E-DDC0-466B-86AE-4D22F9BF70D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {371874C8-1841-417B-85E3-3DBF5BE8DB3C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cmaamc.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AzureGenerateCMAJMailingListWorkflow\\AzureGenerateCMAJMailingListWorkflow.csproj
+		SccProjectName1 = AzureGenerateCMAJMailingListWorkflow
+		SccLocalPath1 = AzureGenerateCMAJMailingListWorkflow
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventCopyEventWorkflow", "EventCopyEventWorkflow\EventCopyEventWorkflow.csproj", "{68D30478-BF79-4699-9C42-135D0E237D2C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs01:8080/tfs/mdsystemintegrationcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EventCopyEventWorkflow\\EventCopyEventWorkflow.csproj
+		SccProjectName1 = EventCopyEventWorkflow
+		SccLocalPath1 = EventCopyEventWorkflow
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D30478-BF79-4699-9C42-135D0E237D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D30478-BF79-4699-9C42-135D0E237D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D30478-BF79-4699-9C42-135D0E237D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D30478-BF79-4699-9C42-135D0E237D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

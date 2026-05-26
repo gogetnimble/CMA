@@ -1,0 +1,25 @@
+{
+  "name": "dynamics-forms-sample",
+  "version": "1.0.0",
+  "description": "Dynamics 365 form scripts sample",
+  "main": "dist/forms.bundle.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/CMA.Js.bundle.js",
+    "build:min": "esbuild src/index.js --bundle --outfile=dist/CMA.Js.bundle.min.js --minify && esbuild src/index.js --bundle --outfile=dist/CMA.Js.bundle.js",
+    "watch": "esbuild src/index.js --bundle --outfile=dist/CMA.Js.bundle.js --watch",
+    "test": "mocha tests/**/*.tests.js"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "esbuild": "^0.25.10",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "mocha": "^11.7.4",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "20": "^3.1.9"
+  }
+}

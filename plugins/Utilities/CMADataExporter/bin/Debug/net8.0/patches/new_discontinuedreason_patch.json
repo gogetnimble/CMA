@@ -1,0 +1,224 @@
+{
+  "table": "new_discontinuedreason",
+  "entitySetName": "new_discontinuedreasons",
+  "generatedUtc": "2026-04-01T01:09:10.4472893Z",
+  "totalRecords": 18,
+  "records": [
+    {
+      "id": "12c77eff-2775-eb11-a812-000d3af3c807",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(12c77eff-2775-eb11-a812-000d3af3c807)",
+      "body": {
+        "new_french": "Expérience membre",
+        "new_discontinuedreason_id": "DR1017",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Member Experience /  Expérience membre",
+        "new_english": "Member Experience"
+      }
+    },
+    {
+      "id": "4580c2ff-e475-eb11-a812-000d3af3c807",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(4580c2ff-e475-eb11-a812-000d3af3c807)",
+      "body": {
+        "new_french": "Pandémie",
+        "new_discontinuedreason_id": "DR1018",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Pandemic /  Pandémie",
+        "new_english": "Pandemic"
+      }
+    },
+    {
+      "id": "d14ca796-1fc7-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(d14ca796-1fc7-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " MD - Vente",
+        "new_discontinuedreason_id": "DR1007",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "MD - Sale / MD - Vente",
+        "new_english": "MD - Sale "
+      }
+    },
+    {
+      "id": "15f74eb1-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(15f74eb1-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Avantages ou service sans valeur",
+        "new_discontinuedreason_id": "DR1001",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Benefits or service not of value / Avantages ou service sans valeur",
+        "new_english": "Benefits or service not of value "
+      }
+    },
+    {
+      "id": "16f74eb1-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(16f74eb1-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Annulé",
+        "new_discontinuedreason_id": "DR1002",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Canceled / Annulé",
+        "new_english": "Canceled "
+      }
+    },
+    {
+      "id": "03c177bd-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(03c177bd-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Annulé auprès de l’AMPT",
+        "new_discontinuedreason_id": "DR1003",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Canceled with PTMA / Annulé auprès de l’AMPT",
+        "new_english": "Canceled with PTMA "
+      }
+    },
+    {
+      "id": "9b3681c5-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(9b3681c5-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Coût de l’adhésion",
+        "new_discontinuedreason_id": "DR1004",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Cost of Membership / Coût de l’adhésion",
+        "new_english": "Cost of Membership "
+      }
+    },
+    {
+      "id": "9c3681c5-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(9c3681c5-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Décédé",
+        "new_discontinuedreason_id": "DR1005",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Deceased / Décédé",
+        "new_english": "Deceased "
+      }
+    },
+    {
+      "id": "011f39d1-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(011f39d1-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Insatisfait de l’AMC",
+        "new_discontinuedreason_id": "DR1006",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Dissatisified with CMA / Insatisfait de l’AMC",
+        "new_english": "Dissatisified with CMA "
+      }
+    },
+    {
+      "id": "021f39d1-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(021f39d1-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Non obligatoire",
+        "new_discontinuedreason_id": "DR1008",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Not Mandatory / Non obligatoire",
+        "new_english": "Not Mandatory "
+      }
+    },
+    {
+      "id": "b8d37cd9-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(b8d37cd9-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Non payé",
+        "new_discontinuedreason_id": "DR1009",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Not Paid / Non payé",
+        "new_english": "Not Paid "
+      }
+    },
+    {
+      "id": "b9d37cd9-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(b9d37cd9-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " En congé",
+        "new_discontinuedreason_id": "DR1010",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "On Leave / En congé",
+        "new_english": "On Leave "
+      }
+    },
+    {
+      "id": "8a5ddde6-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(8a5ddde6-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "À l’extérieur de la province ou du pays",
+        "new_discontinuedreason_id": "DR1012",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Out of Province/Country /  À l’extérieur de la province ou du pays",
+        "new_english": "Out of Province/Country"
+      }
+    },
+    {
+      "id": "4263b7ef-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(4263b7ef-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Le conjoint est membre",
+        "new_discontinuedreason_id": "DR1014",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Spouse is Member / Le conjoint est membre",
+        "new_english": "Spouse is Member "
+      }
+    },
+    {
+      "id": "4363b7ef-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(4363b7ef-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Inconnu",
+        "new_discontinuedreason_id": "DR1015",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Unknown / Inconnu",
+        "new_english": "Unknown "
+      }
+    },
+    {
+      "id": "55125ef6-31c2-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(55125ef6-31c2-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Autre",
+        "new_discontinuedreason_id": "DR1011",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Other / Autre",
+        "new_english": "Other "
+      }
+    },
+    {
+      "id": "3c4d6acb-00bc-e811-a96a-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(3c4d6acb-00bc-e811-a96a-000d3aff2e34)",
+      "body": {
+        "new_french": " À la retraite",
+        "new_discontinuedreason_id": "DR1013",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Retirement / À la retraite",
+        "new_english": "Retirement "
+      }
+    },
+    {
+      "id": "7171e5d1-00bc-e811-a96a-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_discontinuedreasons(7171e5d1-00bc-e811-a96a-000d3aff2e34)",
+      "body": {
+        "new_french": " Insatisfait de l’AMPT",
+        "new_discontinuedreason_id": "DR1016",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_name": "Unsatisfied with PTMA / Insatisfait de l’AMPT",
+        "new_english": "Unsatisfied with PTMA "
+      }
+    }
+  ]
+}

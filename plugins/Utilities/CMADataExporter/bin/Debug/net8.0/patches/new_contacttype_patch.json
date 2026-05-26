@@ -1,0 +1,321 @@
+{
+  "table": "new_contacttype",
+  "entitySetName": "new_contacttypes",
+  "generatedUtc": "2026-04-01T01:09:10.4322299Z",
+  "totalRecords": 24,
+  "records": [
+    {
+      "id": "9860eaf2-4b7a-e811-a956-000d3af475a9",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(9860eaf2-4b7a-e811-a956-000d3af475a9)",
+      "body": {
+        "new_french": "Médecin",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1017",
+        "new_name": "Physician / Médecin",
+        "new_english": "Physician"
+      }
+    },
+    {
+      "id": "eb35e6f8-4b7a-e811-a956-000d3af475a9",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+      "body": {
+        "new_french": "Autre",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1016",
+        "new_name": "Other / Autre",
+        "new_english": "Other"
+      }
+    },
+    {
+      "id": "d9ff92b7-8eab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(d9ff92b7-8eab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du personnel",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1004",
+        "new_name": "Employee / Membre du personnel",
+        "new_english": "Employee"
+      }
+    },
+    {
+      "id": "9240a3ba-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(9240a3ba-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "PG/MF",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1009",
+        "new_parentypeid@odata.bind": "/new_contacttypes(9860eaf2-4b7a-e811-a956-000d3af475a9)",
+        "new_publishstateid@odata.bind": "/adx_publishingstates(fd38c991-15d1-4591-81be-2745ba3a1752)",
+        "new_name": "GP/FM / PG/MF",
+        "new_english": "GP/FM"
+      }
+    },
+    {
+      "id": "c9ba8635-8eab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(c9ba8635-8eab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecin résident(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1019",
+        "new_parentypeid@odata.bind": "/new_contacttypes(9860eaf2-4b7a-e811-a956-000d3af475a9)",
+        "new_publishstateid@odata.bind": "/adx_publishingstates(fd38c991-15d1-4591-81be-2745ba3a1752)",
+        "new_name": "Resident / Médecin résident(e)",
+        "new_english": "Resident"
+      }
+    },
+    {
+      "id": "23d7383c-8eab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(23d7383c-8eab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Spécialiste",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1020",
+        "new_parentypeid@odata.bind": "/new_contacttypes(9860eaf2-4b7a-e811-a956-000d3af475a9)",
+        "new_publishstateid@odata.bind": "/adx_publishingstates(fd38c991-15d1-4591-81be-2745ba3a1752)",
+        "new_name": "Specialist / Spécialiste",
+        "new_english": "Specialist"
+      }
+    },
+    {
+      "id": "80996248-8eab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(80996248-8eab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Étudiant(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1021",
+        "new_parentypeid@odata.bind": "/new_contacttypes(9860eaf2-4b7a-e811-a956-000d3af475a9)",
+        "new_publishstateid@odata.bind": "/adx_publishingstates(fd38c991-15d1-4591-81be-2745ba3a1752)",
+        "new_name": "Student / Étudiant(e)",
+        "new_english": "Student"
+      }
+    },
+    {
+      "id": "3d2e3f85-7267-ee11-9ae7-000d3ae9b20c",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(3d2e3f85-7267-ee11-9ae7-000d3ae9b20c)",
+      "body": {
+        "new_french": "Général",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1100",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "General /  Général",
+        "new_english": "General"
+      }
+    },
+    {
+      "id": "d96cb0d4-4b7a-e811-a956-000d3af475a9",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(d96cb0d4-4b7a-e811-a956-000d3af475a9)",
+      "body": {
+        "new_french": "Médias",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1013",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Media / Médias",
+        "new_english": "Media"
+      }
+    },
+    {
+      "id": "4a33a63c-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(4a33a63c-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Comptable",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1001",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Accountant / Comptable",
+        "new_english": "Accountant"
+      }
+    },
+    {
+      "id": "38e2556f-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(38e2556f-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Médecin désactivé(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1003",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Deactivated Physician / Médecin désactivé(e)",
+        "new_english": "Deactivated Physician"
+      }
+    },
+    {
+      "id": "a86ec87d-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(a86ec87d-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du personnel de l'Association",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1005",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Employee of Association / Membre du personnel de l'Association",
+        "new_english": "Employee of Association"
+      }
+    },
+    {
+      "id": "09cdc38a-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(09cdc38a-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du personnel de la division de l'Association",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1006",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Employee of Division Association / Membre du personnel de la division de l'Association",
+        "new_english": "Employee of Division Association"
+      }
+    },
+    {
+      "id": "7a866fa6-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(7a866fa6-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Fonctionnaire du gouvernement",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1008",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Government Official / Fonctionnaire du gouvernement",
+        "new_english": "Government Official"
+      }
+    },
+    {
+      "id": "6a4eadc0-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(6a4eadc0-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre honoraire de l'AMC, n'appartenant pas au corps médical",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1010",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Honorary Non-Physician CMA Member / Membre honoraire de l'AMC, n'appartenant pas au corps médical",
+        "new_english": "Honorary Non-Physician CMA Member"
+      }
+    },
+    {
+      "id": "184c8acd-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(184c8acd-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Avocat(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1012",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Lawyer / Avocat(e)",
+        "new_english": "Lawyer"
+      }
+    },
+    {
+      "id": "ca0cbbfa-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(ca0cbbfa-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Politique",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1018",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Political / Politique",
+        "new_english": "Political"
+      }
+    },
+    {
+      "id": "fc193121-78bb-e811-a96c-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(fc193121-78bb-e811-a96c-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du Famille",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1007",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Family Member / Membre du Famille",
+        "new_english": "Family Member"
+      }
+    },
+    {
+      "id": "d28db6fc-c70a-e911-a972-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(d28db6fc-c70a-e911-a972-000d3aff2e34)",
+      "body": {
+        "new_french": "Membre du public",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1014",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Member of public / Membre du public",
+        "new_english": "Member of public"
+      }
+    },
+    {
+      "id": "cccb12b5-372a-ee11-bdf4-0022483dd726",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(cccb12b5-372a-ee11-bdf4-0022483dd726)",
+      "body": {
+        "new_french": "Annonceur(e)",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1102",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Advertiser / Annonceur(e)",
+        "new_english": "Advertiser"
+      }
+    },
+    {
+      "id": "9f5258aa-b44a-ef11-accd-0022483e879d",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(9f5258aa-b44a-ef11-accd-0022483e879d)",
+      "body": {
+        "new_french": "Médecin auto-identifié",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1106",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Self-Identified Physician /  Médecin auto-identifié",
+        "new_english": "Self-Identified Physician"
+      }
+    },
+    {
+      "id": "ca8c5ea0-c7f8-ee11-a1ff-002248b179cf",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(ca8c5ea0-c7f8-ee11-a1ff-002248b179cf)",
+      "body": {
+        "new_french": "Health Advocate",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1101",
+        "new_parentypeid@odata.bind": "/new_contacttypes(eb35e6f8-4b7a-e811-a956-000d3af475a9)",
+        "new_name": "Health Advocate",
+        "new_english": "Health Advocate"
+      }
+    },
+    {
+      "id": "6163c75c-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(6163c75c-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du personnel de AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1002",
+        "new_parentypeid@odata.bind": "/new_contacttypes(d9ff92b7-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "CMA Employee / Membre du personnel de AMC",
+        "new_english": "CMA Employee"
+      }
+    },
+    {
+      "id": "614b61da-8dab-e811-a96b-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_contacttypes(614b61da-8dab-e811-a96b-000d3aff2e30)",
+      "body": {
+        "new_french": "Membre du personnel de Joule",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_contacttype_id": "CT1011",
+        "new_parentypeid@odata.bind": "/new_contacttypes(d9ff92b7-8eab-e811-a96b-000d3aff2e30)",
+        "new_name": "Joule Employee / Membre du personnel de Joule",
+        "new_english": "Joule Employee"
+      }
+    }
+  ]
+}

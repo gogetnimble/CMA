@@ -1,0 +1,9 @@
+{
+  "table": "new_taxrate",
+  "entitySetName": "new_taxrates",
+  "exportedUtc": "2026-04-01T01:09:07.7950065Z",
+  "exportMode": "simple",
+  "selfRefFields": [],
+  "totalRecords": 0,
+  "records": []
+}

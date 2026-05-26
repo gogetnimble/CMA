@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBatchPostWorkflow", "AzureBatchPostWorkflow.csproj", "{92BC22D1-9B45-4F05-89AF-E711A952C35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92BC22D1-9B45-4F05-89AF-E711A952C35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BC22D1-9B45-4F05-89AF-E711A952C35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BC22D1-9B45-4F05-89AF-E711A952C35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BC22D1-9B45-4F05-89AF-E711A952C35D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC07948E-4B97-4AB4-A9C6-D6619CD0CA49}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cmaamc.visualstudio.com/
+		SccProjectUniqueName0 = AzureBatchPostWorkflow.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = https://cmaamc.visualstudio.com
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A22A91DA-E773-4BFE-AC41-2CF3BC5C8C60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMA.Extensions</RootNamespace>
+    <AssemblyName>CMA.Extensions</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.10.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.60\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.60\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO.Pipelines, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.10.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Duplex, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.10.0.652802\lib\net462\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.10.0.652802\lib\net462\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.10.0.652802\lib\net462\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.10.0.652802\lib\net462\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Text.Encodings.Web, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.10.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.10.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.6.2\lib\net462\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeHelper.cs" />
+    <Compile Include="Constants\CustomerAddressConstants.cs" />
+    <Compile Include="Logging\PlugInLogger.cs" />
+    <Compile Include="Logging\PlugInRecord.cs" />
+    <Compile Include="Model\DataContext.cs" />
+    <Compile Include="Model\Entities\account.cs" />
+    <Compile Include="Model\Entities\annotation.cs" />
+    <Compile Include="Model\Entities\campaign.cs" />
+    <Compile Include="Model\Entities\connection.cs" />
+    <Compile Include="Model\Entities\contact.cs" />
+    <Compile Include="Model\Entities\customeraddress.cs" />
+    <Compile Include="Model\Entities\email.cs" />
+    <Compile Include="Model\Entities\lead.cs" />
+    <Compile Include="Model\Entities\letter.cs" />
+    <Compile Include="Model\Entities\list.cs" />
+    <Compile Include="Model\Entities\msdynmkt_topic.cs" />
+    <Compile Include="Model\Entities\new_accounttype.cs" />
+    <Compile Include="Model\Entities\new_attendeetype.cs" />
+    <Compile Include="Model\Entities\new_batch.cs" />
+    <Compile Include="Model\Entities\new_cmadiagnosticlog.cs" />
+    <Compile Include="Model\Entities\new_cmaflowconfiguration.cs" />
+    <Compile Include="Model\Entities\new_cmaflowlog.cs" />
+    <Compile Include="Model\Entities\new_cmahexportchange.cs" />
+    <Compile Include="Model\Entities\new_cmalogconfiguration.cs" />
+    <Compile Include="Model\Entities\new_cmamembershipdetail.cs" />
+    <Compile Include="Model\Entities\new_cmatag.cs" />
+    <Compile Include="Model\Entities\new_codelookup.cs" />
+    <Compile Include="Model\Entities\new_contacttype.cs" />
+    <Compile Include="Model\Entities\new_contactwidget.cs" />
+    <Compile Include="Model\Entities\new_customconfiguration.cs" />
+    <Compile Include="Model\Entities\new_discontinuedreason.cs" />
+    <Compile Include="Model\Entities\new_event.cs" />
+    <Compile Include="Model\Entities\new_eventattendee.cs" />
+    <Compile Include="Model\Entities\new_eventfollowup.cs" />
+    <Compile Include="Model\Entities\new_eventtype.cs" />
+    <Compile Include="Model\Entities\new_grantprogram.cs" />
+    <Compile Include="Model\Entities\new_grantsubmission.cs" />
+    <Compile Include="Model\Entities\new_membercategoryxref.cs" />
+    <Compile Include="Model\Entities\new_membershipbenefit.cs" />
+    <Compile Include="Model\Entities\new_membershippricingrule.cs" />
+    <Compile Include="Model\Entities\new_onlineapplication.cs" />
+    <Compile Include="Model\Entities\new_opportunitytype.cs" />
+    <Compile Include="Model\Entities\new_opt.cs" />
+    <Compile Include="Model\Entities\new_optmanagementscreen.cs" />
+    <Compile Include="Model\Entities\new_payment.cs" />
+    <Compile Include="Model\Entities\new_physicianspecialty.cs" />
+    <Compile Include="Model\Entities\new_portaldocumentdownload.cs" />
+    <Compile Include="Model\Entities\new_psi.cs" />
+    <Compile Include="Model\Entities\new_psiobjective.cs" />
+    <Compile Include="Model\Entities\new_sms.cs" />
+    <Compile Include="Model\Entities\new_specialty.cs" />
+    <Compile Include="Model\Entities\new_ssisauditrun.cs" />
+    <Compile Include="Model\Entities\new_ssisauditrunerror.cs" />
+    <Compile Include="Model\Entities\new_ssisfailedregistration.cs" />
+    <Compile Include="Model\Entities\new_ssismissingevent.cs" />
+    <Compile Include="Model\Entities\new_submittedquestion.cs" />
+    <Compile Include="Model\Entities\new_subscription.cs" />
+    <Compile Include="Model\Entities\new_taxrate.cs" />
+    <Compile Include="Model\Entities\new_topiccategory.cs" />
+    <Compile Include="Model\Entities\new_transaction.cs" />
+    <Compile Include="Model\Entities\opportunity.cs" />
+    <Compile Include="Model\Entities\opportunityproduct.cs" />
+    <Compile Include="Model\Entities\opportunitysalesprocess.cs" />
+    <Compile Include="Model\Entities\phonecall.cs" />
+    <Compile Include="Model\Entities\pricelevel.cs" />
+    <Compile Include="Model\Entities\product.cs" />
+    <Compile Include="Model\Entities\productassociation.cs" />
+    <Compile Include="Model\Entities\productpricelevel.cs" />
+    <Compile Include="Model\Entities\productsubstitute.cs" />
+    <Compile Include="Model\Entities\queue.cs" />
+    <Compile Include="Model\Entities\queueitem.cs" />
+    <Compile Include="Model\Entities\salesorder.cs" />
+    <Compile Include="Model\Entities\salesorderdetail.cs" />
+    <Compile Include="Model\Entities\systemuser.cs" />
+    <Compile Include="Model\Entities\task.cs" />
+    <Compile Include="Model\EntityOptionSetEnum.cs" />
+    <Compile Include="Model\OptionSets\activitypointer_deliveryprioritycode.cs" />
+    <Compile Include="Model\OptionSets\budgetstatus.cs" />
+    <Compile Include="Model\OptionSets\componentstate.cs" />
+    <Compile Include="Model\OptionSets\initialcommunication.cs" />
+    <Compile Include="Model\OptionSets\lead_salesstage.cs" />
+    <Compile Include="Model\OptionSets\msdyn_leadgradeoptset.cs" />
+    <Compile Include="Model\OptionSets\msdyn_leadscoretrendoptset.cs" />
+    <Compile Include="Model\OptionSets\msdyn_opportunitygradeoptset.cs" />
+    <Compile Include="Model\OptionSets\msdyn_opportunityscoretrendoptset.cs" />
+    <Compile Include="Model\OptionSets\msdyn_queueassignmentstrategy.cs" />
+    <Compile Include="Model\OptionSets\msdyn_queuetype.cs" />
+    <Compile Include="Model\OptionSets\msevtmgt_nooryes.cs" />
+    <Compile Include="Model\OptionSets\msgdpr_gdpr_consent_option_set.cs" />
+    <Compile Include="Model\OptionSets\need.cs" />
+    <Compile Include="Model\OptionSets\new_accountjurisdiction.cs" />
+    <Compile Include="Model\OptionSets\new_addresscountry.cs" />
+    <Compile Include="Model\OptionSets\new_addresssource.cs" />
+    <Compile Include="Model\OptionSets\new_addressstateofprovince.cs" />
+    <Compile Include="Model\OptionSets\new_addressstateorprovince_100000038.cs" />
+    <Compile Include="Model\OptionSets\new_addressstateorprovince_100000232.cs" />
+    <Compile Include="Model\OptionSets\new_addresstype.cs" />
+    <Compile Include="Model\OptionSets\new_attendeecancellationreason.cs" />
+    <Compile Include="Model\OptionSets\new_attendeeregistrationchannel.cs" />
+    <Compile Include="Model\OptionSets\new_campaignsubtypemasterlist.cs" />
+    <Compile Include="Model\OptionSets\new_campaignsubtype_100000000.cs" />
+    <Compile Include="Model\OptionSets\new_campaignsubtype_100000001.cs" />
+    <Compile Include="Model\OptionSets\new_campaignsubtype_100000003.cs" />
+    <Compile Include="Model\OptionSets\new_campaignsubtype_100000004.cs" />
+    <Compile Include="Model\OptionSets\new_certifyingbody.cs" />
+    <Compile Include="Model\OptionSets\new_cmamemdetailstatus.cs" />
+    <Compile Include="Model\OptionSets\new_cmatagcategory.cs" />
+    <Compile Include="Model\OptionSets\new_contactcollegelocation.cs" />
+    <Compile Include="Model\OptionSets\new_contactcreationreason.cs" />
+    <Compile Include="Model\OptionSets\new_contactemailtype.cs" />
+    <Compile Include="Model\OptionSets\new_contactlanguage.cs" />
+    <Compile Include="Model\OptionSets\new_contactmemberclass.cs" />
+    <Compile Include="Model\OptionSets\new_contactonlineusage.cs" />
+    <Compile Include="Model\OptionSets\new_contactpracticestatuscode.cs" />
+    <Compile Include="Model\OptionSets\new_contactprovinceofresidency.cs" />
+    <Compile Include="Model\OptionSets\new_contactresidencyprogram.cs" />
+    <Compile Include="Model\OptionSets\new_contactsalutation.cs" />
+    <Compile Include="Model\OptionSets\new_contractstatus.cs" />
+    <Compile Include="Model\OptionSets\new_country.cs" />
+    <Compile Include="Model\OptionSets\new_deliverylocation.cs" />
+    <Compile Include="Model\OptionSets\new_discountcategory.cs" />
+    <Compile Include="Model\OptionSets\new_displayorder.cs" />
+    <Compile Include="Model\OptionSets\new_eventattendeestatus.cs" />
+    <Compile Include="Model\OptionSets\new_eventcontractstatus.cs" />
+    <Compile Include="Model\OptionSets\new_eventinternalclient.cs" />
+    <Compile Include="Model\OptionSets\new_eventstatus.cs" />
+    <Compile Include="Model\OptionSets\new_exporttype.cs" />
+    <Compile Include="Model\OptionSets\new_grantprogram_type.cs" />
+    <Compile Include="Model\OptionSets\new_grantsubmission_status.cs" />
+    <Compile Include="Model\OptionSets\new_listsubtype.cs" />
+    <Compile Include="Model\OptionSets\new_locationofpractice.cs" />
+    <Compile Include="Model\OptionSets\new_membershipbenefitstatus.cs" />
+    <Compile Include="Model\OptionSets\new_onlineapplicationpaymentstatus.cs" />
+    <Compile Include="Model\OptionSets\new_onlineapplicationpracticestatus.cs" />
+    <Compile Include="Model\OptionSets\new_onlineapplicationsource.cs" />
+    <Compile Include="Model\OptionSets\new_onlineapplicationtype.cs" />
+    <Compile Include="Model\OptionSets\new_opportunitysource.cs" />
+    <Compile Include="Model\OptionSets\new_optchannel.cs" />
+    <Compile Include="Model\OptionSets\new_optdiscontinuedreason.cs" />
+    <Compile Include="Model\OptionSets\new_optvalue.cs" />
+    <Compile Include="Model\OptionSets\new_ordertaxexempt.cs" />
+    <Compile Include="Model\OptionSets\new_partnershipstatus.cs" />
+    <Compile Include="Model\OptionSets\new_paymentcreditcardtype.cs" />
+    <Compile Include="Model\OptionSets\new_paymentmethod.cs" />
+    <Compile Include="Model\OptionSets\new_paymentsource.cs" />
+    <Compile Include="Model\OptionSets\new_phonecallsubtype.cs" />
+    <Compile Include="Model\OptionSets\new_phonetype.cs" />
+    <Compile Include="Model\OptionSets\new_portalreviewstatus.cs" />
+    <Compile Include="Model\OptionSets\new_preferredcontactmethodcode.cs" />
+    <Compile Include="Model\OptionSets\new_pricelisttype.cs" />
+    <Compile Include="Model\OptionSets\new_requestedassistancestatus.cs" />
+    <Compile Include="Model\OptionSets\new_salesorderdetailstatus.cs" />
+    <Compile Include="Model\OptionSets\new_sentiment.cs" />
+    <Compile Include="Model\OptionSets\new_specialtygroup.cs" />
+    <Compile Include="Model\OptionSets\new_specialtytypecode.cs" />
+    <Compile Include="Model\OptionSets\new_strategicalignment.cs" />
+    <Compile Include="Model\OptionSets\new_subscriptionbrand.cs" />
+    <Compile Include="Model\OptionSets\new_subscriptiontype.cs" />
+    <Compile Include="Model\OptionSets\new_tasksubtype.cs" />
+    <Compile Include="Model\OptionSets\new_taxjurisdiction.cs" />
+    <Compile Include="Model\OptionSets\new_taxtype.cs" />
+    <Compile Include="Model\OptionSets\new_timezone.cs" />
+    <Compile Include="Model\OptionSets\new_transactionerrorstatus.cs" />
+    <Compile Include="Model\OptionSets\new_usercompanynameenglish.cs" />
+    <Compile Include="Model\OptionSets\new_usercompanynamefrench.cs" />
+    <Compile Include="Model\OptionSets\new_userenglishtitle.cs" />
+    <Compile Include="Model\OptionSets\new_userfrenchtitle.cs" />
+    <Compile Include="Model\OptionSets\new_yearoptionset.cs" />
+    <Compile Include="Model\OptionSets\new_yesno.cs" />
+    <Compile Include="Model\OptionSets\opportunity_salesstage.cs" />
+    <Compile Include="Model\OptionSets\powerpagelanguages.cs" />
+    <Compile Include="Model\OptionSets\purchaseprocess.cs" />
+    <Compile Include="Model\OptionSets\purchasetimeframe.cs" />
+    <Compile Include="Model\OptionSets\qooidetail_skippricecalculation.cs" />
+    <Compile Include="Model\OptionSets\qooiproduct_producttype.cs" />
+    <Compile Include="Model\OptionSets\qooiproduct_propertiesconfigurationstatus.cs" />
+    <Compile Include="Model\OptionSets\qooi_pricingerrorcode.cs" />
+    <Compile Include="Model\OptionSets\qooi_skippricecalculation.cs" />
+    <Compile Include="Model\OptionSets\salesordercreationmethod.cs" />
+    <Compile Include="Model\OptionSets\socialprofile_community.cs" />
+    <Compile Include="PlugInBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Model\builderSettings.json" />
+    <None Include="packages.config" />
+    <None Include="Setup\builderSettings.json" />
+    <None Include="Setup\GenerateModel.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Setup\HelperCommands.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

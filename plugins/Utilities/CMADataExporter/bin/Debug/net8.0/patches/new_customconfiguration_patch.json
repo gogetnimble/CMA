@@ -1,0 +1,1068 @@
+{
+  "table": "new_customconfiguration",
+  "entitySetName": "new_customconfigurations",
+  "generatedUtc": "2026-04-01T01:09:10.4426988Z",
+  "totalRecords": 95,
+  "records": [
+    {
+      "id": "58eea764-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(58eea764-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "Unused",
+        "new_key": "CRM-CMAH API/AuthURL"
+      }
+    },
+    {
+      "id": "5f2ebd6d-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5f2ebd6d-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/member-service/member",
+        "new_key": "CRM-CMAH API/BaseURL"
+      }
+    },
+    {
+      "id": "86e0e674-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(86e0e674-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "Unused",
+        "new_key": "CRM-CMAH API/ClientID"
+      }
+    },
+    {
+      "id": "5445f385-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5445f385-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "fb38bb896a9941cf81171d328e25ee1d",
+        "new_key": "CRM-CMAH API/ClientSecret"
+      }
+    },
+    {
+      "id": "7a114593-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(7a114593-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "3",
+        "new_key": "CRM-CMAH API/RetryCount"
+      }
+    },
+    {
+      "id": "fb377f9a-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(fb377f9a-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "2",
+        "new_key": "CRM-CMAH API/RetryTime"
+      }
+    },
+    {
+      "id": "6a259aae-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(6a259aae-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "OK",
+        "new_key": "CRM-CMAH API/TestModeError"
+      }
+    },
+    {
+      "id": "6505f8b9-dec3-ea11-a812-000d3af33756",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(6505f8b9-dec3-ea11-a812-000d3af33756)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-CMAH API",
+        "new_value": "false",
+        "new_key": "CRM-CMAH API/UseBearerToken"
+      }
+    },
+    {
+      "id": "68bf3ec6-73eb-ec11-bb3c-000d3af3925e",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(68bf3ec6-73eb-ec11-bb3c-000d3af3925e)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-HL API",
+        "new_value": "https://data.onlinecommunity.ca/push/v1/members",
+        "new_key": "CRM-HL API/BaseURL"
+      }
+    },
+    {
+      "id": "7f7b38d8-73eb-ec11-bb3c-000d3af3925e",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(7f7b38d8-73eb-ec11-bb3c-000d3af3925e)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-HL API",
+        "new_value": "D5Nsz10YaU1OFV6fljQUA80jg1XoYxRa64TSemth",
+        "new_key": "CRM-HL API/ClientSecret"
+      }
+    },
+    {
+      "id": "dd7b37e4-73eb-ec11-bb3c-000d3af3925e",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(dd7b37e4-73eb-ec11-bb3c-000d3af3925e)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CRM-HL API",
+        "new_value": "PROD_ENV_GROUP",
+        "new_key": "CRM-HL API/DefaultSecurityGroups"
+      }
+    },
+    {
+      "id": "d43d2a97-df25-eb11-a813-000d3af3a14a",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(d43d2a97-df25-eb11-a813-000d3af3a14a)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CPD Activities APIM Endpoint",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/cma/api/CRM-CMAH/cpdActivities/",
+        "new_key": "Azure/CPDActivitiesAPIURL"
+      }
+    },
+    {
+      "id": "a1951b35-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(a1951b35-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "9331",
+        "new_key": "Aventri/accountid"
+      }
+    },
+    {
+      "id": "2c2a913d-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(2c2a913d-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "3541e042e29eb65e2fed4f5a22f9e9cfdfd5d882",
+        "new_key": "Aventri/apikey"
+      }
+    },
+    {
+      "id": "18db7744-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(18db7744-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "https://{domain}/api/v2/global/authorize.json?accountid={accountid}&key={apikey}",
+        "new_key": "Aventri/AuthURL"
+      }
+    },
+    {
+      "id": "d079f14c-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(d079f14c-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "api-na.eventscloud.com",
+        "new_key": "Aventri/domain"
+      }
+    },
+    {
+      "id": "73904558-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(73904558-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "https://{domain}/api/v2/ereg/getEvent.json?accesstoken={accesstoken}&eventid={eventid}&customfields=1",
+        "new_key": "Aventri/GetEventURL"
+      }
+    },
+    {
+      "id": "3153ad61-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(3153ad61-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "https://{domain}/api/v2/global/listEvents.json?accesstoken={accesstoken}&search=lastmodified>={lastDate}",
+        "new_key": "Aventri/ListEventsURL"
+      }
+    },
+    {
+      "id": "7935996b-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(7935996b-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "Event Registration",
+        "new_key": "Aventri/NewEventTeam"
+      }
+    },
+    {
+      "id": "ffb54c74-4514-ea11-a811-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(ffb54c74-4514-ea11-a811-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Aventri",
+        "new_value": "Testing",
+        "new_key": "Aventri/TestEventTypeCode"
+      }
+    },
+    {
+      "id": "e6be8cca-38b1-e911-a812-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(e6be8cca-38b1-e911-a812-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/BamboraPaymentAPIKey",
+        "new_value": "b747032b8d764a95a47219ad3c9b3aee",
+        "new_key": "Azure/BamboraPaymentAPIKey"
+      }
+    },
+    {
+      "id": "20dbe4cd-39b1-e911-a812-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(20dbe4cd-39b1-e911-a812-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/BamboraPaymentAPIURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/payments/",
+        "new_key": "Azure/BamboraPaymentAPIURL"
+      }
+    },
+    {
+      "id": "01f8db01-3ab1-e911-a812-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(01f8db01-3ab1-e911-a812-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/BamboraRefundAPIKey",
+        "new_value": "0710b234cf354a2e84c98dc79ecd9457",
+        "new_key": "Azure/BamboraRefundAPIKey"
+      }
+    },
+    {
+      "id": "8a628833-3ab1-e911-a812-000d3af3a7c4",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8a628833-3ab1-e911-a812-000d3af3a7c4)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/BamboraRefundAPIURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/refunds/",
+        "new_key": "Azure/BamboraRefundAPIURL"
+      }
+    },
+    {
+      "id": "125dbbcb-38b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(125dbbcb-38b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/BenefitCodeAPIURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/benefits/",
+        "new_key": "Azure/BenefitCodeAPIURL"
+      }
+    },
+    {
+      "id": "4ee05459-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(4ee05459-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "AzureB2CAPI",
+        "new_value": "X",
+        "new_key": "AzureB2CAPI/AuthURL"
+      }
+    },
+    {
+      "id": "8bee5c61-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8bee5c61-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "AzureB2CAPI",
+        "new_value": "e74fb0df-f6c9-4f83-9eee-da8da7fe9f6a",
+        "new_key": "AzureB2CAPI/ClientID"
+      }
+    },
+    {
+      "id": "d7c19969-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(d7c19969-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "AzureB2CAPI",
+        "new_value": "fb38bb896a9941cf81171d328e25ee1d",
+        "new_key": "AzureB2CAPI/ClientSecret"
+      }
+    },
+    {
+      "id": "8bd68f6f-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8bd68f6f-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "AzureB2CAPI",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/member-service/member/{cmah-id}/",
+        "new_key": "AzureB2CAPI/URL"
+      }
+    },
+    {
+      "id": "15b23b9c-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(15b23b9c-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "X",
+        "new_key": "JouleSubscriptionAPI/AuthCode"
+      }
+    },
+    {
+      "id": "9c28aea8-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(9c28aea8-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "X",
+        "new_key": "JouleSubscriptionAPI/Preferences"
+      }
+    },
+    {
+      "id": "693527bc-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(693527bc-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "X",
+        "new_key": "JouleSubscriptionAPI/SubscribeURL"
+      }
+    },
+    {
+      "id": "cda118c8-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(cda118c8-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "X",
+        "new_key": "JouleSubscriptionAPI/SubscriptionNames"
+      }
+    },
+    {
+      "id": "e16a73ce-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(e16a73ce-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "10000",
+        "new_key": "JouleSubscriptionAPI/Timeout"
+      }
+    },
+    {
+      "id": "268495de-39b1-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(268495de-39b1-e911-a812-000d3af3ac9d)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "JouleSubscriptionAPI",
+        "new_value": "X",
+        "new_key": "JouleSubscriptionAPI/UnSubscribeURL"
+      }
+    },
+    {
+      "id": "36666593-b6c1-e911-a811-000d3af3afcd",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(36666593-b6c1-e911-a811-000d3af3afcd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Membership",
+        "new_value": "DR1002",
+        "new_key": "Membership/RefundDiscontinuedReasonCode"
+      }
+    },
+    {
+      "id": "4642609f-b6c1-e911-a811-000d3af3afcd",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(4642609f-b6c1-e911-a811-000d3af3afcd)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Membership",
+        "new_value": "0001005",
+        "new_key": "Membership/RefundProductCode"
+      }
+    },
+    {
+      "id": "b6c1fc7a-2d27-e911-a983-000d3af3d397",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(b6c1fc7a-2d27-e911-a983-000d3af3d397)",
+      "body": {
+        "new_longvalue": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" distinct=\"false\" >\n  <entity name=\"new_cmamembershipdetail\" >\n    <attribute name=\"new_contact\" />\n    <attribute name=\"new_categoryproductid\" />\n    <attribute name=\"new_divisionreference\" />\n    <attribute name=\"new_membershipyear\" />\n    <attribute name=\"new_expirydate\" />\n    <attribute name=\"new_divassocaccountid\" />\n    <filter>\n      <condition attribute=\"new_expirydate\" operator=\"this-year\" />\n      <condition attribute=\"new_status\" operator=\"eq\" value=\"100000000\" />\n    </filter>\n    <order attribute=\"new_divassocaccountid\" />\n    <link-entity name=\"contact\" from=\"contactid\" to=\"new_contact\" link-type=\"inner\" alias=\"contact\" >\n      <attribute name=\"firstname\" />\n      <attribute name=\"birthdate\" />\n      <attribute name=\"lastname\" />\n      <attribute name=\"fullname\" />\n      <attribute name=\"new_contact_id\" />\n      <filter>\n        <condition attribute=\"new_deathdate\" operator=\"null\" />\n      </filter>\n    </link-entity>\n    <link-entity name=\"product\" from=\"productid\" to=\"new_categoryproductid\" link-type=\"inner\" alias=\"product\" >\n      <filter>\n        <condition attribute=\"productnumber\" operator=\"in\" >\n          <value>00000263</value>\n          <value>000040</value>\n          <value>00000156</value>\n          <value>000023</value>\n          <value>000055</value>\n          <value>000054</value>\n          <value>000051</value>\n        </condition>\n      </filter>\n    </link-entity>\n    <link-entity name=\"account\" from=\"accountid\" to=\"new_divassocaccountid\" link-type=\"inner\" alias=\"account\" >\n      <attribute name=\"new_ptmacode\" />\n      <filter>\n        <condition attribute=\"statecode\" operator=\"eq\" value=\"0\" />\n      </filter>\n    </link-entity>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "RenewComplimentaryMemberships",
+        "new_key": "RenewComplimentaryMemberships/FetchXML",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "dfe0ef88-2d27-e911-a983-000d3af3d397",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(dfe0ef88-2d27-e911-a983-000d3af3d397)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "RenewComplimentaryMemberships",
+        "new_value": "110",
+        "new_key": "RenewComplimentaryMemberships/MaximumAge"
+      }
+    },
+    {
+      "id": "6fe2adca-2d27-e911-a983-000d3af3d397",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(6fe2adca-2d27-e911-a983-000d3af3d397)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/GenerateJournalDataDiscrepancyListBaseURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/cmaj/GetJournalDataDiscrepencies?",
+        "new_key": "Azure/GenerateJournalDataDiscrepancyListBaseURL"
+      }
+    },
+    {
+      "id": "9921a4e3-2d27-e911-a983-000d3af3d397",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(9921a4e3-2d27-e911-a983-000d3af3d397)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/RenewComplimentaryMembershipsBaseURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/crm/RenewComplimentaryMembershipsPost?",
+        "new_key": "Azure/RenewComplimentaryMembershipsBaseURL"
+      }
+    },
+    {
+      "id": "2d280848-8c68-e911-a983-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(2d280848-8c68-e911-a983-000d3af3eee6)",
+      "body": {
+        "new_longvalue": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" distinct=\"false\" >\n  <entity name=\"contact\" >\n    <attribute name=\"contactid\" />\n    <attribute name=\"fullname\" />\n    <attribute name=\"firstname\" />\n    <attribute name=\"lastname\" />\n    <attribute name=\"new_physicianname\" />\n    <attribute name=\"new_physicianlastname\" />\n    <attribute name=\"new_contact_id\" />\n    <attribute name=\"new_royalcollegenumber\" />\n    <attribute name=\"new_familyphysiciannumber\" />\n    <attribute name=\"new_mincnum\" />\n    <attribute name=\"new_provincenumber\" />\n    <attribute name=\"new_licensingassocaccountid\" />\n    <attribute name=\"birthdate\" />\n    <attribute name=\"new_specialtyid\" />\n    <attribute name=\"new_physicianpreferredname\" />\n    <attribute name = \"new_contact_id\" />\n    <attribute name = \"telephone1\" />\n    <attribute name = \"new_contacttypeid\" />\n    <attribute name = \"new_contactsubtypeid\" />\n    <attribute name = \"new_deathdate\" />\n    <attribute name = \"new_cmamembershipdetailid\" />\n    <attribute name = \"new_membershipstatus\" />\n    <attribute name = \"new_practicestatus\" />\n    <attribute name = \"adx_identity_username\" />\n\n    <filter type=\"and\" >\n      <!-- values in  braces will be filled in by plugin with fields from online application -->\n      <filter type=\"or\" >\n        <!-- one the these 4 id's must match -->\n        <condition attribute=\"new_contact_id\" operator=\"eq\" value=\"{new_cmaid}\" />\n        <condition attribute=\"new_mincnum\" operator=\"eq\" value=\"{new_mincnum}\" />\n        <condition attribute=\"new_royalcollegenumber\" operator=\"eq\" value=\"{new_royalcollegenumber}\" />\n        <condition attribute=\"new_familyphysiciannumber\" operator=\"eq\" value=\"{new_familyphysiciannumber}\" />\n        <!-- or both provincial id and PTMA must match -->\n        <filter>\n          <condition attribute=\"new_licensingassocaccountid\" operator=\"eq\" value=\"{new_ptmaid}\" />\n          <condition attribute=\"new_provincenumber\" operator=\"eq\" value=\"{new_provincenumber}\" />\n        </filter>\n      </filter>\n<!--   removed Sprint 13\n      <filter type=\"or\" >\n        <condition attribute=\"lastname\" operator=\"eq\" value=\"{lastname}\" />\n        <condition attribute=\"new_physicianname\" operator=\"eq\" value=\"{firstname}\" />\n        <condition attribute=\"firstname\" operator=\"eq\" value=\"{firstname}\" />\n      </filter>\n-->\n      <!-- birtdate must match  -->\n      <condition attribute=\"birthdate\" operator=\"eq\" value=\"{birthdate}\" />\n    </filter>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "OnlineApplication",
+        "new_key": "OnlineApplication/ContactFetchXml",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "e0597761-8c68-e911-a983-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(e0597761-8c68-e911-a983-000d3af3eee6)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "OnlineApplication/IntakeTeamName",
+        "new_value": "Online Member Intake",
+        "new_key": "OnlineApplication/IntakeTeamName"
+      }
+    },
+    {
+      "id": "37ef0e29-8d68-e911-a983-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(37ef0e29-8d68-e911-a983-000d3af3eee6)",
+      "body": {
+        "new_longvalue": "If month of current date is greater taht or equal to this value then membership expiry is extended into the end of next year.\n",
+        "statuscode": 1,
+        "new_application": "Membership/ExpiryYearThresholdMonth",
+        "new_value": "09",
+        "new_key": "Membership/ExpiryYearThresholdMonth",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "dd786047-8d68-e911-a983-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(dd786047-8d68-e911-a983-000d3af3eee6)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/crm/ValidateAndPostBatch?",
+        "new_key": "Azure/ValidateAndPostBatchFunctionBaseURL"
+      }
+    },
+    {
+      "id": "2d11ed8a-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(2d11ed8a-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/APIBaseURL",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net",
+        "new_key": "Azure/APIBaseURL"
+      }
+    },
+    {
+      "id": "b0fc329d-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(b0fc329d-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure/APIKey",
+        "new_value": "d9a1e27744024af281965aac89b0b6f4",
+        "new_key": "Azure/APIKey"
+      }
+    },
+    {
+      "id": "c62593af-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(c62593af-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "CMAJ Mailing Labels List Function",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/cmaj/GenerateCMAJMailinLabelList?",
+        "new_key": "Azure/GenerateCMAJMailingLabelsListBaseURL"
+      }
+    },
+    {
+      "id": "06d2fbbb-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(06d2fbbb-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure Post Function",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/crm/PostBatch?",
+        "new_key": "Azure/PostFunctionBaseURL"
+      }
+    },
+    {
+      "id": "e877f7c7-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(e877f7c7-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure Validate Function",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/crm/ValidateBatch?",
+        "new_key": "Azure/ValidateFunctionBaseURL"
+      }
+    },
+    {
+      "id": "5e1df0cd-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5e1df0cd-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "BatchProcessing/ExecuteMultipleMaximumBatchSize",
+        "new_value": "20",
+        "new_key": "BatchProcessing/ExecuteMultipleMaximumBatchSize"
+      }
+    },
+    {
+      "id": "06bbf3d9-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(06bbf3d9-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "BatchProcessing/PostTransactionBlockSize",
+        "new_value": "1900",
+        "new_key": "BatchProcessing/PostTransactionBlockSize"
+      }
+    },
+    {
+      "id": "07fff3e5-20dd-e811-a979-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(07fff3e5-20dd-e811-a979-000d3aff2e31)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "BatchProcessing/ValidateTransactionBlockSize",
+        "new_value": "3000",
+        "new_key": "BatchProcessing/ValidateTransactionBlockSize"
+      }
+    },
+    {
+      "id": "ed60b42f-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(ed60b42f-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "https://login.microsoftonline.com/20ca1b0b-647e-4c37-8513-ad88a97b0235/oauth2/token",
+        "new_key": "IdentityApi/AuthUrl"
+      }
+    },
+    {
+      "id": "699f4a48-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(699f4a48-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/account/v2/user/{cmahId}/",
+        "new_key": "IdentityApi/BaseUrl"
+      }
+    },
+    {
+      "id": "1cd38954-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(1cd38954-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "e74fb0df-f6c9-4f83-9eee-da8da7fe9f6a",
+        "new_key": "IdentityApi/ClientID"
+      }
+    },
+    {
+      "id": "5ebc5b65-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5ebc5b65-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "fb38bb896a9941cf81171d328e25ee1d",
+        "new_key": "IdentityApi/ClientSecret"
+      }
+    },
+    {
+      "id": "42855272-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(42855272-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "3",
+        "new_key": "IdentityApi/RetryCount"
+      }
+    },
+    {
+      "id": "ce3e0185-48ed-ef11-be20-0022483ce198",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(ce3e0185-48ed-ef11-be20-0022483ce198)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "IdentityApi",
+        "new_value": "10",
+        "new_key": "IdentityApi/RetryTime"
+      }
+    },
+    {
+      "id": "833b2652-6255-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(833b2652-6255-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Azure",
+        "new_value": "https://apim-cma-prod-cac-001.azure-api.net/campaign-monitor/",
+        "new_key": "Azure/PublishSegmentToCampaignMonitorBaseURL"
+      }
+    },
+    {
+      "id": "3e84c9da-f655-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(3e84c9da-f655-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "librarian@cma.ca,Siarhei.Yermakou@cma.ca,rob.cummings@cma.ca,maxime.taylor@cma.ca",
+        "new_key": "Marketing/POEM/testEmailAddress"
+      }
+    },
+    {
+      "id": "f003f60e-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(f003f60e-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "ad5bd70c-6612-ec11-b6e7-000d3a8477ee",
+        "new_key": "Marketing/POEM/testEmailContact"
+      }
+    },
+    {
+      "id": "3792ea23-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(3792ea23-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "true",
+        "new_key": "Marketing/POEM/JourneyGoLive"
+      }
+    },
+    {
+      "id": "fbddc048-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(fbddc048-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "true",
+        "new_key": "Marketing/POEM/EmailGoLive"
+      }
+    },
+    {
+      "id": "29acce4e-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(29acce4e-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "POEM",
+        "new_key": "Marketing/POEM/FrenchJourneyTemplateName"
+      }
+    },
+    {
+      "id": "1f139a61-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(1f139a61-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "POEM",
+        "new_key": "Marketing/POEM/EnglishJourneyTemplateName"
+      }
+    },
+    {
+      "id": "a652a66e-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(a652a66e-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "POEM",
+        "new_key": "Marketing/POEM/EnglishEmailTemplateName"
+      }
+    },
+    {
+      "id": "8cdc0f81-f755-ed11-9561-0022483dd523",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8cdc0f81-f755-ed11-9561-0022483dd523)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "POEM",
+        "new_value": "POEM",
+        "new_key": "Marketing/POEM/FrenchEmailTemplateName"
+      }
+    },
+    {
+      "id": "fa9cc83a-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(fa9cc83a-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_value": "contact.new_practicestatus,ptmas,contact.new_salutation,contact.new_contactsubtypeid,contact.new_language,numbertype,address.new_country,address.new_stateorprovincemasterlist,contact.new_pronoun,medschools,contact.new_residencyprogram,contact.new_fellowship,new_cmamembershipdetail.new_status,contact.new_cmasmsconsent,new_onlineapplication.new_practicestatus,contact.new_contacttypeid,new_cmamembershipdetail.new_categoryproductid",
+        "new_key": "Drupal/All-Fields"
+      }
+    },
+    {
+      "id": "aa001a48-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(aa001a48-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_value": "false",
+        "new_key": "Drupal/AlwaysGetUpdatedValues"
+      }
+    },
+    {
+      "id": "5f0de056-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5f0de056-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_value": "05-2023",
+        "new_key": "Drupal/MetadataVersion"
+      }
+    },
+    {
+      "id": "8c6bed62-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8c6bed62-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "new_longvalue": "<fetch>\n  <entity name=\"new_contacttype\">\n    <attribute name=\"new_name\" />\n    <attribute name=\"new_french\" alias=\"new_frenchname\" />\n    <attribute name=\"new_english\" alias=\"new_englishname\" />\n    <attribute name=\"new_parentypeid\" />\n    <attribute name=\"new_contacttype_id\" />\n    <attribute name=\"statecode\" />\n    <attribute name=\"statuscode\" />\n    <filter>\n      <condition attribute=\"new_parentypeid\" operator=\"eq\" value=\"9860eaf2-4b7a-e811-a956-000d3af475a9\" uiname=\"Physician / Médecin\" uitype=\"new_contacttype\" />\n    </filter>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_key": "Drupal/contact.new_contactsubtypeid_fetch",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "5f5fad6f-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5f5fad6f-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "new_longvalue": "<fetch>\n  <entity name=\"new_contacttype\">\n    <attribute name=\"new_name\" />\n    <attribute name=\"new_french\" alias=\"new_frenchname\" />\n    <attribute name=\"new_english\" alias=\"new_englishname\" />\n    <attribute name=\"new_parentypeid\" />\n    <attribute name=\"new_contacttype_id\" />\n    <attribute name=\"statecode\" />\n    <attribute name=\"statuscode\" />\n    <filter type=\"or\">\n      <condition attribute=\"new_contacttypeid\" operator=\"eq\" value=\"9860eaf2-4b7a-e811-a956-000d3af475a9\" />\n      <condition attribute=\"new_contacttypeid\" operator=\"eq\" value=\"eb35e6f8-4b7a-e811-a956-000d3af475a9\" />\n      <condition attribute=\"new_contacttypeid\" operator=\"eq\" value=\"d9ff92b7-8eab-e811-a96b-000d3aff2e30\" />\n    </filter>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_key": "Drupal/contact.new_contacttypeid_fetch",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "4fb02196-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(4fb02196-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "new_longvalue": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\">\n  <entity name=\"account\">\n    <attribute name=\"name\" />\n    <attribute name=\"accountid\" />\n    <attribute name=\"new_frenchname\" />\n    <attribute name=\"new_englishname\" />\n    <attribute name=\"new_enableptmadirectmembership\" />\n    <attribute name=\"new_account_id\" />\n    <attribute name=\"parentaccountid\" />\n    <attribute name=\"new_satcampus\" />\n    <attribute name=\"new_collegelocation\" />\n    <attribute name=\"new_possible_ptmas\" />\n    <attribute name=\"new_program_length\" />\n    <filter type=\"and\">\n      <condition attribute=\"statecode\" operator=\"eq\" value=\"0\" />\n      <condition attribute=\"new_satcampus\" operator=\"eq\" value=\"0\" />\n    </filter>\n    <link-entity name=\"new_accounttype\" from=\"new_accounttypeid\" to=\"new_accounttypeid\" visible=\"false\" link-type=\"inner\" alias=\"a_type\">\n      <attribute name=\"new_name\" />\n      <attribute name=\"new_accounttype_id\" />\n      <filter type=\"and\">\n        <condition attribute=\"new_accounttype_id\" operator=\"in\">\n          <value>ACT1024</value>\n        </condition>\n      </filter>\n    </link-entity>\n    <link-entity name=\"adx_publishingstate\" from=\"adx_publishingstateid\" to=\"new_publishstateid\" visible=\"false\" link-type=\"inner\" alias=\"a_publish\">\n      <attribute name=\"adx_name\" />\n      <filter>\n        <condition attribute=\"adx_name\" operator=\"eq\" value=\"Published\" />\n      </filter>\n    </link-entity>\n    <link-entity name=\"new_accounttype\" from=\"new_accounttypeid\" to=\"new_accountsubtypeid\" visible=\"false\" link-type=\"outer\" alias=\"subtype\">\n      <attribute name=\"new_name\" />\n      <attribute name=\"new_accounttype_id\" />\n    </link-entity>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_key": "Drupal/medschools_fetch",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "5a3438b0-5e4a-ed11-bba2-0022483dd59f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5a3438b0-5e4a-ed11-bba2-0022483dd59f)",
+      "body": {
+        "new_longvalue": "<fetch>\n  <entity name=\"product\">\n    <attribute name=\"new_frenchname\" />\n    <attribute name=\"name\" />\n    <attribute name=\"new_englishname\" />\n    <filter>\n      <condition attribute=\"producttypecode\" operator=\"eq\" value=\"2\" />\n      <condition attribute=\"statecode\" operator=\"eq\" value=\"0\" />\n      <condition attribute=\"statuscode\" operator=\"eq\" value=\"1\" />\n    </filter>\n  </entity>\n</fetch>",
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_key": "Drupal/new_cmamembershipdetail.new_categoryproductid_fetch",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "dfa88bbc-9f79-ee11-8179-0022483dd726",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(dfa88bbc-9f79-ee11-8179-0022483dd726)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "false",
+        "new_key": "Tax/EnableDebugging"
+      }
+    },
+    {
+      "id": "684372db-2b35-ee11-bdf4-0022483dd8b5",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(684372db-2b35-ee11-bdf4-0022483dd8b5)",
+      "body": {
+        "new_longvalue": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" distinct=\"true\" no-lock=\"false\"><entity name=\"account\"><attribute name=\"name\"/><attribute name=\"new_account_id\"/><attribute name=\"new_commonname\"/><attribute name=\"new_accounttypeid\"/><order attribute=\"name\" descending=\"false\"/><attribute name=\"accountid\"/><attribute name=\"new_accountsubtypeid\"/><attribute name=\"new_frenchname\"/><attribute name=\"new_englishname\"/><attribute name=\"new_requiresmemberingoodstanding\" /><attribute name=\"new_ptmaaccountcode\"/><attribute name=\"new_ptmacode\"/><attribute name=\"new_ptmagrouping\"/><filter type=\"and\"><condition attribute=\"statecode\" operator=\"eq\" value=\"0\"/><condition attribute=\"new_accountsubtypeid\" operator=\"eq\" value=\"{CEFF8D60-289B-E811-A96B-000D3AF3F58A}\"/><condition attribute=\"new_accounttypeid\" operator=\"eq\" value=\"{B4FF8D60-289B-E811-A96B-000D3AF3F58A}\"/><condition attribute=\"new_publishstateid\" operator=\"eq\" value=\"{fd38c991-15d1-4591-81be-2745ba3a1752}\"/></filter></entity></fetch>",
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_key": "Drupal/ptmas_fetch",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "a3d85976-49a9-ed11-aad0-0022483ddd44",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(a3d85976-49a9-ed11-aad0-0022483ddd44)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_application": "POEM",
+        "new_value": "InfoPratique",
+        "new_key": "Marketing/InfoPratique/EmailTemplateName"
+      }
+    },
+    {
+      "id": "5835c48a-49a9-ed11-aad0-0022483ddd44",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(5835c48a-49a9-ed11-aad0-0022483ddd44)",
+      "body": {
+        "statecode": 1,
+        "statuscode": 2,
+        "new_application": "POEM",
+        "new_value": "InfoPratique",
+        "new_key": "Marketing/InfoPratique/JourneyTemplateName"
+      }
+    },
+    {
+      "id": "4bce3514-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(4bce3514-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "9.975",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "QST",
+        "new_key": "Tax/Quebec",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "b14f9b33-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(b14f9b33-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Quebec",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "f8ae9c3f-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(f8ae9c3f-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "13",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "HST",
+        "new_key": "Tax/Ontario",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "fd9f4353-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(fd9f4353-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/British Columbia",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "97949365-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(97949365-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Alberta",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "8c9f587a-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(8c9f587a-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Manitoba",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "bbe9cd87-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(bbe9cd87-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Saskatchewan",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "9a1bbba2-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(9a1bbba2-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "15",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "HST",
+        "new_key": "Tax/New Brunswick",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "9010e3a8-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(9010e3a8-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "15",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "HST",
+        "new_key": "Tax/Newfoundland and Labrador",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "9d5ff7b4-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(9d5ff7b4-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "14",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "HST",
+        "new_key": "Tax/Nova Scotia",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "33ced3bc-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(33ced3bc-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "15",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "HST",
+        "new_key": "Tax/Prince Edward Island",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "6223fbd1-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(6223fbd1-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Nunavut",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "ee4584de-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(ee4584de-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Northwest Territories",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "36c4b5e4-ca78-ee11-8179-002248b0bfac",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(36c4b5e4-ca78-ee11-8179-002248b0bfac)",
+      "body": {
+        "new_longvalue": "5",
+        "statuscode": 1,
+        "new_application": "Taxes",
+        "new_value": "GST",
+        "new_key": "Tax/Yukon",
+        "statecode": 0
+      }
+    },
+    {
+      "id": "e475494d-f8b6-ee11-a569-6045bd60877f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(e475494d-f8b6-ee11-a569-6045bd60877f)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_value": "72",
+        "new_key": "Drupal/ActivationExpirationTimeframe"
+      }
+    },
+    {
+      "id": "3a993b5a-f8b6-ee11-a569-6045bd60877f",
+      "relativeUrl": "/api/data/v9.2/new_customconfigurations(3a993b5a-f8b6-ee11-a569-6045bd60877f)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_application": "Drupal",
+        "new_value": "6",
+        "new_key": "Drupal/PasswordResetExpirationTimeframe"
+      }
+    }
+  ]
+}

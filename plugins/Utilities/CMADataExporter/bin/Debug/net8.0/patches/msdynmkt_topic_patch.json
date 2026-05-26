@@ -1,0 +1,424 @@
+{
+  "table": "msdynmkt_topic",
+  "entitySetName": "msdynmkt_topics",
+  "generatedUtc": "2026-04-01T01:09:10.3943353Z",
+  "totalRecords": 26,
+  "records": [
+    {
+      "id": "8341ac26-b2bc-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(8341ac26-b2bc-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Nouvelles destinées aux membres, toutes les deux semaines.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Biweekly news and updates for members.",
+        "new_code": "email_subscription_the_brief",
+        "msdynmkt_name": "The Brief",
+        "new_frenchname": "En bref",
+        "statuscode": 1,
+        "new_displayorder": 100000000,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "bcf1cfe8-b6bc-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(bcf1cfe8-b6bc-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Actions de l’AMC pour la planification nationale et intégrée des ressources humaines de la santé.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "How the CMA is driving to national, integrated health human resource planning.",
+        "new_code": "interest_workforce_planning",
+        "msdynmkt_name": "Workforce planning",
+        "new_frenchname": "Planification des ressources humaines de la santé",
+        "statuscode": 1,
+        "new_displayorder": 100000012,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "cb1c4d50-b7bc-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(cb1c4d50-b7bc-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Offres de produits et services uniques de nos partenaires de la Banque Scotia.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Unique product and service offerings from our partners at Scotiabank.",
+        "new_code": "email_subscription_scotiabank_offers",
+        "msdynmkt_name": "Scotiabank Offers",
+        "new_frenchname": "Offres de la Banque Scotia",
+        "statuscode": 1,
+        "new_displayorder": 100000005,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "d38a81f4-ddbe-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(d38a81f4-ddbe-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Ce que fait l’AMC pour réduire les tâches administratives inutiles, à l’échelle nationale.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "What the CMA is doing to reduce unnecessary administrative tasks at a national level.",
+        "new_code": "interest_administrative_burden",
+        "msdynmkt_name": "Administrative burden",
+        "new_frenchname": "Fardeau administratif",
+        "statuscode": 1,
+        "new_displayorder": 100000013,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "04879e48-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(04879e48-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Renseignements sur les nouveaux programmes, les occasions et les événements de l’AMC.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Information on new CMA programs, opportunities and events.",
+        "new_code": "email_subscription_updates_events",
+        "msdynmkt_name": "Updates & Events",
+        "new_frenchname": "Nouvelles et événements",
+        "statuscode": 1,
+        "new_displayorder": 100000000,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "8701d155-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(8701d155-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Participation à nos travaux de recherche essentiels et le point sur nos études et rapports.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Participation in our essential research work as well as updates about our studies and reports.",
+        "new_code": "email_subscription_research",
+        "msdynmkt_name": "Research",
+        "new_frenchname": "Recherche",
+        "statuscode": 1,
+        "new_displayorder": 100000007,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "527e8275-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(527e8275-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Comment l’AMC travaille avec les médecins, les patientes et patients et les collectivités pour rendre le système de santé plus accessible et plus équitable.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "How the CMA is working with physicians, patients and communities to drive a more accessible and equitable health system.",
+        "new_code": "interest_re_imagining_health_systems",
+        "msdynmkt_name": "Re-imagining health systems",
+        "new_frenchname": "Repenser les systèmes de santé",
+        "statuscode": 1,
+        "new_displayorder": 100000011,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "f8bdd77b-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(f8bdd77b-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Activités de formation agréées et crédits de développement professionnel continu – et plus encore!",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Accredited learning with continuing professional development credits and more.",
+        "new_code": "email_subscription_professional_development",
+        "msdynmkt_name": "Professional Development",
+        "new_frenchname": "Développement professionnel",
+        "statuscode": 1,
+        "new_displayorder": 100000006,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "fa28d781-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(fa28d781-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 1,
+        "new_frenchdescription": "Résumés quotidiens sur les études cliniques les plus récentes — donnent droit à des crédits de DPC",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Concise, daily email summaries of the latest clinical studies and eligible for CPD credits",
+        "new_code": "email_subscription_poems",
+        "msdynmkt_name": "POEMs",
+        "new_frenchname": "POEMs",
+        "statuscode": 2,
+        "new_displayorder": 100000004,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "82221b8e-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(82221b8e-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Ce que fait l’AMC pour favoriser la sécurité et la santé des médecins au travail, afin qu’ils et elles puissent se concentrer sur la prestation des soins",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "What the CMA is doing to foster physician safety and health on the job, so doctors can focus on providing care.",
+        "new_code": "interest_physician_wellness_and_safety",
+        "msdynmkt_name": "Physical, psychological and cultural safety",
+        "new_frenchname": "Sécurité physique, psychologique et culturelle",
+        "statuscode": 1,
+        "new_displayorder": 100000019,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "d7c47294-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(d7c47294-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Utilisation des dons d’entreprise par l’AMC et son groupe de sociétés pour susciter des changements durables, tant sur le plan social qu’à l’échelle du système.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Where the CMA and its group of companies are directing corporate giving to drive sustainable system-level and social change.",
+        "new_code": "interest_philanthropy_and_giving",
+        "msdynmkt_name": "Philanthropy and giving",
+        "new_frenchname": "Dons et philanthropie",
+        "statuscode": 1,
+        "new_displayorder": 100000005,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "6e086b9a-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(6e086b9a-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Ce que fait l’AMC pour améliorer la mobilité des médecins et réduire les obstacles à la pratique grâce au permis d’exercice pancanadien.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "What the CMA is doing to improve physician mobility and reduce barriers to practice through pan-Canadian licensure.",
+        "new_code": "interest_pan_canadian_licensure",
+        "msdynmkt_name": "Pan-Canadian licensure",
+        "new_frenchname": "Permis d’exercice pancanadien",
+        "statuscode": 1,
+        "new_displayorder": 100000018,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "355f76a0-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(355f76a0-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Efforts de représentation soutenus de l’AMC en vue de promouvoir un système de santé écologiquement durable.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Updates on CMA’s ongoing advocacy for an environmentally sustainable health system.",
+        "new_code": "interest_net_zero",
+        "msdynmkt_name": "Climate and health",
+        "new_frenchname": "Climat et santé",
+        "statuscode": 1,
+        "new_displayorder": 100000000,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "a37cffac-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(a37cffac-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Offres de produits et services uniques de nos partenaires de Gestion financière MD.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Unique product and service offerings from our partners at MD Financial",
+        "new_code": "email_subscription_md_financial_offers",
+        "msdynmkt_name": "MD Financial Offers",
+        "new_frenchname": "Offres de Gestion financière MD",
+        "statuscode": 1,
+        "new_displayorder": 100000010,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "5ad30ab3-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(5ad30ab3-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Table des matières bimensuelle du JPN (Journal of Psychiatry & Neuroscience), comprenant des articles de recherche originaux et des revues de la littérature inédites dans les domaines de la psychiatrie et de la neuroscience.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Bimonthly Journal of Psychiatry & Neuroscience (JPN) table of contents, including original research and reviews in psychiatry and neuroscience.",
+        "new_code": "email_subscription_jpn_etoc",
+        "msdynmkt_name": "JPN eTOC",
+        "new_frenchname": "Table des matières électronique du JPN",
+        "statuscode": 1,
+        "new_displayorder": 100000009,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "a4358cc5-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(a4358cc5-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Table des matières mensuelle du JAMC (Journal de l’Association médicale canadienne), comprenant des chroniques nécrologiques et des traductions d’articles du CMAJ (Canadian Medical Association Journal).",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Monthly JAMC (Journal de l’Association médicale canadienne) table of contents, including obituaries and articles translated from CMAJ (Canadian Medical Association Journal) – available in French only.",
+        "new_code": "email_subscription_jamc_etoc",
+        "msdynmkt_name": "JAMC eTOC",
+        "new_frenchname": "Table des matières électronique du JAMC",
+        "statuscode": 1,
+        "new_displayorder": 100000008,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "827300cc-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(827300cc-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Condensé des mentions des activités de représentation et de leadership éclairé de l’AMC dans l’actualité.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "A digest of CMA advocacy and thought leadership in the news.",
+        "new_code": "email_subscription_cma_speaks_up",
+        "msdynmkt_name": "CMA Speaks Up",
+        "new_frenchname": "L’AMC se fait entendre",
+        "statuscode": 1,
+        "new_displayorder": 100000002,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "40ca0bd2-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(40ca0bd2-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Travaux de l’AMC menés en collaboration avec les Premières Nations, les Inuits et les Métis afin d’améliorer les résultats de santé chez les Autochtones.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Updates on CMA’s work improving Indigenous health outcomes in allyship with First Nations, Inuit and Métis Peoples.",
+        "new_code": "interest_indigenous_health",
+        "msdynmkt_name": "Indigenous health",
+        "new_frenchname": "Santé des Autochtones",
+        "statuscode": 1,
+        "new_displayorder": 100000000,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "467006d8-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(467006d8-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Comment l’AMC soutient l’équité pour les médecins et les patientes et patients, défend la diversité et l’inclusion au sein du système de santé et des effectifs, et travaille à l’amélioration de la santé de toutes et de tous.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "How the CMA is supporting physician and patient equity, and championing diversity and inclusion within the health system, workforce and outcomes.",
+        "new_code": "interest_equity_diversity_and_inclusion",
+        "msdynmkt_name": "Equity, diversity and inclusion",
+        "new_frenchname": "Équité, diversité et inclusion",
+        "statuscode": 1,
+        "new_displayorder": 100000000,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "e08b16de-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(e08b16de-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Efforts soutenus de l’AMC en vue de stabiliser le système de santé et de soutenir les médecins.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Updates on the CMA’s work to stabilize the health system and support physicians.",
+        "new_code": "interest_crisis_response",
+        "msdynmkt_name": "Crisis response",
+        "new_frenchname": "Réponse à la crise",
+        "statuscode": 1,
+        "new_displayorder": 100000017,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "e8dc9de4-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(e8dc9de4-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Table des matières trimestrielle du CMAJ Open, comprenant des articles de recherche clinique de grande qualité dans toutes les disciplines médicales.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Quarterly CMAJ Open table of contents, including high-quality medical research from all medical and health disciplines.",
+        "new_code": "email_subscription_cmaj_open_etoc",
+        "msdynmkt_name": "CMAJ Open eTOC",
+        "new_frenchname": "Table de CMAJ Open",
+        "statuscode": 1,
+        "new_displayorder": 100000012,
+        "new_publishedtocompliancecenter": false
+      }
+    },
+    {
+      "id": "62479dea-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(62479dea-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Table des matières bimensuelle du CJS (Canadian Journal of Surgery), comprenant des articles de recherche et d’autres articles informatifs destinés aux spécialistes canadiens en chirurgie.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Bimonthly Canadian Journal of Surgery (CJS) table of contents, including research and other educational articles for Canadian surgical specialists.",
+        "new_code": "email_subscription_cjs_etoc",
+        "msdynmkt_name": "CJS eTOC",
+        "new_frenchname": "Table des matières électronique du CJS",
+        "statuscode": 1,
+        "new_displayorder": 100000004,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "44b29cf0-0abf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(44b29cf0-0abf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Ce que fait l’AMC pour trouver et promouvoir des solutions favorisant le vieillissement dans la dignité au sein de la communauté.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "How the CMA is helping to ensure older adults are able to age with dignity in our communities with a full spectrum of support.",
+        "new_code": "interest_aging",
+        "msdynmkt_name": "Aging",
+        "new_frenchname": "Vieillissement",
+        "statuscode": 1,
+        "new_displayorder": 100000015,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "33699102-0bbf-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(33699102-0bbf-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Table des matières hebdomadaire du CMAJ (Canadian Medical Association Journal), comprenant des articles de recherche clinique originaux, des nouvelles sur la pratique, des chroniques nécrologiques et des éditoriaux qui suscitent la réflexion.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Weekly CMAJ (Canadian Medical Association Journal) table of contents, including original clinical research, practice updates, obituaries and thought-provoking editorials.",
+        "new_code": "email_subscription_cmaj_etoc",
+        "msdynmkt_name": "CMAJ eTOC",
+        "new_frenchname": "Table des matières électronique du CMAJ",
+        "statuscode": 1,
+        "new_displayorder": 100000008,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "42a5f4b2-7e06-f011-bae2-000d3ae969da",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(42a5f4b2-7e06-f011-bae2-000d3ae969da)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Tellement santé est un projet de l’Association médicale canadienne qui vise à démystifier les soins de santé afin de les améliorer.",
+        "new_category@odata.bind": "/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Healthcare For Real is an initiative of the Canadian Medical Association to demystify health care to make it better.",
+        "new_code": "email_subscription_healthcare_for_real",
+        "msdynmkt_name": "Healthcare for Real",
+        "new_frenchname": "Tellement santé",
+        "statuscode": 1,
+        "new_displayorder": 100000003,
+        "new_publishedtocompliancecenter": true
+      }
+    },
+    {
+      "id": "de7ed6b8-4ef4-ef11-be20-6045bd5dc80c",
+      "relativeUrl": "/api/data/v9.2/msdynmkt_topics(de7ed6b8-4ef4-ef11-be20-6045bd5dc80c)",
+      "body": {
+        "statecode": 0,
+        "new_frenchdescription": "Faites partie d’une communauté. Recevez des conseils et des outils pour jouer un rôle actif dans la réforme des soins de santé.",
+        "new_category@odata.bind": "/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+        "new_englishdescription": "Be part of a community. Receive tips and tools for taking action on health care reform.",
+        "new_code": "interest_advocacy",
+        "msdynmkt_name": "Health advocacy",
+        "new_frenchname": "Représentation en santé",
+        "statuscode": 1,
+        "new_displayorder": 100000024,
+        "new_publishedtocompliancecenter": true
+      }
+    }
+  ]
+}

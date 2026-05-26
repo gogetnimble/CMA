@@ -1,0 +1,1893 @@
+{
+  "table": "new_eventtype",
+  "entitySetName": "new_eventtypes",
+  "generatedUtc": "2026-04-01T01:09:10.4569385Z",
+  "totalRecords": 146,
+  "records": [
+    {
+      "id": "b9b4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(b9b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Conseil général de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1068",
+        "new_name": "CMA General Council / Conseil général de l’AMC",
+        "new_english": "CMA General Council "
+      }
+    },
+    {
+      "id": "bab4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bab4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Conférence",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1071",
+        "new_name": "Conference / Conférence",
+        "new_english": "Conference "
+      }
+    },
+    {
+      "id": "bbb4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bbb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Exposition",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1072",
+        "new_name": "Exhibiting / Exposition",
+        "new_english": "Exhibiting "
+      }
+    },
+    {
+      "id": "bcb4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bcb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": "Forum/Séminaire",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1073",
+        "new_name": "Forum/Seminar /  Forum/Séminaire",
+        "new_english": "Forum/Seminar"
+      }
+    },
+    {
+      "id": "bdb4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bdb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Innovation sociale de Joule",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1074",
+        "new_name": "Joule Social Innovation / Innovation sociale de Joule",
+        "new_english": "Joule Social Innovation "
+      }
+    },
+    {
+      "id": "beb4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(beb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Réunion",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1075",
+        "new_name": "Meeting / Réunion",
+        "new_english": "Meeting "
+      }
+    },
+    {
+      "id": "bfb4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " GRM",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1076",
+        "new_name": "MRM / GRM",
+        "new_english": "MRM "
+      }
+    },
+    {
+      "id": "c0b4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " ILM en milieu de travail",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1077",
+        "new_name": "PMI In House / ILM en milieu de travail",
+        "new_english": "PMI In House "
+      }
+    },
+    {
+      "id": "c1b4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Inscription ouverte à l’ILM",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1078",
+        "new_name": "PMI Open Enrollment / Inscription ouverte à l’ILM",
+        "new_english": "PMI Open Enrollment "
+      }
+    },
+    {
+      "id": "c2b4c57a-efc6-e811-a96d-000d3aff2e2f",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c2b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+      "body": {
+        "new_french": " Formation  des médecins en exercice",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1084",
+        "new_name": "Practicing Physician Education / Formation  des médecins en exercice",
+        "new_english": "Practicing Physician Education "
+      }
+    },
+    {
+      "id": "fe96fd79-efc6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(fe96fd79-efc6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": " Formation des médecins résidents",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1087",
+        "new_name": "Resident Education / Formation des médecins résidents",
+        "new_english": "Resident Education "
+      }
+    },
+    {
+      "id": "ff96fd79-efc6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(ff96fd79-efc6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "Social",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1089",
+        "new_name": "Social",
+        "new_english": "Social"
+      }
+    },
+    {
+      "id": "0097fd79-efc6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(0097fd79-efc6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": " Allocution",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1090",
+        "new_name": "Speaking / Allocution",
+        "new_english": "Speaking "
+      }
+    },
+    {
+      "id": "b9bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(b9bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Événements agréés",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1065",
+        "new_name": "Accredited events / Événements agréés",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Accredited events "
+      }
+    },
+    {
+      "id": "bdbbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bdbbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Événement d’appréciation",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1066",
+        "new_name": "Appreciation event / Événement d’appréciation",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Appreciation event "
+      }
+    },
+    {
+      "id": "bfbbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bfbbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Groupe de discussion de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1067",
+        "new_name": "CMA discussion group / Groupe de discussion de l’AMC",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "CMA discussion group "
+      }
+    },
+    {
+      "id": "c1bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c1bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Tables rondes de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1069",
+        "new_name": "CMA Round tables / Tables rondes de l’AMC",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "CMA Round tables "
+      }
+    },
+    {
+      "id": "c3bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c3bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Assemblée publique de l’AMC",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1070",
+        "new_name": "CMA Town Hall / Assemblée publique de l’AMC",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "CMA Town Hall "
+      }
+    },
+    {
+      "id": "c5bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c5bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "Démonstration de produit",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1085",
+        "new_name": "Product Demo /Démonstration de produit",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Product Demo "
+      }
+    },
+    {
+      "id": "c7bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c7bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Événements des AMPT",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1086",
+        "new_name": "PTMA events / Événements des AMPT",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PTMA events "
+      }
+    },
+    {
+      "id": "c8bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c8bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Séminaires",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1088",
+        "new_name": "Seminars / Séminaires",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Seminars "
+      }
+    },
+    {
+      "id": "c9bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c9bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Salons professionnels",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1091",
+        "new_name": "Tradeshows / Salons professionnels",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Tradeshows "
+      }
+    },
+    {
+      "id": "cabbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(cabbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": " Démonstration de la proposition de valeur",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1092",
+        "new_name": "Value prop demo / Démonstration de la proposition de valeur",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(bfb4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "Value prop demo "
+      }
+    },
+    {
+      "id": "9639043f-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(9639043f-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "127",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1094",
+        "new_name": "127",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "127"
+      }
+    },
+    {
+      "id": "cc8c2245-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(cc8c2245-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "128",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1096",
+        "new_name": "128",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "128"
+      }
+    },
+    {
+      "id": "29f13251-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(29f13251-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "129",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1098",
+        "new_name": "129",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "129"
+      }
+    },
+    {
+      "id": "ad904f6a-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(ad904f6a-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "201",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1119",
+        "new_name": "201",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "201"
+      }
+    },
+    {
+      "id": "d5b66e70-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d5b66e70-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "203",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1120",
+        "new_name": "203",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "203"
+      }
+    },
+    {
+      "id": "513baa76-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(513baa76-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "206",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1123",
+        "new_name": "206",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "206"
+      }
+    },
+    {
+      "id": "be39157d-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(be39157d-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "207",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1124",
+        "new_name": "207",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "207"
+      }
+    },
+    {
+      "id": "28833b83-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(28833b83-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "208",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1125",
+        "new_name": "208",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "208"
+      }
+    },
+    {
+      "id": "25958089-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(25958089-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "205",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1121",
+        "new_name": "205",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "205"
+      }
+    },
+    {
+      "id": "642f5696-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(642f5696-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "209",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1126",
+        "new_name": "209",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "209"
+      }
+    },
+    {
+      "id": "fc69daa2-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(fc69daa2-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "210",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1128",
+        "new_name": "210",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "210"
+      }
+    },
+    {
+      "id": "8532b6ec-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(8532b6ec-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "302",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1131",
+        "new_name": "302",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "302"
+      }
+    },
+    {
+      "id": "9947e4f2-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(9947e4f2-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "303",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1133",
+        "new_name": "303",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "303"
+      }
+    },
+    {
+      "id": "47a82205-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(47a82205-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "304",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1135",
+        "new_name": "304",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "304"
+      }
+    },
+    {
+      "id": "8789a913-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(8789a913-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "305",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1137",
+        "new_name": "305",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "305"
+      }
+    },
+    {
+      "id": "0050d31f-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(0050d31f-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "306",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1139",
+        "new_name": "306",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "306"
+      }
+    },
+    {
+      "id": "8d1e6c3a-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(8d1e6c3a-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "308",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1141",
+        "new_name": "308",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "308"
+      }
+    },
+    {
+      "id": "847c9b46-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(847c9b46-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "309",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1143",
+        "new_name": "309",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "309"
+      }
+    },
+    {
+      "id": "adcbc859-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(adcbc859-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "310",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1145",
+        "new_name": "310",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "310"
+      }
+    },
+    {
+      "id": "32864f45-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(32864f45-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "130",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1099",
+        "new_name": "130",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "130"
+      }
+    },
+    {
+      "id": "ed162452-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(ed162452-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "131",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1101",
+        "new_name": "131",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "131"
+      }
+    },
+    {
+      "id": "08b80660-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(08b80660-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "132",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1103",
+        "new_name": "132",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "132"
+      }
+    },
+    {
+      "id": "1b534467-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(1b534467-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "133",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1105",
+        "new_name": "133",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "133"
+      }
+    },
+    {
+      "id": "25895e6f-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(25895e6f-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "134",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1107",
+        "new_name": "134",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "134"
+      }
+    },
+    {
+      "id": "74a8bd75-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(74a8bd75-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "135",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1109",
+        "new_name": "135",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "135"
+      }
+    },
+    {
+      "id": "22073282-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(22073282-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "136",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1111",
+        "new_name": "136",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "136"
+      }
+    },
+    {
+      "id": "870e5a88-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(870e5a88-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "137",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1113",
+        "new_name": "137",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "137"
+      }
+    },
+    {
+      "id": "3169708e-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(3169708e-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "138",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1115",
+        "new_name": "138",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "138"
+      }
+    },
+    {
+      "id": "0ffdfa94-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(0ffdfa94-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "139",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1117",
+        "new_name": "139",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "139"
+      }
+    },
+    {
+      "id": "e93c0d01-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(e93c0d01-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "121",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1042",
+        "new_name": "121",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "121"
+      }
+    },
+    {
+      "id": "46060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(46060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "122",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1044",
+        "new_name": "122",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "122"
+      }
+    },
+    {
+      "id": "47060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(47060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "123",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1046",
+        "new_name": "123",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "123"
+      }
+    },
+    {
+      "id": "48060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(48060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "124",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1048",
+        "new_name": "124",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "124"
+      }
+    },
+    {
+      "id": "49060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(49060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "125",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1050",
+        "new_name": "125",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "125"
+      }
+    },
+    {
+      "id": "4a060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4a060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "126",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1052",
+        "new_name": "126",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "126"
+      }
+    },
+    {
+      "id": "4b060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4b060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "202",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1054",
+        "new_name": "202",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "202"
+      }
+    },
+    {
+      "id": "4c060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4c060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "204",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1057",
+        "new_name": "204",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "204"
+      }
+    },
+    {
+      "id": "4d060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4d060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "301",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1062",
+        "new_name": "301",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "301"
+      }
+    },
+    {
+      "id": "4e060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4e060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "307",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1063",
+        "new_name": "307",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "307"
+      }
+    },
+    {
+      "id": "4f060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(4f060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": " ILM1",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1079",
+        "new_name": "PMI1 / ILM1",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PMI1 "
+      }
+    },
+    {
+      "id": "50060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(50060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "ILM1-F",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1081",
+        "new_name": "PMI1-F /ILM1-F",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PMI1-F "
+      }
+    },
+    {
+      "id": "51060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(51060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": " ILM",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1083",
+        "new_name": "PMIS / ILM",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PMIS "
+      }
+    },
+    {
+      "id": "58060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(58060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "101",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1002",
+        "new_name": "101",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "101"
+      }
+    },
+    {
+      "id": "5a060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5a060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "102",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1004",
+        "new_name": "102",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "102"
+      }
+    },
+    {
+      "id": "5b060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5b060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "103",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1006",
+        "new_name": "103",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "103"
+      }
+    },
+    {
+      "id": "5c060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5c060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "104",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1008",
+        "new_name": "104",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "104"
+      }
+    },
+    {
+      "id": "5d060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5d060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "105",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1010",
+        "new_name": "105",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "105"
+      }
+    },
+    {
+      "id": "5e060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5e060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "106",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1012",
+        "new_name": "106",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "106"
+      }
+    },
+    {
+      "id": "5f060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5f060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "107",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1014",
+        "new_name": "107",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "107"
+      }
+    },
+    {
+      "id": "60060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(60060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "108",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1015",
+        "new_name": "108",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "108"
+      }
+    },
+    {
+      "id": "61060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(61060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "109",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1017",
+        "new_name": "109",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "109"
+      }
+    },
+    {
+      "id": "62060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(62060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "110",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1019",
+        "new_name": "110",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "110"
+      }
+    },
+    {
+      "id": "56dea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(56dea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "111",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1022",
+        "new_name": "111",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "111"
+      }
+    },
+    {
+      "id": "57dea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(57dea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "112",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1024",
+        "new_name": "112",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "112"
+      }
+    },
+    {
+      "id": "58dea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(58dea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "113",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1026",
+        "new_name": "113",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "113"
+      }
+    },
+    {
+      "id": "59dea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(59dea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "114",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1028",
+        "new_name": "114",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "114"
+      }
+    },
+    {
+      "id": "5adea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5adea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "115",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1030",
+        "new_name": "115",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "115"
+      }
+    },
+    {
+      "id": "5bdea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5bdea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "116",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1032",
+        "new_name": "116",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "116"
+      }
+    },
+    {
+      "id": "5cdea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5cdea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "117",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1034",
+        "new_name": "117",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "117"
+      }
+    },
+    {
+      "id": "5ddea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5ddea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "118",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1036",
+        "new_name": "118",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "118"
+      }
+    },
+    {
+      "id": "5edea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5edea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "119",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1038",
+        "new_name": "119",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "119"
+      }
+    },
+    {
+      "id": "5fdea602-f0c6-e811-a96b-000d3aff2e34",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(5fdea602-f0c6-e811-a96b-000d3aff2e34)",
+      "body": {
+        "new_french": "120",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1040",
+        "new_name": "120",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c0b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "120"
+      }
+    },
+    {
+      "id": "6d08eb30-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(6d08eb30-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "127",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1093",
+        "new_name": "127",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "127"
+      }
+    },
+    {
+      "id": "978c2245-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(978c2245-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "128",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1095",
+        "new_name": "128",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "128"
+      }
+    },
+    {
+      "id": "1da3394b-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(1da3394b-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "129",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1097",
+        "new_name": "129",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "129"
+      }
+    },
+    {
+      "id": "295a7e8f-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(295a7e8f-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "205",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1122",
+        "new_name": "205",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "205"
+      }
+    },
+    {
+      "id": "d7ad759c-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d7ad759c-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "209",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1127",
+        "new_name": "209",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "209"
+      }
+    },
+    {
+      "id": "166adaa2-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(166adaa2-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "210",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1129",
+        "new_name": "210",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "210"
+      }
+    },
+    {
+      "id": "7c6314af-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(7c6314af-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "301",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1130",
+        "new_name": "301",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "301"
+      }
+    },
+    {
+      "id": "9b32b6ec-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(9b32b6ec-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "302",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1132",
+        "new_name": "302",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "302"
+      }
+    },
+    {
+      "id": "cf04e3f8-5a1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(cf04e3f8-5a1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "303",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1134",
+        "new_name": "303",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "303"
+      }
+    },
+    {
+      "id": "c897ba0b-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c897ba0b-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "304",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1136",
+        "new_name": "304",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "304"
+      }
+    },
+    {
+      "id": "8809b519-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(8809b519-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "305",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1138",
+        "new_name": "305",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "305"
+      }
+    },
+    {
+      "id": "0c50d31f-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(0c50d31f-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "306",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1140",
+        "new_name": "306",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "306"
+      }
+    },
+    {
+      "id": "94b68640-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(94b68640-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "308",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1142",
+        "new_name": "308",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "308"
+      }
+    },
+    {
+      "id": "bdbbb44c-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bdbbb44c-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "309",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1144",
+        "new_name": "309",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "309"
+      }
+    },
+    {
+      "id": "13ae3660-5b1e-e911-a97d-000d3af3eb40",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(13ae3660-5b1e-e911-a97d-000d3af3eb40)",
+      "body": {
+        "new_french": "310",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1146",
+        "new_name": "310",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "310"
+      }
+    },
+    {
+      "id": "c7f96aa1-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c7f96aa1-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "130",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1100",
+        "new_name": "130",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "130"
+      }
+    },
+    {
+      "id": "cbd663a7-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(cbd663a7-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "131",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1102",
+        "new_name": "131",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "131"
+      }
+    },
+    {
+      "id": "f35081b0-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(f35081b0-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "132",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1104",
+        "new_name": "132",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "132"
+      }
+    },
+    {
+      "id": "cb5e0cb7-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(cb5e0cb7-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "133",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1106",
+        "new_name": "133",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "133"
+      }
+    },
+    {
+      "id": "b2738fbd-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(b2738fbd-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "134",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1108",
+        "new_name": "134",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "134"
+      }
+    },
+    {
+      "id": "3c5df5c3-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(3c5df5c3-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "135",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1110",
+        "new_name": "135",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "135"
+      }
+    },
+    {
+      "id": "11adbbca-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(11adbbca-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "136",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1112",
+        "new_name": "136",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "136"
+      }
+    },
+    {
+      "id": "c03b63d2-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c03b63d2-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "137",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1114",
+        "new_name": "137",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "137"
+      }
+    },
+    {
+      "id": "ed270cd9-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(ed270cd9-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "138",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1116",
+        "new_name": "138",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "138"
+      }
+    },
+    {
+      "id": "902270df-b21d-e911-a97d-000d3af3eee6",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(902270df-b21d-e911-a97d-000d3af3eee6)",
+      "body": {
+        "new_french": "139",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1118",
+        "new_name": "139",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "139"
+      }
+    },
+    {
+      "id": "b7bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(b7bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "118",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1035",
+        "new_name": "118",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "118"
+      }
+    },
+    {
+      "id": "b8bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(b8bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "119",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1037",
+        "new_name": "119",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "119"
+      }
+    },
+    {
+      "id": "babbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(babbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "120",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1039",
+        "new_name": "120",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "120"
+      }
+    },
+    {
+      "id": "bbbbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bbbbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "121",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1041",
+        "new_name": "121",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "121"
+      }
+    },
+    {
+      "id": "bcbbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bcbbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "122",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1043",
+        "new_name": "122",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "122"
+      }
+    },
+    {
+      "id": "bebbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(bebbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "123",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1045",
+        "new_name": "123",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "123"
+      }
+    },
+    {
+      "id": "c0bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c0bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "124",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1047",
+        "new_name": "124",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "124"
+      }
+    },
+    {
+      "id": "c2bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c2bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "125",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1049",
+        "new_name": "125",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "125"
+      }
+    },
+    {
+      "id": "c4bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c4bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "126",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1051",
+        "new_name": "126",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "126"
+      }
+    },
+    {
+      "id": "c6bbe802-f0c6-e811-a96d-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(c6bbe802-f0c6-e811-a96d-000d3aff2e30)",
+      "body": {
+        "new_french": "201",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1053",
+        "new_name": "201",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "201"
+      }
+    },
+    {
+      "id": "52060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(52060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "101",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1001",
+        "new_name": "101",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "101"
+      }
+    },
+    {
+      "id": "53060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(53060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "102",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1003",
+        "new_name": "102",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "102"
+      }
+    },
+    {
+      "id": "54060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(54060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "103",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1005",
+        "new_name": "103",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "103"
+      }
+    },
+    {
+      "id": "55060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(55060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "104",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1007",
+        "new_name": "104",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "104"
+      }
+    },
+    {
+      "id": "56060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(56060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "105",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1009",
+        "new_name": "105",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "105"
+      }
+    },
+    {
+      "id": "57060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(57060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "106",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1011",
+        "new_name": "106",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "106"
+      }
+    },
+    {
+      "id": "59060907-f0c6-e811-a96e-000d3aff2e31",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(59060907-f0c6-e811-a96e-000d3aff2e31)",
+      "body": {
+        "new_french": "107",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1013",
+        "new_name": "107",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "107"
+      }
+    },
+    {
+      "id": "d5836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d5836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "202",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1055",
+        "new_name": "202",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "202"
+      }
+    },
+    {
+      "id": "d6836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d6836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "203",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1056",
+        "new_name": "203",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "203"
+      }
+    },
+    {
+      "id": "d7836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d7836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "204",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1058",
+        "new_name": "204",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "204"
+      }
+    },
+    {
+      "id": "d8836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d8836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "206",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1059",
+        "new_name": "206",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "206"
+      }
+    },
+    {
+      "id": "d9836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(d9836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "207",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1060",
+        "new_name": "207",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "207"
+      }
+    },
+    {
+      "id": "da836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(da836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "208",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1061",
+        "new_name": "208",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "208"
+      }
+    },
+    {
+      "id": "db836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(db836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "307",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1064",
+        "new_name": "307",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "307"
+      }
+    },
+    {
+      "id": "dc836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(dc836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": "ILM1",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1080",
+        "new_name": "PMI1 /ILM1",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PMI1 "
+      }
+    },
+    {
+      "id": "dd836602-f0c6-e811-a96d-000d3aff2e32",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(dd836602-f0c6-e811-a96d-000d3aff2e32)",
+      "body": {
+        "new_french": " ILM6",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1082",
+        "new_name": "PMI6 / ILM6",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "PMI6 "
+      }
+    },
+    {
+      "id": "eba95901-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(eba95901-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "108",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1016",
+        "new_name": "108",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "108"
+      }
+    },
+    {
+      "id": "eca95901-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(eca95901-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "109",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1018",
+        "new_name": "109",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "109"
+      }
+    },
+    {
+      "id": "eda95901-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(eda95901-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "110",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1020",
+        "new_name": "110",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "110"
+      }
+    },
+    {
+      "id": "40ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(40ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "111",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1021",
+        "new_name": "111",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "111"
+      }
+    },
+    {
+      "id": "41ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(41ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "112",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1023",
+        "new_name": "112",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "112"
+      }
+    },
+    {
+      "id": "42ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(42ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "113",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1025",
+        "new_name": "113",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "113"
+      }
+    },
+    {
+      "id": "43ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(43ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "114",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1027",
+        "new_name": "114",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "114"
+      }
+    },
+    {
+      "id": "44ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(44ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "115",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1029",
+        "new_name": "115",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "115"
+      }
+    },
+    {
+      "id": "45ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(45ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "116",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1031",
+        "new_name": "116",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "116"
+      }
+    },
+    {
+      "id": "46ef5007-f0c6-e811-a96e-000d3aff2e33",
+      "relativeUrl": "/api/data/v9.2/new_eventtypes(46ef5007-f0c6-e811-a96e-000d3aff2e33)",
+      "body": {
+        "new_french": "117",
+        "statecode": 0,
+        "statuscode": 1,
+        "new_eventtype_id": "ET1033",
+        "new_name": "117",
+        "new_parenttypeid@odata.bind": "/new_eventtypes(c1b4c57a-efc6-e811-a96d-000d3aff2e2f)",
+        "new_english": "117"
+      }
+    }
+  ]
+}

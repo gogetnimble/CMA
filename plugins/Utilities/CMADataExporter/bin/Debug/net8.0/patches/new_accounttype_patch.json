@@ -1,0 +1,355 @@
+{
+  "table": "new_accounttype",
+  "entitySetName": "new_accounttypes",
+  "generatedUtc": "2026-04-01T01:09:10.3999895Z",
+  "totalRecords": 26,
+  "records": [
+    {
+      "id": "b0ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(b0ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Organisation non gouvernementale",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1016",
+        "statuscode": 1,
+        "new_name": "Nongovernmental Organization / Organisation non gouvernementale",
+        "new_english": "Nongovernmental Organization "
+      }
+    },
+    {
+      "id": "b2ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(b2ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Agence de publicité",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1001",
+        "statuscode": 1,
+        "new_name": "Advertising Agency / Agence de publicité",
+        "new_english": "Advertising Agency "
+      }
+    },
+    {
+      "id": "b4ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(b4ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1004",
+        "statuscode": 1,
+        "new_name": "Association",
+        "new_english": "Association"
+      }
+    },
+    {
+      "id": "b6ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(b6ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Clinique",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1005",
+        "statuscode": 1,
+        "new_name": "Clinic / Clinique",
+        "new_english": "Clinic "
+      }
+    },
+    {
+      "id": "b8ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(b8ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Entité commerciale",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1006",
+        "statuscode": 1,
+        "new_name": "Commercial Entity / Entité commerciale",
+        "new_english": "Commercial Entity "
+      }
+    },
+    {
+      "id": "baff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Comité",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1007",
+        "statuscode": 1,
+        "new_name": "Committee / Comité",
+        "new_english": "Committee "
+      }
+    },
+    {
+      "id": "bcff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(bcff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Lieu de l’événement",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1008",
+        "statuscode": 1,
+        "new_name": "Event Location / Lieu de l’événement",
+        "new_english": "Event Location "
+      }
+    },
+    {
+      "id": "beff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(beff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Gouvernement",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1012",
+        "statuscode": 1,
+        "new_name": "Government / Gouvernement",
+        "new_english": "Government "
+      }
+    },
+    {
+      "id": "c0ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(c0ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": "Hôpital / Autorité sanitaire",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1014",
+        "statuscode": 1,
+        "new_name": "Hospital / Health Authority /  Hôpital / Autorité sanitaire",
+        "new_english": "Hospital / Health Authority"
+      }
+    },
+    {
+      "id": "c2ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(c2ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Médias",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1015",
+        "statuscode": 1,
+        "new_name": "Media / Médias",
+        "new_english": "Media "
+      }
+    },
+    {
+      "id": "c4ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(c4ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Société pharmaceutique",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1017",
+        "statuscode": 1,
+        "new_name": "Pharmaceutical / Société pharmaceutique",
+        "new_english": "Pharmaceutical "
+      }
+    },
+    {
+      "id": "c6ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(c6ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Politique",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1019",
+        "statuscode": 1,
+        "new_name": "Political / Politique",
+        "new_english": "Political "
+      }
+    },
+    {
+      "id": "c8ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(c8ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Association professionnelle",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1020",
+        "statuscode": 1,
+        "new_name": "Professional Association / Association professionnelle",
+        "new_english": "Professional Association "
+      }
+    },
+    {
+      "id": "caff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(caff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Services professionnels",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1021",
+        "statuscode": 1,
+        "new_name": "Professional Services / Services professionnels",
+        "new_english": "Professional Services "
+      }
+    },
+    {
+      "id": "ccff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(ccff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Université",
+        "new_accesscontrollocked": true,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1024",
+        "statuscode": 1,
+        "new_name": "University / Université",
+        "new_english": "University "
+      }
+    },
+    {
+      "id": "ceff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(ceff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Association médicale provinciale ou territoriale",
+        "new_accesscontrollocked": true,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1022",
+        "statuscode": 1,
+        "new_name": "Provincial and Territorial Medical Association / Association médicale provinciale ou territoriale",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(b4ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Provincial and Territorial Medical Association "
+      }
+    },
+    {
+      "id": "d0ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(d0ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Affiliée",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1002",
+        "statuscode": 1,
+        "new_name": "Affiliate / Affiliée",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(b4ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Affiliate "
+      }
+    },
+    {
+      "id": "d2ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(d2ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Association de soins de santé",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1013",
+        "statuscode": 1,
+        "new_name": "Healthcare Association / Association de soins de santé",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(b4ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Healthcare Association "
+      }
+    },
+    {
+      "id": "d4ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(d4ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Société associée",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1003",
+        "statuscode": 1,
+        "new_name": "Associate Society / Société associée",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(b4ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Associate Society "
+      }
+    },
+    {
+      "id": "d6ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(d6ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Groupe de travail",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1023",
+        "statuscode": 1,
+        "new_name": "Task Force / Groupe de travail",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Task Force "
+      }
+    },
+    {
+      "id": "d8ff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(d8ff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1010",
+        "statuscode": 1,
+        "new_name": "Forum",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Forum"
+      }
+    },
+    {
+      "id": "daff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(daff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Gouvernance et gestion",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1011",
+        "statuscode": 1,
+        "new_name": "Governance and Stewardship / Gouvernance et gestion",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Governance and Stewardship "
+      }
+    },
+    {
+      "id": "dcff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(dcff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Politique et représentation",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1018",
+        "statuscode": 1,
+        "new_name": "Policy and Advocacy / Politique et représentation",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Policy and Advocacy "
+      }
+    },
+    {
+      "id": "deff8d60-289b-e811-a96b-000d3af3f58a",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(deff8d60-289b-e811-a96b-000d3af3f58a)",
+      "body": {
+        "new_french": " Externe",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1009",
+        "statuscode": 1,
+        "new_name": "External / Externe",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(baff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "External "
+      }
+    },
+    {
+      "id": "dd4162a6-9753-ea11-a811-000d3af3ae41",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(dd4162a6-9753-ea11-a811-000d3af3ae41)",
+      "body": {
+        "new_french": "Organisation de certification",
+        "new_accesscontrollocked": false,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1101",
+        "statuscode": 1,
+        "new_parenttypeid@odata.bind": "/new_accounttypes(c8ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_name": "Certifying Body /  Organisation de certification",
+        "new_english": "Certifying Body"
+      }
+    },
+    {
+      "id": "8e504d62-341f-e911-a976-000d3aff2e30",
+      "relativeUrl": "/api/data/v9.2/new_accounttypes(8e504d62-341f-e911-a976-000d3aff2e30)",
+      "body": {
+        "new_french": "Ordre professionnel",
+        "new_accesscontrollocked": true,
+        "statecode": 0,
+        "new_accounttype_id": "ACT1025",
+        "statuscode": 1,
+        "new_name": "Licensing Body /  Ordre professionnel",
+        "new_parenttypeid@odata.bind": "/new_accounttypes(c8ff8d60-289b-e811-a96b-000d3af3f58a)",
+        "new_english": "Licensing Body"
+      }
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "table": "pricelevel",
+  "entitySetName": "pricelevels",
+  "generatedUtc": "2026-04-01T01:09:10.5095755Z",
+  "totalRecords": 27,
+  "records": [
+    {
+      "id": "47c2ab83-201c-ef11-840a-000d3a8491ad",
+      "relativeUrl": "/api/data/v9.2/pricelevels(47c2ab83-201c-ef11-840a-000d3a8491ad)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 3,
+        "enddate": "2028-12-31T05:00:00Z",
+        "statecode": 1,
+        "freighttermscode": 1,
+        "begindate": "2028-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "DO NOT USE 2028 Membership",
+        "statuscode": 100002
+      }
+    },
+    {
+      "id": "c3451400-020c-ec11-b6e6-000d3ae89bc7",
+      "relativeUrl": "/api/data/v9.2/pricelevels(c3451400-020c-ec11-b6e6-000d3ae89bc7)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "enddate": "2024-12-31T05:00:00Z",
+        "statecode": 0,
+        "freighttermscode": 1,
+        "begindate": "2024-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "2024 Membership",
+        "statuscode": 100001
+      }
+    },
+    {
+      "id": "a9e0343c-020c-ec11-b6e6-000d3ae89bc7",
+      "relativeUrl": "/api/data/v9.2/pricelevels(a9e0343c-020c-ec11-b6e6-000d3ae89bc7)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "enddate": "2025-12-31T05:00:00Z",
+        "statecode": 0,
+        "freighttermscode": 1,
+        "begindate": "2025-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "2025 Membership",
+        "statuscode": 100001
+      }
+    },
+    {
+      "id": "e9c82569-c1d4-e911-a812-000d3af3ac9d",
+      "relativeUrl": "/api/data/v9.2/pricelevels(e9c82569-c1d4-e911-a812-000d3af3ac9d)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "enddate": "2023-12-31T05:00:00Z",
+        "statecode": 0,
+        "freighttermscode": 1,
+        "begindate": "2023-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "2023 Membership",
+        "statuscode": 100001
+      }
+    },
+    {
+      "id": "09e3b78d-3c43-ed11-bba3-0022483ddf2d",
+      "relativeUrl": "/api/data/v9.2/pricelevels(09e3b78d-3c43-ed11-bba3-0022483ddf2d)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 3,
+        "enddate": "2027-12-31T05:00:00Z",
+        "statecode": 1,
+        "freighttermscode": 1,
+        "begindate": "2027-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "DO NOT USE - 2027 Membership",
+        "statuscode": 100002
+      }
+    },
+    {
+      "id": "178dfb9d-a01c-ed11-b83e-002248ae4a6c",
+      "relativeUrl": "/api/data/v9.2/pricelevels(178dfb9d-a01c-ed11-b83e-002248ae4a6c)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 3,
+        "enddate": "2026-12-31T05:00:00Z",
+        "statecode": 1,
+        "freighttermscode": 1,
+        "begindate": "2026-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "old do not use - 2026 Membership",
+        "statuscode": 100002
+      }
+    },
+    {
+      "id": "cea90656-d82b-e211-92e5-005056a00065",
+      "relativeUrl": "/api/data/v9.2/pricelevels(cea90656-d82b-e211-92e5-005056a00065)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 1,
+        "name": "MX360R2- Pricelist",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2012-11-30T10:00:00Z",
+        "begindate": "2012-11-01T08:00:00Z"
+      }
+    },
+    {
+      "id": "258c767f-052c-e211-92e5-005056a00065",
+      "relativeUrl": "/api/data/v9.2/pricelevels(258c767f-052c-e211-92e5-005056a00065)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 1,
+        "enddate": "2012-11-30T10:00:00Z",
+        "statecode": 1,
+        "freighttermscode": 1,
+        "begindate": "2012-11-01T08:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "MX360 R2 MH 05 Price List",
+        "statuscode": 100002
+      }
+    },
+    {
+      "id": "c288a255-b88f-e611-9420-005056a81ff3",
+      "relativeUrl": "/api/data/v9.2/pricelevels(c288a255-b88f-e611-9420-005056a81ff3)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2020 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2020-12-31T10:00:00Z",
+        "begindate": "2020-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "d4fc258e-b88f-e611-9420-005056a81ff3",
+      "relativeUrl": "/api/data/v9.2/pricelevels(d4fc258e-b88f-e611-9420-005056a81ff3)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2021 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2021-12-31T10:00:00Z",
+        "begindate": "2021-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "d518f3b6-b88f-e611-9420-005056a81ff3",
+      "relativeUrl": "/api/data/v9.2/pricelevels(d518f3b6-b88f-e611-9420-005056a81ff3)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2022 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2022-12-31T10:00:00Z",
+        "begindate": "2022-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "ed5f044c-d52d-e411-80c3-2c44fd87f406",
+      "relativeUrl": "/api/data/v9.2/pricelevels(ed5f044c-d52d-e411-80c3-2c44fd87f406)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2018 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2018-12-31T10:00:00Z",
+        "begindate": "2018-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "91ad563c-6137-e411-80c3-2c44fd87f406",
+      "relativeUrl": "/api/data/v9.2/pricelevels(91ad563c-6137-e411-80c3-2c44fd87f406)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 1,
+        "name": "Accreditation Workshop - October 2014 - Price List",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2014-10-23T08:00:00Z",
+        "begindate": "2014-10-23T08:00:00Z"
+      }
+    },
+    {
+      "id": "401ea166-3339-e611-80d3-2c44fd87f407",
+      "relativeUrl": "/api/data/v9.2/pricelevels(401ea166-3339-e611-80d3-2c44fd87f407)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2019 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2019-12-31T10:00:00Z",
+        "begindate": "2019-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "f102b717-5480-e811-80f1-2c44fd87f407",
+      "relativeUrl": "/api/data/v9.2/pricelevels(f102b717-5480-e811-80f1-2c44fd87f407)",
+      "body": {
+        "statecode": 1,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "new_type": 3,
+        "name": "2019 MAL Canadian",
+        "description": "New price list created to accomodate the new fee structure for MAL Canadian versus Outside Canada physician",
+        "exchangerate": 1.0,
+        "statuscode": 100002,
+        "shippingmethodcode": 1,
+        "enddate": "2019-01-31T10:00:00Z",
+        "begindate": "2018-07-05T08:00:00Z"
+      }
+    },
+    {
+      "id": "57a70aa7-5580-e811-80f1-2c44fd87f407",
+      "relativeUrl": "/api/data/v9.2/pricelevels(57a70aa7-5580-e811-80f1-2c44fd87f407)",
+      "body": {
+        "statecode": 1,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "new_type": 3,
+        "name": "2019 MAL Outside Canada",
+        "description": "To accomodate the new fee structure for MAL Canadian versus Outside Canada fees",
+        "exchangerate": 1.0,
+        "statuscode": 100002,
+        "shippingmethodcode": 1,
+        "enddate": "2019-01-31T10:00:00Z",
+        "begindate": "2018-07-05T08:00:00Z"
+      }
+    },
+    {
+      "id": "15936201-5f2c-f111-88b5-6045bd5b7e64",
+      "relativeUrl": "/api/data/v9.2/pricelevels(15936201-5f2c-f111-88b5-6045bd5b7e64)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "enddate": "2027-12-31T05:00:00Z",
+        "statecode": 0,
+        "freighttermscode": 1,
+        "begindate": "2027-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "2027 Membership",
+        "statuscode": 100001
+      }
+    },
+    {
+      "id": "4e74764b-862d-ef11-8e50-6045bd5d5b64",
+      "relativeUrl": "/api/data/v9.2/pricelevels(4e74764b-862d-ef11-8e50-6045bd5d5b64)",
+      "body": {
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "enddate": "2026-12-31T05:00:00Z",
+        "statecode": 0,
+        "freighttermscode": 1,
+        "begindate": "2026-01-01T05:00:00Z",
+        "shippingmethodcode": 1,
+        "paymentmethodcode": 1,
+        "name": "2026 Membership",
+        "statuscode": 100001
+      }
+    },
+    {
+      "id": "99f1819c-0038-e211-a846-9c8e991416c6",
+      "relativeUrl": "/api/data/v9.2/pricelevels(99f1819c-0038-e211-a846-9c8e991416c6)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 1,
+        "name": "Events",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2020-12-31T10:00:00Z",
+        "begindate": "2012-11-26T10:00:00Z"
+      }
+    },
+    {
+      "id": "841f7c97-eb2a-e211-ac0d-9c8e991416d0",
+      "relativeUrl": "/api/data/v9.2/pricelevels(841f7c97-eb2a-e211-ac0d-9c8e991416d0)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2012 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2012-12-31T10:00:00Z",
+        "begindate": "2012-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "861f7c97-eb2a-e211-ac0d-9c8e991416d0",
+      "relativeUrl": "/api/data/v9.2/pricelevels(861f7c97-eb2a-e211-ac0d-9c8e991416d0)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2013 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2013-12-31T10:00:00Z",
+        "begindate": "2013-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "881f7c97-eb2a-e211-ac0d-9c8e991416d0",
+      "relativeUrl": "/api/data/v9.2/pricelevels(881f7c97-eb2a-e211-ac0d-9c8e991416d0)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2011 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2011-12-31T10:00:00Z",
+        "begindate": "2011-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "8a1f7c97-eb2a-e211-ac0d-9c8e991416d0",
+      "relativeUrl": "/api/data/v9.2/pricelevels(8a1f7c97-eb2a-e211-ac0d-9c8e991416d0)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2010 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2010-12-31T10:00:00Z",
+        "begindate": "2010-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "21c9ac5e-0217-e311-a570-9c8e991cb43a",
+      "relativeUrl": "/api/data/v9.2/pricelevels(21c9ac5e-0217-e311-a570-9c8e991cb43a)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "new_type": 2,
+        "name": "2014 Membership",
+        "description": "2014 membership dues",
+        "exchangerate": 1.0,
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2014-12-31T10:00:00Z",
+        "begindate": "2014-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "d301f541-5720-e311-b906-9c8e991cb43a",
+      "relativeUrl": "/api/data/v9.2/pricelevels(d301f541-5720-e311-b906-9c8e991cb43a)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2015 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2015-12-31T10:00:00Z",
+        "begindate": "2015-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "836bd68e-5720-e311-b906-9c8e991cb43a",
+      "relativeUrl": "/api/data/v9.2/pricelevels(836bd68e-5720-e311-b906-9c8e991cb43a)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2016 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2016-12-31T10:00:00Z",
+        "begindate": "2016-01-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "f3143a05-5820-e311-b906-9c8e991cb43a",
+      "relativeUrl": "/api/data/v9.2/pricelevels(f3143a05-5820-e311-b906-9c8e991cb43a)",
+      "body": {
+        "statecode": 0,
+        "freighttermscode": 1,
+        "paymentmethodcode": 1,
+        "exchangerate": 1.0,
+        "new_type": 2,
+        "name": "2017 Membership",
+        "statuscode": 100001,
+        "modifiedonbehalfby@odata.bind": "/systemusers(5ac1fadf-88e8-e811-a982-000d3af3e0fd)",
+        "shippingmethodcode": 1,
+        "enddate": "2017-12-31T10:00:00Z",
+        "begindate": "2017-01-01T10:00:00Z"
+      }
+    }
+  ]
+}

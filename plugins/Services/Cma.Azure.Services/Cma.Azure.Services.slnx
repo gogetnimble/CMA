@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Pipelines/">
+    <File Path="CMA-CRM-APP.YML" />
+  </Folder>
+  <Project Path="Cma.App.Api/Cma.App.Api.csproj" />
+  <Project Path="Cma.App.Batch/Cma.App.Batch.csproj" />
+  <Project Path="Cma.App.ERP/Cma.App.ERP.csproj" />
+  <Project Path="Cma.App.Http/Cma.App.Http.csproj" />
+  <Project Path="Cma.Application/Cma.Application.csproj" />
+  <Project Path="Cma.Common/Cma.Common.csproj" />
+  <Project Path="Cma.Repository/Cma.Repository.csproj" />
+  <Project Path="Cma.Services/Cma.Services.csproj" />
+</Solution>

@@ -1,0 +1,26 @@
+{
+  "table": "new_topiccategory",
+  "entitySetName": "new_topiccategories",
+  "generatedUtc": "2026-03-31T14:22:07.9986831Z",
+  "totalRecords": 2,
+  "records": [
+    {
+      "id": "63b33540-b2bc-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/new_topiccategories(63b33540-b2bc-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_frenchname": "Courriers électroniques"
+      }
+    },
+    {
+      "id": "32622d4c-b2bc-ef11-b8e8-000d3a0c1423",
+      "relativeUrl": "/api/data/v9.2/new_topiccategories(32622d4c-b2bc-ef11-b8e8-000d3a0c1423)",
+      "body": {
+        "statecode": 0,
+        "statuscode": 1,
+        "new_frenchname": "Intérêts"
+      }
+    }
+  ]
+}
