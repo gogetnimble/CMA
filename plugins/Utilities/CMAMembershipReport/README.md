@@ -1,0 +1,122 @@
+# CMA Membership Report
+
+A .NET 8 console utility that connects to Dataverse with an **app registration
+(client id + secret)**, reads `new_cmamembershipdetail`, resolves the Contact,
+Category (Product) and PTMA (Account) lookups, and writes a **self-contained,
+interactive HTML report**.
+
+The report shows, for a selected membership year:
+
+- **Total memberships** (filtered to `new_status` = **Active** by default), with
+  records grouped by the **month** they were created (`createdon`).
+- The same memberships grouped **by PTMA** (`new_divassocaccountid` → Account name).
+- A cross-filtered detail table (Contact · Category · PTMA · Created · Expiry · Year · Status).
+
+All aggregation and filtering happen **client-side** off the embedded dataset, so
+the same template can later be lifted into a Dynamics **web resource** with almost
+no change (see _Path to a web resource_ below).
+
+---
+
+## Fields read
+
+| Report column | Source |
+|---|---|
+| Contact | `new_cmamembershipdetail.new_contact` → `contact.fullname` |
+| Category | `new_cmamembershipdetail.new_categoryproductid` → `product.name` |
+| PTMA | `new_cmamembershipdetail.new_divassocaccountid` → `account.name` |
+| Expiry | `new_expirydate` |
+| Year | `new_membershipyear` |
+| Status | `new_status` (option-set label via `FormattedValues`) |
+| Created month | `createdon` |
+
+The lookups are resolved with `LeftOuter` joins in a single paged query, so a row
+with a missing lookup still appears.
+
+---
+
+## Setup
+
+### 1. Register an app in Entra ID and grant it Dataverse access
+
+1. **Entra ID → App registrations → New registration.** Note the
+   **Application (client) ID** and **Directory (tenant) ID**.
+2. **Certificates & secrets → New client secret.** Copy the secret **value**.
+3. In **Power Platform**, create an **Application User** for that app registration
+   (Admin center → Environment → Settings → Users + permissions → Application users)
+   and assign a security role with **read** on membership detail, Contact, Product
+   and Account. Read-only is sufficient — this tool never writes.
+
+### 2. Provide configuration
+
+Environment variables (preferred — keeps the secret out of files):
+
+```bash
+export CMA_DATAVERSE_URL="https://yourorg.crm3.dynamics.com"
+export CMA_CLIENT_ID="<application-client-id>"
+export CMA_CLIENT_SECRET="<client-secret-value>"
+export CMA_TENANT_ID="<tenant-id>"          # optional
+export CMA_MEMBERSHIP_YEAR="2027"           # optional — defaults to latest in data
+export CMA_OUTPUT_PATH="cma-membership-report.html"   # optional
+```
+
+…or copy `appsettings.sample.json` → `appsettings.json` and fill it in. Anything
+not supplied is prompted for at the console (the secret is entered masked).
+
+> `appsettings.json` and generated `*.html` reports are git-ignored — don't commit
+> secrets or member data.
+
+### 3. Run
+
+```bash
+dotnet run -c Release
+# or, after: dotnet build -c Release
+./bin/Release/net8.0/CMA.Utilities.MembershipReport
+```
+
+The tool connects, pages through the records, writes the HTML, and offers to open it.
+
+---
+
+## Resilience / disconnect handling
+
+- Auth uses `AuthType=ClientSecret` — no interactive login, safe for scheduled runs.
+- `ServiceClient` is configured with its built-in throttling retry
+  (`MaxRetryCount`, `RetryPauseTime`).
+- On top of that, every read runs through a retry loop with **exponential backoff
+  (2s → 4s → 8s → 16s)**. If the client has dropped offline (`IsReady == false`),
+  it is **rebuilt/reconnected transparently** before the next attempt. Genuine
+  request errors (bad query, rejected auth) surface immediately rather than looping.
+
+---
+
+## Path to a web resource (next phase)
+
+This console app is the POC. The HTML template
+(`Templates/report-template.html`) reads its data from `window.__CMA_DATA__`,
+which the generator injects between the `CMA_DATA_START` / `CMA_DATA_END` markers.
+To run the same UI inside Dynamics:
+
+1. Remove the injected `#cma-data` `<script>`.
+2. Load the identical record shape from the caller's own session via
+   `Xrm.WebApi.retrieveMultipleRecords` — a ready-to-use `loadFromDataverse()`
+   using the equivalent FetchXML is included, commented, at the bottom of the
+   template. No secret ships to the browser; it runs as the signed-in user.
+3. Register the HTML (and it is fully self-contained bar the Google Fonts link) as
+   a web resource.
+
+---
+
+## Files
+
+| File | Role |
+|---|---|
+| `Program.cs` | Console flow: config → connect → fetch → generate. |
+| `AppConfig.cs` | Config resolution (appsettings.json → env vars → prompts). |
+| `DataverseConnection.cs` | Client-secret `ServiceClient`, retry + reconnect. |
+| `MembershipRepository.cs` | Paged query + lookup resolution → `MembershipRecord`. |
+| `MembershipRecord.cs` | Flattened row, serialized into the report. |
+| `ReportGenerator.cs` | Injects the dataset into the template. |
+| `Templates/report-template.html` | The interactive report (data-source agnostic). |
+
+To add it to the utilities solution: `dotnet sln ../CMA.Utilities.sln add CMA.Utilities.MembershipReport.csproj`.

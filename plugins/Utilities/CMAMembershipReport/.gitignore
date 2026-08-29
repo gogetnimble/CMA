@@ -1,0 +1,10 @@
+# Secrets & configuration with credentials
+appsettings.json
+
+# Generated reports may contain member PII
+*.html
+!Templates/*.html
+
+# Build output
+bin/
+obj/
