@@ -358,6 +358,12 @@ const defaultYear=(META.defaultYear&&YEARS.includes(String(META.defaultYear)))?S
 // Default to "all" so every year the app downloaded (including very old ones) shows at once.
 const yearLabel=()=>state.year==="all"?"all years":state.year==="none"?"no membership year":state.year;
 const yearMatch=r=>state.year==="all"||(state.year==="none"?!r.year:r.year===state.year);
+// The current membership year (calendar year of the data snapshot).
+const CURRENT_YEAR=String(REF.getFullYear());
+// Renewals flip a member's prior-year memberships to inactive, so the "Active" status
+// only distinguishes members in the CURRENT year. For any other year the memberships are
+// inactive by design, so an Active filter must still show them.
+const statusPass=(r,activeSelected)=>!activeSelected||(r.year===CURRENT_YEAR?isActive(r):true);
 
 const state={report:"membership",year:"all",memStatus:"Active",demoStatus:"Active",expStatus:"Active",
   ptma:"all",cat:"all",memView:"month",month:null,expWindow:90};
@@ -415,7 +421,7 @@ function pct(n,d){return d?Math.round(n/d*100):0;}
 
 /* ═══════════════ REPORT 1 — MEMBERSHIP ═══════════════ */
 function memFiltered(ignoreMonth){return RECORDS.filter(r=>yearMatch(r)&&
-  (state.memStatus==="All"||isActive(r))&&(state.ptma==="all"||r.ptma===state.ptma)&&
+  statusPass(r,state.memStatus!=="All")&&(state.ptma==="all"||r.ptma===state.ptma)&&
   (state.cat==="all"||r.category===state.cat)&&(ignoreMonth||state.month===null||r.createdMonth===state.month));}
 let memChip=[];
 function chip(label,h){memChip.push(h);return `<span class="active-filter">${esc(label)}<button aria-label="Clear">&times;</button></span>`;}
@@ -430,16 +436,18 @@ function renderMembership(){
   const total=rows.length,ptmaCount=new Set(rows.map(r=>r.ptma)).size;
   let peak=0;byMonth.forEach((c,i)=>{if(c>byMonth[peak])peak=i;});
   const retired=rows.filter(r=>r.type==="Lifetime").length;
+  const stWord=state.memStatus==="All"?"all statuses":(state.year===CURRENT_YEAR?"active":"active + prior years");
   $("#memKpis").innerHTML=`
-    <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div><div class="k-val">${total.toLocaleString()}</div><div class="k-note">${esc(yearLabel())} &middot; ${state.memStatus==="All"?"all statuses":"active"}</div></div>
+    <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div><div class="k-val">${total.toLocaleString()}</div><div class="k-note">${esc(yearLabel())} &middot; ${stWord}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">PTMAs Reporting</div><div class="k-val">${ptmaCount}</div><div class="k-note">of ${PTMAS.length} in data</div></div>
     <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${anyInYear?MONTHS[peak]:"—"}</div><div class="k-note">${anyInYear?(byMonth[peak]||0).toLocaleString()+" created in-year":"no in-year creations"}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">Retired / Lifetime</div><div class="k-val">${pct(retired,total)}<span style="font-size:17px">%</span></div><div class="k-note">${retired.toLocaleString()} of total</div></div>`;
   const monthMode=state.memView==="month";
   $("#memPanelTitle").childNodes[0].nodeValue=monthMode?"Memberships created by month":"Memberships by PTMA";
-  $("#memPanelSub").textContent=`${esc(yearLabel())} · ${state.memStatus==="All"?"all statuses":"active only"}`;
+  $("#memPanelSub").textContent=`${esc(yearLabel())} · ${stWord}`;
   const offNote=offYear>0?` <b>${offYear.toLocaleString()}</b> record${offYear!==1?"s":""} created outside the membership year — counted in the total, not shown by month.`:"";
-  $("#memHint").innerHTML=monthMode?(anyInYear?`<b>Click a column</b> to filter the table to that month; peak highlighted.${offNote}`:offNote.trim()||`No records match these filters.`):`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`;
+  const priorNote=(state.memStatus!=="All"&&state.year!==CURRENT_YEAR)?` Prior-year memberships go inactive on renewal, so they're shown regardless of status (only ${CURRENT_YEAR} is filtered to active).`:"";
+  $("#memHint").innerHTML=(monthMode?(anyInYear?`<b>Click a column</b> to filter the table to that month; peak highlighted.${offNote}`:offNote.trim()||`No records match these filters.`):`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`)+priorNote;
   $("#memTabMonth").setAttribute("aria-selected",monthMode);$("#memTabPtma").setAttribute("aria-selected",!monthMode);
   if(monthMode){
     if(anyInYear){
@@ -484,10 +492,12 @@ function renderMembership(){
 /* ═══════════════ REPORT 2 — OVERVIEW ═══════════════ */
 const TYPE_COL={Physician:COL.teal,Student:COL.sky,Resident:COL.mid,Lifetime:COL.navy};
 function renderOverview(){
-  const rows=RECORDS.filter(r=>yearMatch(r)&&isActive(r));
+  const rows=RECORDS.filter(r=>yearMatch(r)&&statusPass(r,true));
   const t=n=>rows.filter(r=>r.type===n).length;
   const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val.toLocaleString()}</div><div class="k-note">${note}</div></div>`;
-  $("#ovKpis").innerHTML=kpi("","Active Members",rows.length,`${esc(yearLabel())} · active`)+kpi("alt","Practising",t("Physician"),"physician members")+
+  const ovLab=state.year===CURRENT_YEAR?"Active Members":"Memberships";
+  const ovNote=state.year===CURRENT_YEAR?`${esc(yearLabel())} · active`:`${esc(yearLabel())} · incl. prior-year`;
+  $("#ovKpis").innerHTML=kpi("",ovLab,rows.length,ovNote)+kpi("alt","Practising",t("Physician"),"physician members")+
     kpi("alt","Retired / Lifetime",t("Lifetime"),"lifetime members")+kpi("alt","Resident",t("Resident"),"in training")+kpi("alt","Student",t("Student"),"student members");
   // years to expiry
   const m=countBy(rows,yearsLeftKey);

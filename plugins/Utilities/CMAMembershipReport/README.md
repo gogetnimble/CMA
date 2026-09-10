@@ -11,6 +11,13 @@ query, so all history (right back to the oldest records) is downloaded. In the
 report the Membership and Overview tabs default to **All years**; the year
 dropdown (All years + every year found in the data) drills into one year.
 
+**Status and prior years.** When a member renews, their previous year's membership
+is automatically set inactive, so only the **current** membership year meaningfully
+has "Active" records. The **Active** filter therefore applies **only to the current
+year** (the calendar year of the data snapshot); memberships for any other year are
+shown regardless of status, so historical years aren't empty. Choose **All statuses**
+to apply the filter literally across every year.
+
 The **created-by-month** chart only buckets records whose `createdon` falls inside
 their membership year. For years whose records were created on incompatible dates
 (migrated data, or a blank `new_membershipyear`), a monthly breakdown is
