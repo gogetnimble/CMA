@@ -6,7 +6,13 @@ Category (Product) and PTMA (Account) lookups plus contact demographics, and wri
 a **single self-contained, interactive HTML file** containing **four reports** the
 viewer tabs between (blue colour scheme throughout):
 
-1. **Membership** — memberships for a selected year, grouped by the **month** they
+The app pulls **every** membership-detail record — there is no year filter on the
+query, so all history (right back to the oldest records) is downloaded. In the
+report the Membership and Overview tabs default to **All years**; the year
+dropdown (All years + every year found in the data) drills into one year.
+
+1. **Membership** — memberships for the selected year (All years by default),
+   grouped by the **month** they
    were created (`createdon`) and **by PTMA** (`new_divassocaccountid` → Account
    name), with a cross-filtered detail table. Filters: year · status · PTMA · category.
 2. **Overview** — an at-a-glance dashboard: Active / Practising / Retired-Lifetime /
