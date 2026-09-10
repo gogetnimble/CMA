@@ -9,7 +9,12 @@ namespace CMA.Utilities.MembershipReport;
 /// </summary>
 public sealed class MembershipRecord
 {
-    [JsonProperty("id")]        public string Id { get; set; } = string.Empty;
+    /// <summary>
+    /// Membership-detail id. Not serialized — no report uses it, so it's kept out of
+    /// the embedded payload to save bytes. Re-add [JsonProperty] here if a future
+    /// report needs to deep-link back to the record in CRM.
+    /// </summary>
+    [JsonIgnore]                public string Id { get; set; } = string.Empty;
 
     /// <summary>new_Contact lookup id — used to de-duplicate members in the demographics report.</summary>
     [JsonProperty("contactId")] public string? ContactId { get; set; }
@@ -35,8 +40,11 @@ public sealed class MembershipRecord
     /// <summary>createdon as yyyy-MM-dd.</summary>
     [JsonProperty("created")]   public string Created { get; set; } = string.Empty;
 
-    /// <summary>createdon month index, 0 = Jan … 11 = Dec (drives the by-month chart).</summary>
-    [JsonProperty("createdMonth")] public int CreatedMonth { get; set; }
+    /// <summary>
+    /// createdon month index, 0 = Jan … 11 = Dec. Not serialized — the report derives
+    /// it from <see cref="Created"/>, so embedding it would just duplicate that byte-for-byte.
+    /// </summary>
+    [JsonIgnore]                public int CreatedMonth { get; set; }
 
     // ── Contact demographics (for the Demographics report) ──────────────────────
 
