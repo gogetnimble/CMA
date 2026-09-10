@@ -446,11 +446,17 @@ function renderMembership(){
       const peakVal=Math.max(...byMonth);
       vbars($("#memChart"),MONTHS.map((m,i)=>({label:m,value:byMonth[i],selected:state.month===i,color:(state.month===i||byMonth[i]===peakVal&&byMonth[i]>0)?"var(--accent-deep)":"var(--accent)",tipTitle:`${m} · ${yearLabel()}`,tipSuffix:" created"})),
         {onClick:(d,i)=>{state.month=state.month===i?null:i;renderMembership();}});
-    }else{
-      // createdon incompatible with the membership year → show a single total for the year.
+    }else if(total>0){
+      // Records exist for this year but createdon is incompatible → show a single total.
       state.month=null;
       $("#memChart").innerHTML=`<div class="totalcard"><div class="tc-num">${total.toLocaleString()}</div><div class="tc-lab">total memberships &middot; ${esc(yearLabel())}</div>`+
         `<div class="tc-note">Created-on dates fall outside the membership year (e.g. migrated records), so a by-month breakdown isn't meaningful. Use <b>By PTMA</b> or the table for the breakdown.</div></div>`;
+    }else{
+      // Genuinely nothing matched the current filters.
+      state.month=null;
+      const activeOnly=state.memStatus!=="All";
+      $("#memChart").innerHTML=`<div class="totalcard"><div class="tc-num">0</div><div class="tc-lab">no records &middot; ${esc(yearLabel())}${activeOnly?" &middot; active":""}</div>`+
+        `<div class="tc-note">Nothing matched these filters.${activeOnly?` If you expected records here, try <b>All statuses</b> — the data may use a different <span class="mono">new_status</span> label than “Active”.`:""}</div></div>`;
     }
   }else{
     const map={};rows.forEach(r=>{(map[r.ptma]??={name:r.ptma,code:r.ptmaCode,c:0}).c++;});
