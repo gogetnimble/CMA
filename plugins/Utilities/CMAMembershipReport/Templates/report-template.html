@@ -147,6 +147,27 @@
   .leg-val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600;}
   .leg-pct{font-family:"IBM Plex Mono",monospace;color:var(--muted);font-size:11px;margin-left:6px;}
 
+  /* contact 360 */
+  #cSearch{font:inherit;font-size:14px;color:var(--ink);background:var(--surface-2);border:1px solid var(--border-strong);border-radius:8px;padding:9px 12px;width:100%;}
+  #cSearch:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .c360-results{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-bottom:18px;}
+  .c-card{text-align:left;font:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--border);border-radius:9px;box-shadow:var(--shadow);padding:11px 13px;display:flex;flex-direction:column;gap:6px;transition:border-color .12s,background .12s;}
+  .c-card:hover{border-color:var(--accent);}
+  .c-card.sel{border-color:var(--accent);background:var(--accent-ghost);}
+  .c-card .c-name{font-size:13.5px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .c-card .c-meta{font-size:11.5px;color:var(--muted);display:flex;align-items:center;gap:7px;}
+  .c360-empty{padding:40px 20px;text-align:center;color:var(--faint);font-size:13px;background:var(--surface);border:1px dashed var(--border-strong);border-radius:var(--radius);}
+  .c360-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;}
+  .c360-name{font-family:"IBM Plex Serif",Georgia,serif;font-size:20px;font-weight:600;color:var(--ink);}
+  .c360-sub{font-size:11.5px;color:var(--faint);margin-top:2px;}
+  .c360-tags{display:flex;flex-wrap:wrap;gap:7px;}
+  .tag{font-size:11.5px;font-weight:500;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--border-strong);border-radius:999px;padding:4px 10px;}
+  .c360-strip{display:flex;flex-wrap:wrap;gap:7px;}
+  .yr-chip{display:inline-flex;align-items:center;gap:6px;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:12px;font-weight:600;padding:5px 10px;border-radius:7px;border:1px solid var(--border-strong);background:var(--surface-2);color:var(--ink-2);}
+  .yr-chip::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--muted);}
+  .yr-chip.s-active::before{background:var(--good);} .yr-chip.s-lapsed::before{background:var(--warn);} .yr-chip.s-cancelled::before{background:var(--bad);}
+  .yr-gap{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--faint);padding:5px 4px;}
+
   /* tooltip */
   .tt{position:fixed;pointer-events:none;z-index:50;background:var(--ink);color:var(--surface);font-size:11.5px;padding:7px 10px;border-radius:7px;box-shadow:0 6px 20px rgba(0,0,0,.28);opacity:0;transform:translateY(3px);transition:opacity .12s;max-width:260px;}
   .tt.on{opacity:1;transform:none;}
@@ -194,6 +215,13 @@
 window.__CMA_DATA__ = null;
 /* CMA_DATA_END */
 </script>
+<!-- Per-report schema (query, joins, filters, fields). The generator injects the real one
+     and also writes it to a sibling .schema.json; the "Download schema" button uses it. -->
+<script id="cma-schema">
+/* CMA_SCHEMA_START */
+window.__CMA_SCHEMA__ = null;
+/* CMA_SCHEMA_END */
+</script>
 
 <div class="wrap">
   <header class="top">
@@ -203,6 +231,7 @@ window.__CMA_DATA__ = null;
     </div>
     <div class="conn">
       <span class="chip" id="connChip"><span class="dot"></span><span id="connText">Connected to CRM</span></span>
+      <button class="btn" id="schemaBtn" title="Download this report's query, filters &amp; fields"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>Schema</button>
       <button class="btn" id="refreshBtn" title="Reload data"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>Refresh</button>
       <button class="btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg></button>
     </div>
@@ -213,6 +242,7 @@ window.__CMA_DATA__ = null;
     <button class="rtab" role="tab" data-report="overview"     aria-selected="false"><span class="rn">02</span>Overview</button>
     <button class="rtab" role="tab" data-report="demographics" aria-selected="false"><span class="rn">03</span>Demographics</button>
     <button class="rtab" role="tab" data-report="expiry"       aria-selected="false"><span class="rn">04</span>Upcoming Expiry</button>
+    <button class="rtab" role="tab" data-report="contact"      aria-selected="false"><span class="rn">05</span>Contact 360</button>
   </nav>
 
   <!-- ═══ REPORT 1 — MEMBERSHIP ═══ -->
@@ -290,6 +320,18 @@ window.__CMA_DATA__ = null;
     </div>
   </section>
 
+  <!-- ═══ REPORT 5 — CONTACT 360 ═══ -->
+  <section class="report" data-report="contact" hidden>
+    <div class="controls">
+      <div class="field" style="flex:1 1 320px"><label for="cSearch">Find a contact</label>
+        <input id="cSearch" type="search" placeholder="Type a name…" autocomplete="off"></div>
+      <div class="spacer"></div>
+      <div class="hint" style="padding:0;align-self:center" id="cCount"></div>
+    </div>
+    <div id="cResults" class="c360-results"></div>
+    <div id="cDetail"></div>
+  </section>
+
   <p class="foot-note" id="footNote"></p>
 </div>
 
@@ -311,6 +353,58 @@ const RAW=(window.__CMA_DATA__&&Array.isArray(window.__CMA_DATA__.records)&&wind
 const META=RAW.meta||{};
 const REF=(META.generatedOn&&!isNaN(new Date(META.generatedOn)))?new Date(META.generatedOn):new Date();
 REF.setHours(0,0,0,0);
+
+/* ── report schema (query / joins / filters / fields) — the generator injects the real one;
+      this fallback documents the same shape for a standalone preview. ── */
+const SCHEMA=window.__CMA_SCHEMA__||{
+  generatedOn:META.generatedOn||null,environment:META.environment||null,
+  entity:"new_cmamembershipdetail",
+  query:{
+    description:"Single paged RetrieveMultiple (NoLock) ordered by createdon desc, with LeftOuter joins to Contact, Product and Account.",
+    columns:["new_cmamembershipdetailid","new_contact","new_categoryproductid","new_divassocaccountid","new_expirydate","new_membershipyear","new_status","createdon"],
+    joins:[
+      {entity:"contact",alias:"con",from:"contactid",to:"new_contact",linkType:"outer",columns:["fullname","gendercode","new_age","new_language"]},
+      {entity:"product",alias:"prod",from:"productid",to:"new_categoryproductid",linkType:"outer",columns:["name"]},
+      {entity:"account",alias:"acct",from:"accountid",to:"new_divassocaccountid",linkType:"outer",columns:["name"]}
+    ],
+    fetchXml:`<fetch no-lock="true"><entity name="new_cmamembershipdetail"><attribute name="new_cmamembershipdetailid"/><attribute name="new_contact"/><attribute name="new_categoryproductid"/><attribute name="new_divassocaccountid"/><attribute name="new_expirydate"/><attribute name="new_membershipyear"/><attribute name="new_status"/><attribute name="createdon"/><order attribute="createdon" descending="true"/><link-entity name="contact" from="contactid" to="new_contact" link-type="outer" alias="con"><attribute name="fullname"/><attribute name="gendercode"/><attribute name="new_age"/><attribute name="new_language"/></link-entity><link-entity name="product" from="productid" to="new_categoryproductid" link-type="outer" alias="prod"><attribute name="name"/></link-entity><link-entity name="account" from="accountid" to="new_divassocaccountid" link-type="outer" alias="acct"><attribute name="name"/></link-entity></entity></fetch>`
+  },
+  rules:{
+    season:"A membership season for year Y runs Sept (Y-1) → Dec (Y); createdon inside that window is in-season and charted by month. A year whose records all drift 2+ years (e.g. migrated) is shown as a single year total; the latest year always uses the month view.",
+    status:"Renewals set a member's prior-year memberships inactive, so the Active filter applies only to the current calendar year; memberships for any other year are shown regardless of status."
+  },
+  reports:{
+    membership:{title:"Membership",description:"Memberships for the selected year, by month created and by PTMA, with a detail table.",
+      filters:["new_membershipyear (All years / a year / blank)","new_status (Active applies to current year only, or All)","new_divassocaccountid (PTMA)","new_categoryproductid (Category)"],
+      grouping:["createdon month (in-season only)","new_divassocaccountid → account name"],
+      fields:["contact.fullname","product.name","account.name","new_expirydate","new_membershipyear","new_status","createdon"]},
+    overview:{title:"Overview",description:"Active membership KPIs, years-to-expiry distribution, and members-by-type donut.",
+      filters:["new_membershipyear","new_status (current-year active rule)"],
+      grouping:["member type derived from product.name (Physician/Student/Resident/Lifetime)","whole years between today and new_expirydate"],
+      fields:["product.name","new_expirydate","new_membershipyear","new_status"]},
+    demographics:{title:"Demographics",description:"Distinct contacts by age range, gender and language.",
+      filters:["new_status (Active or All)","de-duplicated by new_contact (latest membership per contact)"],
+      grouping:["contact.new_age → age band","contact.gendercode","contact.new_language"],
+      fields:["contact.new_age","contact.gendercode","contact.new_language","new_contact","new_status"]},
+    expiry:{title:"Upcoming Expiry",description:"Active memberships about to expire, by month, within a chosen window.",
+      filters:["new_status (Active or All)","new_expirydate within N days of today"],
+      grouping:["new_expirydate by month (next 12 months)"],
+      fields:["contact.fullname","product.name","account.name","new_expirydate","new_status"]},
+    contact:{title:"Contact 360",description:"One contact and every membership year on file.",
+      filters:["search by contact.fullname","grouped by new_contact"],
+      grouping:["all new_cmamembershipdetail rows per new_contact, by new_membershipyear"],
+      fields:["contact.fullname","contact.gendercode","contact.new_age","contact.new_language","new_membershipyear","new_status","new_categoryproductid → name","new_divassocaccountid → name","new_expirydate","createdon"]}
+  }
+};
+function downloadSchema(){
+  const rep=SCHEMA.reports[state.report]||{title:state.report};
+  const payload={report:rep.title||state.report,generatedOn:SCHEMA.generatedOn||META.generatedOn||new Date().toISOString(),
+    environment:SCHEMA.environment||META.environment||null,entity:SCHEMA.entity,query:SCHEMA.query,rules:SCHEMA.rules,definition:rep};
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=`cma-${state.report}-schema.json`;document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1500);
+}
 
 /* ── derived helpers ── */
 function statusClass(s){const k=(s||"").toLowerCase();return k.startsWith("active")?"s-active":k.startsWith("laps")?"s-lapsed":k.startsWith("cancel")?"s-cancelled":"";}
@@ -343,14 +437,17 @@ function ageBucket(a){if(a==null||a===""||isNaN(a))return"Unknown Age";a=+a;
 const RECORDS=RAW.records.map(r=>{
   const cm=(typeof r.createdMonth==="number")?r.createdMonth:(r.created&&/^\d{4}-\d{2}/.test(r.created)?(parseInt(r.created.slice(5,7),10)-1):0);
   const yr=String(r.year||"");
-  // sameYear = createdon falls within the membership year, so a by-month breakdown is meaningful.
-  const sameYear=!!yr&&(r.created||"").slice(0,4)===yr;
+  const cy=(r.created||"").slice(0,4);
+  // A membership season for year Y runs Sept (Y-1) → Dec (Y). createdon inside that window
+  // is "in-season", so it maps onto the by-month chart; anything further out is drift.
+  const inSeason=!!yr&&!!cy&&(+cy===+yr||(+cy===+yr-1&&cm>=8));
   return {id:r.id,contactId:r.contactId||r.contact||r.id,contact:r.contact||"(no contact)",
     category:r.category||"(no category)",type:memberType(r.category),ptma:r.ptma||"(no PTMA)",ptmaCode:ptmaCode(r.ptma),
-    expiry:r.expiry||null,year:yr,status:r.status||"(no status)",created:r.created||"",createdMonth:cm,sameYear,
+    expiry:r.expiry||null,year:yr,status:r.status||"(no status)",created:r.created||"",createdMonth:cm,inSeason,
     gender:genderNorm(r.gender),age:(r.age==null||r.age===""?null:+r.age),language:langNorm(r.language)};});
 
 const YEARS=[...new Set(RECORDS.map(r=>r.year).filter(Boolean))].sort((a,b)=>b.localeCompare(a));
+const LATEST_YEAR=YEARS.length?Math.max(...YEARS.map(Number)):null; // the current membership season
 const HAS_BLANK_YEAR=RECORDS.some(r=>!r.year);
 const CATS=[...new Set(RECORDS.map(r=>r.category))].sort();
 const PTMAS=[...new Set(RECORDS.map(r=>r.ptma))].sort();
@@ -427,12 +524,17 @@ let memChip=[];
 function chip(label,h){memChip.push(h);return `<span class="active-filter">${esc(label)}<button aria-label="Clear">&times;</button></span>`;}
 function renderMembership(){
   const rows=memFiltered(true);
-  // Only records whose createdon falls inside their membership year can be charted by month.
-  // The rest (migrated / off-year / blank-year) are counted in the total but not month-bucketed.
-  const inYear=rows.filter(r=>r.sameYear);
-  const offYear=rows.length-inYear.length;
-  const byMonth=MONTHS.map((_,i)=>inYear.filter(r=>r.createdMonth===i).length);
-  const anyInYear=byMonth.some(c=>c>0);
+  // In-season records (Sept prior year → Dec) chart by month; the rest are drift (migrated /
+  // far-off-season), counted in the total but not month-bucketed.
+  const seasonRows=rows.filter(r=>r.inSeason);
+  const offYear=rows.length-seasonRows.length;
+  const byMonth=MONTHS.map((_,i)=>seasonRows.filter(r=>r.createdMonth===i).length);
+  const anySeason=byMonth.some(c=>c>0);
+  const selNum=(state.year!=="all"&&state.year!=="none")?Number(state.year):null;
+  const isLatest=selNum!==null&&selNum===LATEST_YEAR;
+  // Month view for: all years, the latest (current) season always, or any past year with in-season
+  // records. Total-only is reserved for a past year whose records are all drift (≥ ~2 yrs, e.g. migrated).
+  const showMonth=state.year!=="none"&&(state.year==="all"||isLatest||anySeason);
   const total=rows.length,ptmaCount=new Set(rows.map(r=>r.ptma)).size;
   let peak=0;byMonth.forEach((c,i)=>{if(c>byMonth[peak])peak=i;});
   const retired=rows.filter(r=>r.type==="Lifetime").length;
@@ -440,17 +542,17 @@ function renderMembership(){
   $("#memKpis").innerHTML=`
     <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div><div class="k-val">${total.toLocaleString()}</div><div class="k-note">${esc(yearLabel())} &middot; ${stWord}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">PTMAs Reporting</div><div class="k-val">${ptmaCount}</div><div class="k-note">of ${PTMAS.length} in data</div></div>
-    <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${anyInYear?MONTHS[peak]:"—"}</div><div class="k-note">${anyInYear?(byMonth[peak]||0).toLocaleString()+" created in-year":"no in-year creations"}</div></div>
+    <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${anySeason?MONTHS[peak]:"—"}</div><div class="k-note">${anySeason?(byMonth[peak]||0).toLocaleString()+" in-season":"no in-season creations"}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">Retired / Lifetime</div><div class="k-val">${pct(retired,total)}<span style="font-size:17px">%</span></div><div class="k-note">${retired.toLocaleString()} of total</div></div>`;
   const monthMode=state.memView==="month";
   $("#memPanelTitle").childNodes[0].nodeValue=monthMode?"Memberships created by month":"Memberships by PTMA";
   $("#memPanelSub").textContent=`${esc(yearLabel())} · ${stWord}`;
-  const offNote=offYear>0?` <b>${offYear.toLocaleString()}</b> record${offYear!==1?"s":""} created outside the membership year — counted in the total, not shown by month.`:"";
+  const offNote=offYear>0?` <b>${offYear.toLocaleString()}</b> record${offYear!==1?"s":""} created outside the season (drift) — in the total, not shown by month.`:"";
   const priorNote=(state.memStatus!=="All"&&state.year!==CURRENT_YEAR)?` Prior-year memberships go inactive on renewal, so they're shown regardless of status (only ${CURRENT_YEAR} is filtered to active).`:"";
-  $("#memHint").innerHTML=(monthMode?(anyInYear?`<b>Click a column</b> to filter the table to that month; peak highlighted.${offNote}`:offNote.trim()||`No records match these filters.`):`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`)+priorNote;
+  $("#memHint").innerHTML=(monthMode?(showMonth?`<b>Click a column</b> to filter the table to that month; peak highlighted. Season runs Sept–Dec of the prior year onward.${offNote}`:offNote.trim()||`No records match these filters.`):`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`)+priorNote;
   $("#memTabMonth").setAttribute("aria-selected",monthMode);$("#memTabPtma").setAttribute("aria-selected",!monthMode);
   if(monthMode){
-    if(anyInYear){
+    if(showMonth){
       const peakVal=Math.max(...byMonth);
       vbars($("#memChart"),MONTHS.map((m,i)=>({label:m,value:byMonth[i],selected:state.month===i,color:(state.month===i||byMonth[i]===peakVal&&byMonth[i]>0)?"var(--accent-deep)":"var(--accent)",tipTitle:`${m} · ${yearLabel()}`,tipSuffix:" created"})),
         {onClick:(d,i)=>{state.month=state.month===i?null:i;renderMembership();}});
@@ -458,7 +560,7 @@ function renderMembership(){
       // Records exist for this year but createdon is incompatible → show a single total.
       state.month=null;
       $("#memChart").innerHTML=`<div class="totalcard"><div class="tc-num">${total.toLocaleString()}</div><div class="tc-lab">total memberships &middot; ${esc(yearLabel())}</div>`+
-        `<div class="tc-note">Created-on dates fall outside the membership year (e.g. migrated records), so a by-month breakdown isn't meaningful. Use <b>By PTMA</b> or the table for the breakdown.</div></div>`;
+        `<div class="tc-note">Created-on dates for this year drift 2+ years from the membership season (e.g. migrated records), so a by-month breakdown isn't meaningful. Use <b>By PTMA</b> or the table for the breakdown.</div></div>`;
     }else{
       // Genuinely nothing matched the current filters.
       state.month=null;
@@ -564,8 +666,71 @@ function renderExpiry(){
   $("#expFoot").innerHTML=`<span>Showing <b class="mono">${shown.length}</b> of <b class="mono">${upcoming.length.toLocaleString()}</b> within ${win} days</span><span>Soonest first</span>`;
 }
 
+/* ═══════════════ REPORT 5 — CONTACT 360 ═══════════════ */
+const CONTACTS=(()=>{
+  const m=new Map();
+  RECORDS.forEach(r=>{
+    if(!m.has(r.contactId))m.set(r.contactId,{id:r.contactId,name:r.contact,recs:[]});
+    m.get(r.contactId).recs.push(r);
+  });
+  for(const c of m.values()){
+    c.recs.sort((a,b)=>(b.year||"").localeCompare(a.year||"")||(b.created||"").localeCompare(a.created||""));
+    c.years=[...new Set(c.recs.map(r=>r.year).filter(Boolean))];
+    const wa=c.recs.find(r=>r.age!=null); c.age=wa?wa.age:null;
+    const wg=c.recs.find(r=>r.gender&&r.gender!=="Unknown"); c.gender=wg?wg.gender:"Unknown";
+    const wl=c.recs.find(r=>r.language&&r.language!=="Unknown"); c.language=wl?wl.language:"Unknown";
+  }
+  return [...m.values()].sort((a,b)=>a.name.localeCompare(b.name));
+})();
+let cSelected=null;
+function renderContact(){
+  const q=($("#cSearch").value||"").trim().toLowerCase();
+  const matches=q?CONTACTS.filter(c=>c.name.toLowerCase().includes(q)):CONTACTS;
+  $("#cCount").textContent=`${matches.length.toLocaleString()} of ${CONTACTS.length.toLocaleString()} contacts`;
+  const shown=matches.slice(0,40);
+  $("#cResults").innerHTML=shown.map(c=>{const latest=c.recs[0];
+    return `<button class="c-card ${c.id===cSelected?"sel":""}" data-id="${esc(c.id)}"><span class="c-name">${esc(c.name)}</span>`+
+      `<span class="c-meta">${c.years.length} yr${c.years.length!==1?"s":""} <span class="status ${statusClass(latest.status)}">${esc(latest.status)}</span></span></button>`;
+  }).join("")||`<div class="c360-empty">No contacts match “${esc(q)}”.</div>`;
+  if(matches.length>40)$("#cResults").insertAdjacentHTML("beforeend",`<div class="hint" style="grid-column:1/-1;padding:6px 2px">Showing first 40 of ${matches.length.toLocaleString()} — refine your search.</div>`);
+  $("#cResults").querySelectorAll(".c-card").forEach(btn=>btn.addEventListener("click",()=>{cSelected=btn.dataset.id;renderContact();}));
+  if(cSelected&&CONTACTS.some(c=>c.id===cSelected))renderC360Detail();
+  else{cSelected=null;$("#cDetail").innerHTML=`<div class="c360-empty">Search and select a contact to see every year they've been a member.</div>`;}
+}
+function renderC360Detail(){
+  const c=CONTACTS.find(x=>x.id===cSelected);if(!c){$("#cDetail").innerHTML="";return;}
+  const latest=c.recs[0];
+  const yrNums=c.years.map(Number).filter(n=>!isNaN(n)).sort((a,b)=>a-b);
+  const span=yrNums.length?(yrNums[0]===yrNums[yrNums.length-1]?`${yrNums[0]}`:`${yrNums[0]}–${yrNums[yrNums.length-1]}`):"—";
+  const gap=yrNums.length>1?(yrNums[yrNums.length-1]-yrNums[0]+1)-yrNums.length:0;
+  // year chips (ascending), status-coloured
+  const byYear=new Map();c.recs.forEach(r=>{if(r.year&&!byYear.has(r.year))byYear.set(r.year,r);});
+  const strip=[...byYear.keys()].map(Number).filter(n=>!isNaN(n)).sort((a,b)=>a-b)
+    .map(y=>{const r=byYear.get(String(y));return `<span class="yr-chip ${statusClass(r.status)}" title="${esc(r.status)} · ${esc(r.category.split(" / ")[0])}">${y}</span>`;}).join("")||`<span class="yr-gap">No dated membership years</span>`;
+  const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val}</div><div class="k-note">${note}</div></div>`;
+  const tags=[c.gender!=="Unknown"?`<span class="tag">${esc(c.gender)}</span>`:"",c.age!=null?`<span class="tag">Age ${c.age}</span>`:"",c.language!=="Unknown"?`<span class="tag">${esc(c.language)}</span>`:""].join("");
+  const trows=c.recs.map(r=>`<tr><td class="num">${esc(r.year||"—")}</td><td>${esc(r.category.split(" / ")[0])}</td><td>${esc(r.ptmaCode)} &middot; ${esc(r.ptma)}</td><td class="num">${esc(r.created)}</td><td class="num">${esc(r.expiry||"—")}</td><td><span class="status ${statusClass(r.status)}">${esc(r.status)}</span></td></tr>`).join("");
+  $("#cDetail").innerHTML=`
+    <section class="panel c360-head">
+      <div><div class="c360-name">${esc(c.name)}</div><div class="c360-sub mono">${esc(c.id)}</div></div>
+      <div class="c360-tags">${tags||'<span class="tag">No demographics</span>'}</div>
+    </section>
+    <section class="kpis k4">
+      ${kpi("","Memberships",c.recs.length.toLocaleString(),"records on file")}
+      ${kpi("alt","Years",c.years.length.toLocaleString(),"distinct membership years")}
+      ${kpi("alt","Span",span,gap>0?`${gap} year gap${gap!==1?"s":""}`:"continuous")}
+      ${kpi("alt","Current status",`<span style="font-size:16px">${esc(latest.status)}</span>`,`latest: ${esc(latest.year||"—")}`)}
+    </section>
+    <section class="panel"><div class="panel-head"><div class="panel-title">Membership years<small>One chip per year · colour = that year's status</small></div></div><div class="panel-body"><div class="c360-strip">${strip}</div></div></section>
+    <div class="table-wrap">
+      <div class="table-head"><div class="panel-title">All memberships</div></div>
+      <div class="table-scroll"><table><thead><tr><th>Year</th><th>Category</th><th>PTMA</th><th>Created</th><th>Expiry</th><th>Status</th></tr></thead><tbody>${trows}</tbody></table></div>
+      <div class="tfoot"><span><b class="mono">${c.recs.length}</b> membership record${c.recs.length!==1?"s":""}</span><span>Newest first</span></div>
+    </div>`;
+}
+
 /* ═══ nav + shared controls ═══ */
-const RENDER={membership:renderMembership,overview:renderOverview,demographics:renderDemographics,expiry:renderExpiry};
+const RENDER={membership:renderMembership,overview:renderOverview,demographics:renderDemographics,expiry:renderExpiry,contact:renderContact};
 function renderActive(){RENDER[state.report]();}
 function showReport(name){state.report=name;
   $$(".rtab").forEach(t=>t.setAttribute("aria-selected",String(t.dataset.report===name)));
@@ -590,13 +755,15 @@ $("#memTabPtma").addEventListener("click",()=>{state.memView="ptma";renderMember
 $("#memReset").addEventListener("click",()=>{state.memStatus="Active";state.ptma="all";state.cat="all";state.month=null;
   $("#memStatus").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.status==="Active"));$("#fPtma").value="all";$("#fCat").value="all";renderMembership();});
 $("#expWindow").addEventListener("change",e=>{state.expWindow=+e.target.value;renderExpiry();});
+$("#cSearch").addEventListener("input",()=>renderContact());
+$("#schemaBtn").addEventListener("click",downloadSchema);
 
 /* header meta */
 (function(){const env=META.environment||META.source||"CRM";$("#connText").textContent="Connected · "+env;
   const when=META.generatedOn?new Date(META.generatedOn):null,stamp=when&&!isNaN(when)?when.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"}):"—";
   $("#metaSub").innerHTML=`<span class="mono">new_cmamembershipdetail</span> &middot; ${RECORDS.length.toLocaleString()} records &middot; data as of ${esc(stamp)}`;
   if(META.source==="demo")$("#connChip").classList.add("offline");
-  $("#footNote").innerHTML=`Four reports from one dataset. Lookups: <code>new_Contact</code>&rarr;fullname, <code>new_Categoryproductid</code>&rarr;Product.name, <code>new_divassocaccountid</code>&rarr;Account.name. Demographics from <code>gendercode</code> / <code>new_age</code> / <code>new_language</code>; expiry from <code>new_expirydate</code>.`;})();
+  $("#footNote").innerHTML=`Five reports from one dataset. Lookups: <code>new_Contact</code>&rarr;fullname, <code>new_Categoryproductid</code>&rarr;Product.name, <code>new_divassocaccountid</code>&rarr;Account.name. Demographics from <code>gendercode</code> / <code>new_age</code> / <code>new_language</code>; expiry from <code>new_expirydate</code>.`;})();
 
 $("#refreshBtn").addEventListener("click",()=>{const c=$("#connChip"),t=$("#connText"),b=$("#refreshBtn"),was=t.textContent;
   c.className="chip reconnecting";t.textContent="Refreshing…";b.querySelector("svg").classList.add("spin");

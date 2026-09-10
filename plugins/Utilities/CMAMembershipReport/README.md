@@ -38,6 +38,13 @@ records still appear in the total and in the table.
 4. **Upcoming Expiry** — active memberships about to expire (`new_expirydate`):
    next 30 / 90 / 365-day counts, an expirations-by-month chart, and a soonest-first
    table with a configurable "expiring within" window.
+5. **Contact 360** — search a contact and see every membership year on file: a
+   status-coloured year timeline, span/gap summary, demographics, and all their
+   membership-detail rows.
+
+Every report has a **Download schema** button that saves that report's query
+(FetchXML), joins, filters and fields as JSON. The app also writes the full schema
+for all reports to a sibling `<report>.schema.json` when it generates the report.
 
 All aggregation and filtering happen **client-side** off one embedded dataset, so
 the same template can later be lifted into a Dynamics **web resource** with almost

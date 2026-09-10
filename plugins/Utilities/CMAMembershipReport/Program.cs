@@ -80,6 +80,7 @@ try
     t.AddRow("[white]PTMAs[/]",          $"[white]{records.Select(r => r.Ptma).Distinct().Count():N0}[/]");
     t.AddRow("[white]Default year[/]",   $"[white]{Markup.Escape(defaultYear ?? "—")}[/]");
     t.AddRow("[white]Report[/]",         $"[grey]{Markup.Escape(outputPath)}[/]");
+    t.AddRow("[white]Schema[/]",         $"[grey]{Markup.Escape(Path.ChangeExtension(outputPath, null) + ".schema.json")}[/]");
     AnsiConsole.Write(t);
 
     AnsiConsole.WriteLine();

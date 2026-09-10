@@ -4,6 +4,7 @@ appsettings.json
 # Generated reports may contain member PII
 *.html
 !Templates/*.html
+*.schema.json
 
 # Build output
 bin/
