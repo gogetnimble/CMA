@@ -11,6 +11,9 @@ public sealed class MembershipRecord
 {
     [JsonProperty("id")]        public string Id { get; set; } = string.Empty;
 
+    /// <summary>new_Contact lookup id — used to de-duplicate members in the demographics report.</summary>
+    [JsonProperty("contactId")] public string? ContactId { get; set; }
+
     /// <summary>new_Contact → contact.fullname</summary>
     [JsonProperty("contact")]   public string Contact { get; set; } = "(no contact)";
 
@@ -34,4 +37,15 @@ public sealed class MembershipRecord
 
     /// <summary>createdon month index, 0 = Jan … 11 = Dec (drives the by-month chart).</summary>
     [JsonProperty("createdMonth")] public int CreatedMonth { get; set; }
+
+    // ── Contact demographics (for the Demographics report) ──────────────────────
+
+    /// <summary>contact.gendercode option-set label (e.g. "Male" / "Female"), null when unset.</summary>
+    [JsonProperty("gender")]    public string? Gender { get; set; }
+
+    /// <summary>contact.new_age (whole number), null when unset.</summary>
+    [JsonProperty("age")]       public int? Age { get; set; }
+
+    /// <summary>contact.new_language option-set label (e.g. "English" / "French"), null when unset.</summary>
+    [JsonProperty("language")]  public string? Language { get; set; }
 }

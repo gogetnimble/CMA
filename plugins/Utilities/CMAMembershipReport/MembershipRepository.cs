@@ -40,9 +40,10 @@ public sealed class MembershipRepository
         };
 
         // Outer joins so a record with a missing lookup still comes back.
+        // The contact join also carries the demographics the Demographics report needs.
         query.LinkEntities.Add(new LinkEntity(
             Entity, "contact", FldContact, "contactid", JoinOperator.LeftOuter)
-        { Columns = new ColumnSet("fullname"), EntityAlias = "con" });
+        { Columns = new ColumnSet("fullname", "gendercode", "new_age", "new_language"), EntityAlias = "con" });
 
         query.LinkEntities.Add(new LinkEntity(
             Entity, "product", FldCategory, "productid", JoinOperator.LeftOuter)
@@ -83,17 +84,36 @@ public sealed class MembershipRepository
 
         return new MembershipRecord
         {
-            Id       = e.Id.ToString(),
-            Contact  = Aliased(e, "con.fullname") ?? "(no contact)",
-            Category = Aliased(e, "prod.name")    ?? "(no category)",
-            Ptma     = Aliased(e, "acct.name")    ?? "(no PTMA)",
-            Expiry   = expiry?.ToString("yyyy-MM-dd"),
-            Year     = ReadYear(e),
-            Status   = ReadStatusLabel(e),
-            Created  = (created ?? DateTime.MinValue).ToString("yyyy-MM-dd"),
-            CreatedMonth = (created?.Month ?? 1) - 1
+            Id        = e.Id.ToString(),
+            ContactId = e.GetAttributeValue<EntityReference>(FldContact)?.Id.ToString(),
+            Contact   = Aliased(e, "con.fullname") ?? "(no contact)",
+            Category  = Aliased(e, "prod.name")    ?? "(no category)",
+            Ptma      = Aliased(e, "acct.name")    ?? "(no PTMA)",
+            Expiry    = expiry?.ToString("yyyy-MM-dd"),
+            Year      = ReadYear(e),
+            Status    = ReadStatusLabel(e),
+            Created   = (created ?? DateTime.MinValue).ToString("yyyy-MM-dd"),
+            CreatedMonth = (created?.Month ?? 1) - 1,
+            Gender    = AliasedLabel(e, "con.gendercode"),
+            Age       = AliasedInt(e, "con.new_age"),
+            Language  = AliasedLabel(e, "con.new_language")
         };
     }
+
+    // Option-set label from a linked-entity attribute (FormattedValues key is alias-qualified).
+    private static string? AliasedLabel(Entity e, string key)
+    {
+        if (e.FormattedValues.Contains(key) && !string.IsNullOrWhiteSpace(e.FormattedValues[key]))
+            return e.FormattedValues[key];
+
+        // Fall back to the raw option value if no label came back.
+        return e.Contains(key) && e[key] is AliasedValue { Value: OptionSetValue o }
+            ? o.Value.ToString()
+            : null;
+    }
+
+    private static int? AliasedInt(Entity e, string key) =>
+        e.Contains(key) && e[key] is AliasedValue av && av.Value is int i ? i : null;
 
     // Aliased join columns arrive wrapped in AliasedValue.
     private static string? Aliased(Entity e, string key) =>

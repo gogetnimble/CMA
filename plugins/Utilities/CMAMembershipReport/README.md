@@ -2,17 +2,25 @@
 
 A .NET 8 console utility that connects to Dataverse with an **app registration
 (client id + secret)**, reads `new_cmamembershipdetail`, resolves the Contact,
-Category (Product) and PTMA (Account) lookups, and writes a **self-contained,
-interactive HTML report**.
+Category (Product) and PTMA (Account) lookups plus contact demographics, and writes
+a **single self-contained, interactive HTML file** containing **four reports** the
+viewer tabs between (blue colour scheme throughout):
 
-The report shows, for a selected membership year:
+1. **Membership** — memberships for a selected year, grouped by the **month** they
+   were created (`createdon`) and **by PTMA** (`new_divassocaccountid` → Account
+   name), with a cross-filtered detail table. Filters: year · status · PTMA · category.
+2. **Overview** — an at-a-glance dashboard: Active / Practising / Retired-Lifetime /
+   Resident / Student KPI tiles, a **years-to-expiry** distribution (whole years
+   between today and `new_expirydate`, with Lifetime and blank buckets), and a
+   **members-by-type** donut (Physician / Student / Resident / Lifetime, derived
+   from the category).
+3. **Demographics** — distinct contacts by **age range** (`new_age`), **gender**
+   (`gendercode`) and **language** (`new_language`), with KPI tiles.
+4. **Upcoming Expiry** — active memberships about to expire (`new_expirydate`):
+   next 30 / 90 / 365-day counts, an expirations-by-month chart, and a soonest-first
+   table with a configurable "expiring within" window.
 
-- **Total memberships** (filtered to `new_status` = **Active** by default), with
-  records grouped by the **month** they were created (`createdon`).
-- The same memberships grouped **by PTMA** (`new_divassocaccountid` → Account name).
-- A cross-filtered detail table (Contact · Category · PTMA · Created · Expiry · Year · Status).
-
-All aggregation and filtering happen **client-side** off the embedded dataset, so
+All aggregation and filtering happen **client-side** off one embedded dataset, so
 the same template can later be lifted into a Dynamics **web resource** with almost
 no change (see _Path to a web resource_ below).
 
@@ -29,9 +37,13 @@ no change (see _Path to a web resource_ below).
 | Year | `new_membershipyear` |
 | Status | `new_status` (option-set label via `FormattedValues`) |
 | Created month | `createdon` |
+| Gender | `contact.gendercode` (option-set label) |
+| Age | `contact.new_age` |
+| Language | `contact.new_language` (option-set label) |
 
-The lookups are resolved with `LeftOuter` joins in a single paged query, so a row
-with a missing lookup still appears.
+The lookups and contact demographics are resolved with `LeftOuter` joins in a
+single paged query, so a row with a missing lookup still appears. The Demographics
+report de-duplicates by contact id (`new_contact`) so members aren't counted twice.
 
 ---
 

@@ -3,39 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CMA Membership Report</title>
+<title>CMA Membership Reports</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap">
 <style>
-  :root {
-    --bg:#F0F3F2; --surface:#FFFFFF; --surface-2:#F5F7F6; --border:#DCE4E1; --border-strong:#C4D0CC;
-    --ink:#14201C; --ink-2:#35443E; --muted:#5C6B66; --faint:#8A978F;
-    --accent:#0F6B5C; --accent-soft:#C9E4DD; --accent-ghost:#E5F1EE; --maple:#B4321F; --maple-soft:#F1D8D2;
-    --good:#1F7A54; --warn:#9A6B14; --bad:#B4321F; --grid:#E7ECEA;
-    --shadow:0 1px 2px rgba(20,32,28,.05),0 8px 28px rgba(20,32,28,.06); --radius:10px;
+  /* ── Blue colour scheme ───────────────────────────────────────────────────── */
+  :root{
+    --bg:#EAF0F6; --surface:#FFFFFF; --surface-2:#F1F5FA; --border:#DAE3EC; --border-strong:#C3D2E0;
+    --ink:#12233F; --ink-2:#2C3E5C; --muted:#5B6B82; --faint:#8695A9;
+    --accent:#0E7CA0; --accent-deep:#173A6B; --accent-soft:#CFE4EF; --accent-ghost:#E7F1F7;
+    --c-teal:#0E7CA0; --c-navy:#173A6B; --c-sky:#8FB8DE; --c-grey:#AEBBCB; --c-orange:#E0742F; --c-mid:#4FA3C7;
+    --good:#1C7C56; --warn:#9A6B14; --bad:#B4321F; --grid:#E4EBF2;
+    --shadow:0 1px 2px rgba(18,35,63,.05),0 8px 26px rgba(18,35,63,.07); --radius:10px;
   }
   :root:not([data-theme="light"]){ @media (prefers-color-scheme: dark){
-    --bg:#0C1310; --surface:#131E1A; --surface-2:#0F1815; --border:#24332D; --border-strong:#2F423A;
-    --ink:#E9EFEC; --ink-2:#C4D0CB; --muted:#93A39D; --faint:#6C7C76;
-    --accent:#3FB39A; --accent-soft:#1C4B41; --accent-ghost:#17322C; --maple:#E8785F; --maple-soft:#46261F;
-    --good:#45C08E; --warn:#D6A54A; --bad:#E8785F; --grid:#1E2C27;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    --bg:#0B1420; --surface:#111E30; --surface-2:#0D1826; --border:#213448; --border-strong:#2C4661;
+    --ink:#E7EEF6; --ink-2:#C3D2E2; --muted:#93A6BC; --faint:#6B7E95;
+    --accent:#3FA6C9; --accent-deep:#6E97C9; --accent-soft:#1A4257; --accent-ghost:#122B3A;
+    --c-teal:#3FA6C9; --c-navy:#6E97C9; --c-sky:#8FB8DE; --c-grey:#8493A6; --c-orange:#E88A4E; --c-mid:#59B0D4;
+    --good:#45C08E; --warn:#D6A54A; --bad:#E8785F; --grid:#1C2C3D;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.4);
   }}
   :root[data-theme="dark"]{
-    --bg:#0C1310; --surface:#131E1A; --surface-2:#0F1815; --border:#24332D; --border-strong:#2F423A;
-    --ink:#E9EFEC; --ink-2:#C4D0CB; --muted:#93A39D; --faint:#6C7C76;
-    --accent:#3FB39A; --accent-soft:#1C4B41; --accent-ghost:#17322C; --maple:#E8785F; --maple-soft:#46261F;
-    --good:#45C08E; --warn:#D6A54A; --bad:#E8785F; --grid:#1E2C27;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    --bg:#0B1420; --surface:#111E30; --surface-2:#0D1826; --border:#213448; --border-strong:#2C4661;
+    --ink:#E7EEF6; --ink-2:#C3D2E2; --muted:#93A6BC; --faint:#6B7E95;
+    --accent:#3FA6C9; --accent-deep:#6E97C9; --accent-soft:#1A4257; --accent-ghost:#122B3A;
+    --c-teal:#3FA6C9; --c-navy:#6E97C9; --c-sky:#8FB8DE; --c-grey:#8493A6; --c-orange:#E88A4E; --c-mid:#59B0D4;
+    --good:#45C08E; --warn:#D6A54A; --bad:#E8785F; --grid:#1C2C3D;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.4);
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;}
-  .wrap{max-width:1180px;margin:0 auto;padding:22px 22px 64px;}
+  .wrap{max-width:1200px;margin:0 auto;padding:22px 22px 64px;}
   .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;}
-  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--border);}
+  [hidden]{display:none !important;}
+
+  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding-bottom:16px;border-bottom:1px solid var(--border);}
   .brand{display:flex;align-items:center;gap:13px;}
-  .leaf{width:38px;height:38px;border-radius:9px;flex:none;background:linear-gradient(150deg,var(--accent),color-mix(in srgb,var(--accent) 60%,var(--maple)));display:grid;place-items:center;color:#fff;box-shadow:var(--shadow);}
+  .leaf{width:38px;height:38px;border-radius:9px;flex:none;background:linear-gradient(150deg,var(--accent),var(--accent-deep));display:grid;place-items:center;color:#fff;box-shadow:var(--shadow);}
   .leaf svg{width:22px;height:22px;}
   h1{font-family:"IBM Plex Serif",Georgia,serif;font-weight:600;font-size:22px;margin:0;letter-spacing:-.01em;line-height:1.15;}
   .sub{font-size:12.5px;color:var(--muted);margin-top:2px;}
@@ -47,43 +53,68 @@
   @keyframes pulse{50%{opacity:.3;}}
   .btn{font:inherit;font-size:12.5px;font-weight:500;cursor:pointer;padding:8px 13px;border-radius:8px;border:1px solid var(--border-strong);background:var(--surface);color:var(--ink);display:inline-flex;align-items:center;gap:7px;transition:background .15s,border-color .15s;}
   .btn:hover{background:var(--surface-2);border-color:var(--accent);}
-  .btn:focus-visible,.tab:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .btn:focus-visible,.rtab:focus-visible,.tab:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
   .btn svg{width:14px;height:14px;}
-  .spin{animation:spin .8s linear infinite;}
-  @keyframes spin{to{transform:rotate(360deg);}}
-  .filters{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:flex-end;margin:20px 0 18px;padding:15px 18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);}
+  .spin{animation:spin .8s linear infinite;}@keyframes spin{to{transform:rotate(360deg);}}
+
+  /* report nav */
+  .reportnav{display:flex;gap:4px;flex-wrap:wrap;margin:16px 0 20px;border-bottom:1px solid var(--border);}
+  .rtab{font:inherit;font-size:14px;font-weight:500;cursor:pointer;border:0;background:transparent;color:var(--muted);padding:10px 16px 12px;border-bottom:2.5px solid transparent;margin-bottom:-1px;display:inline-flex;align-items:center;gap:8px;}
+  .rtab:hover{color:var(--ink);}
+  .rtab[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent);font-weight:600;}
+  .rtab .rn{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);}
+  .rtab[aria-selected="true"] .rn{color:var(--accent);}
+
+  /* controls */
+  .controls{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:flex-end;margin-bottom:18px;padding:14px 18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);}
   .field{display:flex;flex-direction:column;gap:5px;}
   .field label{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);font-weight:600;}
-  select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface-2);border:1px solid var(--border-strong);border-radius:7px;padding:8px 30px 8px 11px;cursor:pointer;appearance:none;max-width:260px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%235C6B66' stroke-width='1.6' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:right 10px center;}
+  select{font:inherit;font-size:13px;color:var(--ink);background:var(--surface-2);border:1px solid var(--border-strong);border-radius:7px;padding:8px 30px 8px 11px;cursor:pointer;appearance:none;max-width:260px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%235B6B82' stroke-width='1.6' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:right 10px center;}
   .seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--border-strong);border-radius:8px;padding:3px;gap:2px;}
   .seg button{font:inherit;font-size:12.5px;font-weight:500;cursor:pointer;border:0;background:transparent;color:var(--muted);padding:6px 12px;border-radius:6px;transition:background .15s,color .15s;}
   .seg button[aria-pressed="true"]{background:var(--accent);color:#fff;}
-  .filters .spacer{flex:1 1 auto;}
+  .controls .spacer{flex:1 1 auto;}
   .reset{font-size:12px;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 4px;text-decoration:underline;text-underline-offset:3px;}
-  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px;}
+
+  /* KPI */
+  .kpis{display:grid;gap:14px;margin-bottom:18px;}
+  .kpis.k4{grid-template-columns:repeat(4,1fr);}
+  .kpis.k5{grid-template-columns:repeat(5,1fr);}
   .kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:15px 16px;box-shadow:var(--shadow);position:relative;overflow:hidden;}
-  .kpi .k-label{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:600;}
-  .kpi .k-val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:30px;font-weight:600;color:var(--ink);line-height:1.05;margin-top:8px;letter-spacing:-.02em;}
+  .kpi .k-label{font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);font-weight:600;}
+  .kpi .k-val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:28px;font-weight:600;color:var(--accent-deep);line-height:1.05;margin-top:8px;letter-spacing:-.02em;}
   .kpi .k-note{font-size:11.5px;color:var(--muted);margin-top:5px;}
   .kpi .rail{position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);}
-  .kpi.peak .rail{background:var(--maple);}
-  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);}
+  .kpi.alt .rail{background:var(--accent-deep);}
+  .kpi.warn .rail{background:var(--c-orange);}
+  .kpi.warn .k-val{color:var(--c-orange);}
+
+  /* panels + layout */
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:18px;}
   .panel-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px 0;}
   .panel-title{font-size:15px;font-weight:600;}
   .panel-title small{display:block;font-size:11.5px;font-weight:400;color:var(--muted);margin-top:2px;}
+  .panel-body{padding:12px 18px 20px;}
+  .grid-2{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;align-items:start;}
+  .grid-2 .panel{margin-bottom:0;}
+  .stack{display:flex;flex-direction:column;gap:18px;}
   .tabs{display:inline-flex;background:var(--surface-2);border:1px solid var(--border-strong);border-radius:8px;padding:3px;gap:2px;}
-  .tab{font:inherit;font-size:13px;font-weight:500;cursor:pointer;border:0;background:transparent;color:var(--muted);padding:7px 15px;border-radius:6px;display:inline-flex;align-items:center;gap:7px;}
+  .tab{font:inherit;font-size:13px;font-weight:500;cursor:pointer;border:0;background:transparent;color:var(--muted);padding:7px 15px;border-radius:6px;}
   .tab[aria-selected="true"]{background:var(--accent);color:#fff;}
-  .chart-area{padding:10px 18px 20px;}
   .hint{font-size:11.5px;color:var(--faint);padding:0 18px 14px;}
   .hint b{color:var(--muted);font-weight:600;}
-  svg.cols{width:100%;height:300px;display:block;}
-  .col-bar{cursor:pointer;transition:opacity .12s;}
-  .col-bar:hover{opacity:.82;}
-  .col-label{font-family:"IBM Plex Mono",monospace;font-size:11px;fill:var(--muted);}
-  .col-count{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;fill:var(--ink-2);font-variant-numeric:tabular-nums;}
+
+  /* bar chart */
+  svg.chart{width:100%;display:block;}
+  .bar{cursor:default;transition:opacity .12s;}
+  .bar.clk{cursor:pointer;}
+  .bar.clk:hover{opacity:.82;}
+  .bar-label{font-family:"IBM Plex Mono",monospace;font-size:11px;fill:var(--muted);}
+  .bar-count{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;fill:var(--ink-2);font-variant-numeric:tabular-nums;}
   .gridline{stroke:var(--grid);stroke-width:1;}
   .axis-num{font-family:"IBM Plex Mono",monospace;font-size:10px;fill:var(--faint);}
+
+  /* horizontal bars */
   .hbars{display:flex;flex-direction:column;gap:9px;}
   .hbar-row{display:grid;grid-template-columns:220px 1fr 48px;align-items:center;gap:12px;cursor:pointer;padding:3px 6px;border-radius:7px;transition:background .12s;}
   .hbar-row:hover{background:var(--surface-2);}
@@ -92,13 +123,32 @@
   .hbar-name .code{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--faint);margin-right:7px;}
   .hbar-track{height:22px;background:var(--surface-2);border-radius:5px;overflow:hidden;}
   .hbar-fill{height:100%;background:var(--accent);border-radius:5px;min-width:3px;transition:width .5s cubic-bezier(.2,.7,.3,1);}
-  .hbar-row.sel .hbar-fill{background:var(--maple);}
+  .hbar-row.sel .hbar-fill{background:var(--accent-deep);}
   .hbar-val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;text-align:right;color:var(--ink);}
+
+  /* donut */
+  .donut-wrap{display:flex;flex-wrap:wrap;align-items:center;gap:18px;}
+  .donut-svg{flex:none;}
+  .donut-seg{transition:opacity .12s;cursor:default;}
+  .donut-seg:hover{opacity:.8;}
+  .donut-center{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;}
+  .donut-center .dc-val{font-size:22px;font-weight:600;fill:var(--accent-deep);}
+  .donut-center .dc-lab{font-size:9.5px;fill:var(--faint);letter-spacing:.06em;}
+  .legend{display:flex;flex-direction:column;gap:8px;min-width:150px;flex:1;}
+  .leg-row{display:grid;grid-template-columns:12px 1fr auto;align-items:center;gap:9px;font-size:12.5px;}
+  .leg-sw{width:11px;height:11px;border-radius:3px;}
+  .leg-lab{color:var(--ink-2);}
+  .leg-val{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600;}
+  .leg-pct{font-family:"IBM Plex Mono",monospace;color:var(--muted);font-size:11px;margin-left:6px;}
+
+  /* tooltip */
   .tt{position:fixed;pointer-events:none;z-index:50;background:var(--ink);color:var(--surface);font-size:11.5px;padding:7px 10px;border-radius:7px;box-shadow:0 6px 20px rgba(0,0,0,.28);opacity:0;transform:translateY(3px);transition:opacity .12s;max-width:260px;}
   .tt.on{opacity:1;transform:none;}
   .tt .tt-t{font-weight:600;margin-bottom:2px;}
   .tt .tt-n{font-family:"IBM Plex Mono",monospace;}
-  .table-wrap{margin-top:18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
+
+  /* table */
+  .table-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
   .table-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 18px;border-bottom:1px solid var(--border);}
   .table-head .panel-title{font-size:14px;}
   .table-scroll{overflow-x:auto;}
@@ -114,27 +164,25 @@
   .status.s-active{color:var(--good);background:color-mix(in srgb,var(--good) 13%,transparent);}
   .status.s-lapsed{color:var(--warn);background:color-mix(in srgb,var(--warn) 14%,transparent);}
   .status.s-cancelled{color:var(--bad);background:color-mix(in srgb,var(--bad) 13%,transparent);}
+  .pill-days{font-family:"IBM Plex Mono",monospace;font-weight:600;padding:3px 8px;border-radius:999px;font-size:11px;background:var(--accent-ghost);color:var(--accent);}
+  .pill-days.soon{background:color-mix(in srgb,var(--c-orange) 15%,transparent);color:var(--c-orange);}
   .tfoot{padding:12px 18px;font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;}
   .active-filter{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:var(--accent);background:var(--accent-ghost);border:1px solid var(--accent-soft);padding:4px 8px 4px 10px;border-radius:999px;}
   .active-filter button{border:0;background:none;cursor:pointer;color:var(--accent);font-size:14px;line-height:1;padding:0 2px;}
   .foot-note{margin-top:26px;font-size:11.5px;color:var(--faint);text-align:center;line-height:1.7;}
   .foot-note code{font-family:"IBM Plex Mono",monospace;background:var(--surface-2);border:1px solid var(--border);padding:1px 5px;border-radius:4px;color:var(--muted);}
-  @media (max-width:780px){.kpis{grid-template-columns:repeat(2,1fr);}.hbar-row{grid-template-columns:130px 1fr 40px;}.hbar-name .code{display:none;}}
-  @media (max-width:460px){.kpis{grid-template-columns:1fr;}}
+
+  @media (max-width:820px){.grid-2{grid-template-columns:1fr;}.kpis.k5,.kpis.k4{grid-template-columns:repeat(2,1fr);}.hbar-row{grid-template-columns:130px 1fr 40px;}.hbar-name .code{display:none;}}
+  @media (max-width:460px){.kpis.k5,.kpis.k4{grid-template-columns:1fr;}}
   @media (prefers-reduced-motion:reduce){*{animation-duration:.001ms !important;transition:none !important;}}
 </style>
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     DATA SOURCE
-     The console generator replaces the block between the two markers below with
-     the live dataset (window.__CMA_DATA__ = { meta, records }).
-     Shape:
-       meta:    { generatedOn, environment, defaultYear, source, statusFilter }
-       records: [{ id, contact, category, ptma, expiry, year, status,
-                   created (yyyy-MM-dd), createdMonth (0-11) }, …]
-     ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- ═══ DATA SOURCE — generator replaces the block between the markers ═══════════
+     window.__CMA_DATA__ = { meta:{generatedOn,environment,defaultYear,source},
+       records:[{id,contactId,contact,category,ptma,expiry,year,status,created,
+                 createdMonth,gender,age,language}, …] } -->
 <script id="cma-data">
 /* CMA_DATA_START */
 window.__CMA_DATA__ = null;
@@ -144,66 +192,96 @@ window.__CMA_DATA__ = null;
 <div class="wrap">
   <header class="top">
     <div class="brand">
-      <div class="leaf" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C9 6 4 7 4 13c0 4 3.2 7 8 9 0-5-1.5-8-4-10 3 1 5 3 5.6 6C15 15 20 13 20 8c0-3-3-3-4-6-1 2-2 2-4 0z"/></svg>
-      </div>
-      <div>
-        <h1>CMA Membership Report</h1>
-        <div class="sub" id="metaSub">Membership analytics &middot; <span class="mono">new_cmamembershipdetail</span></div>
-      </div>
+      <div class="leaf" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C9 6 4 7 4 13c0 4 3.2 7 8 9 0-5-1.5-8-4-10 3 1 5 3 5.6 6C15 15 20 13 20 8c0-3-3-3-4-6-1 2-2 2-4 0z"/></svg></div>
+      <div><h1>CMA Membership Reports</h1><div class="sub" id="metaSub"><span class="mono">new_cmamembershipdetail</span></div></div>
     </div>
     <div class="conn">
       <span class="chip" id="connChip"><span class="dot"></span><span id="connText">Connected to CRM</span></span>
-      <button class="btn" id="refreshBtn" title="Reload data">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>
-        Refresh
-      </button>
-      <button class="btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
-      </button>
+      <button class="btn" id="refreshBtn" title="Reload data"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>Refresh</button>
+      <button class="btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg></button>
     </div>
   </header>
 
-  <section class="filters" aria-label="Report filters">
-    <div class="field"><label for="fYear">Membership Year</label><select id="fYear"></select></div>
-    <div class="field"><label>Membership Status</label>
-      <div class="seg" role="group" aria-label="Status">
-        <button data-status="Active" aria-pressed="true">Active</button>
-        <button data-status="All" aria-pressed="false">All statuses</button>
-      </div>
+  <nav class="reportnav" role="tablist" aria-label="Reports">
+    <button class="rtab" role="tab" data-report="membership"  aria-selected="true"><span class="rn">01</span>Membership</button>
+    <button class="rtab" role="tab" data-report="overview"     aria-selected="false"><span class="rn">02</span>Overview</button>
+    <button class="rtab" role="tab" data-report="demographics" aria-selected="false"><span class="rn">03</span>Demographics</button>
+    <button class="rtab" role="tab" data-report="expiry"       aria-selected="false"><span class="rn">04</span>Upcoming Expiry</button>
+  </nav>
+
+  <!-- ═══ REPORT 1 — MEMBERSHIP ═══ -->
+  <section class="report" data-report="membership">
+    <div class="controls">
+      <div class="field"><label for="fYear">Membership Year</label><select id="fYear" class="yearsel"></select></div>
+      <div class="field"><label>Status</label><div class="seg" id="memStatus" role="group" aria-label="Status">
+        <button data-status="Active" aria-pressed="true">Active</button><button data-status="All" aria-pressed="false">All statuses</button></div></div>
+      <div class="field"><label for="fPtma">PTMA</label><select id="fPtma"></select></div>
+      <div class="field"><label for="fCat">Category</label><select id="fCat"></select></div>
+      <div class="spacer"></div><button class="reset" id="memReset">Reset filters</button>
     </div>
-    <div class="field"><label for="fPtma">PTMA</label><select id="fPtma"></select></div>
-    <div class="field"><label for="fCat">Category</label><select id="fCat"></select></div>
-    <div class="spacer"></div>
-    <button class="reset" id="resetBtn">Reset filters</button>
+    <section class="kpis k4" id="memKpis" aria-live="polite"></section>
+    <section class="panel">
+      <div class="panel-head"><div class="panel-title" id="memPanelTitle">Memberships created by month<small id="memPanelSub"></small></div>
+        <div class="tabs" role="tablist"><button class="tab" id="memTabMonth" role="tab" aria-selected="true">By Month</button><button class="tab" id="memTabPtma" role="tab" aria-selected="false">By PTMA</button></div></div>
+      <div class="panel-body" id="memChart"></div><div class="hint" id="memHint"></div>
+    </section>
+    <div class="table-wrap">
+      <div class="table-head"><div class="panel-title">Membership detail records</div><div id="memChips"></div></div>
+      <div class="table-scroll"><table><thead><tr><th>Contact</th><th>Category</th><th>PTMA</th><th>Created</th><th>Expiry</th><th>Year</th><th>Status</th></tr></thead><tbody id="memBody"></tbody></table></div>
+      <div class="tfoot" id="memFoot"></div>
+    </div>
   </section>
 
-  <section class="kpis" id="kpis" aria-live="polite"></section>
-
-  <section class="panel">
-    <div class="panel-head">
-      <div class="panel-title" id="panelTitle">Memberships created by month<small id="panelSub"></small></div>
-      <div class="tabs" role="tablist" aria-label="Chart view">
-        <button class="tab" id="tabMonth" role="tab" aria-selected="true">By Month</button>
-        <button class="tab" id="tabPtma" role="tab" aria-selected="false">By PTMA</button>
-      </div>
+  <!-- ═══ REPORT 2 — OVERVIEW ═══ -->
+  <section class="report" data-report="overview" hidden>
+    <div class="controls">
+      <div class="field"><label for="ovYear">Membership Year</label><select id="ovYear" class="yearsel"></select></div>
+      <div class="spacer"></div>
+      <div class="hint" style="padding:0;align-self:center">Active memberships for the selected year.</div>
     </div>
-    <div class="chart-area" id="chartArea"></div>
-    <div class="hint" id="chartHint"></div>
+    <section class="kpis k5" id="ovKpis"></section>
+    <div class="grid-2">
+      <section class="panel"><div class="panel-head"><div class="panel-title">Years to expiry<small>Whole years between today and <span class="mono">new_expirydate</span></small></div></div><div class="panel-body" id="ovYears"></div></section>
+      <section class="panel"><div class="panel-head"><div class="panel-title">Members by type</div></div><div class="panel-body" id="ovDonut"></div></section>
+    </div>
   </section>
 
-  <section class="table-wrap">
-    <div class="table-head">
-      <div class="panel-title">Membership detail records</div>
-      <div id="tableFilterChips"></div>
+  <!-- ═══ REPORT 3 — DEMOGRAPHICS ═══ -->
+  <section class="report" data-report="demographics" hidden>
+    <div class="controls">
+      <div class="field"><label>Status</label><div class="seg" id="demoStatus" role="group" aria-label="Status">
+        <button data-status="Active" aria-pressed="true">Active</button><button data-status="All" aria-pressed="false">All statuses</button></div></div>
+      <div class="spacer"></div>
+      <div class="hint" style="padding:0;align-self:center">Distinct contacts &middot; <span class="mono">gendercode</span> &middot; <span class="mono">new_age</span> &middot; <span class="mono">new_language</span></div>
     </div>
-    <div class="table-scroll">
-      <table>
-        <thead><tr><th>Contact</th><th>Category</th><th>PTMA</th><th>Created</th><th>Expiry</th><th>Year</th><th>Status</th></tr></thead>
-        <tbody id="tbody"></tbody>
-      </table>
+    <section class="kpis k4" id="demoKpis"></section>
+    <div class="grid-2">
+      <section class="panel"><div class="panel-head"><div class="panel-title">Age range</div></div><div class="panel-body" id="demoAge"></div></section>
+      <div class="stack">
+        <section class="panel"><div class="panel-head"><div class="panel-title">Gender</div></div><div class="panel-body" id="demoGender"></div></section>
+        <section class="panel"><div class="panel-head"><div class="panel-title">Language</div></div><div class="panel-body" id="demoLang"></div></section>
+      </div>
     </div>
-    <div class="tfoot" id="tfoot"></div>
+  </section>
+
+  <!-- ═══ REPORT 4 — UPCOMING EXPIRY ═══ -->
+  <section class="report" data-report="expiry" hidden>
+    <div class="controls">
+      <div class="field"><label for="expWindow">Expiring within</label><select id="expWindow">
+        <option value="30">Next 30 days</option><option value="60">Next 60 days</option><option value="90" selected>Next 90 days</option>
+        <option value="180">Next 180 days</option><option value="365">Next 12 months</option></select></div>
+      <div class="field"><label>Status</label><div class="seg" id="expStatus" role="group" aria-label="Status">
+        <button data-status="Active" aria-pressed="true">Active</button><button data-status="All" aria-pressed="false">All statuses</button></div></div>
+      <div class="spacer"></div>
+      <div class="hint" style="padding:0;align-self:center">Relative to <span id="expRef" class="mono"></span></div>
+    </div>
+    <section class="kpis k4" id="expKpis"></section>
+    <section class="panel"><div class="panel-head"><div class="panel-title">Expirations by month<small>Active memberships, next 12 months from today</small></div></div><div class="panel-body" id="expMonths"></div></section>
+    <div class="table-wrap">
+      <div class="table-head"><div class="panel-title" id="expTableTitle">Soonest to expire</div></div>
+      <div class="table-scroll"><table><thead><tr><th>Contact</th><th>Category</th><th>PTMA</th><th>Expiry</th><th>Days left</th><th>Status</th></tr></thead><tbody id="expBody"></tbody></table></div>
+      <div class="tfoot" id="expFoot"></div>
+    </div>
   </section>
 
   <p class="foot-note" id="footNote"></p>
@@ -214,260 +292,281 @@ window.__CMA_DATA__ = null;
 <script>
 "use strict";
 const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-const $=s=>document.querySelector(s);
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const tt=$("#tt");
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
-/* ── data source ──────────────────────────────────────────────────────────────
-   Real runs read window.__CMA_DATA__ (injected by the generator). When the raw
-   template is opened directly there is no data, so a tiny demo set renders so the
-   layout is still previewable. */
+/* ── data source ── */
 const DEMO={meta:{source:"demo",environment:"(no data — template preview)",generatedOn:new Date().toISOString()},
-  records:[
-    {contact:"Sample Physician",category:"Full Member / Membre actif",ptma:"Ontario Medical Association",expiry:"2027-12-31",year:"2027",status:"Active",created:"2027-01-14",createdMonth:0},
-    {contact:"Sample Physician",category:"Retired Lifetime Membership / Adhésion à vie - Retraité",ptma:"Doctors of BC",expiry:"2027-12-31",year:"2027",status:"Active",created:"2027-02-03",createdMonth:1},
-    {contact:"Sample Physician",category:"Resident / Résident",ptma:"Alberta Medical Association",expiry:"2027-12-31",year:"2027",status:"Active",created:"2027-03-22",createdMonth:2}
-  ]};
-
+  records:[{contactId:"a",contact:"Sample Physician",category:"Full Member / Membre actif",ptma:"Ontario Medical Association",expiry:"2027-12-31",year:"2027",status:"Active",created:"2027-01-14",createdMonth:0,gender:"Female",age:41,language:"English"},
+    {contactId:"b",contact:"Sample Resident",category:"Resident / Résident",ptma:"Doctors of BC",expiry:"2026-12-31",year:"2026",status:"Active",created:"2026-02-03",createdMonth:1,gender:"Male",age:29,language:"French"},
+    {contactId:"c",contact:"Sample Retiree",category:"Retired Lifetime Membership / Adhésion à vie - Retraité",ptma:"Alberta Medical Association",expiry:null,year:"2027",status:"Active",created:"2027-03-22",createdMonth:2,gender:"Female",age:71,language:"English"}]};
 const RAW=(window.__CMA_DATA__&&Array.isArray(window.__CMA_DATA__.records)&&window.__CMA_DATA__.records.length)?window.__CMA_DATA__:DEMO;
 const META=RAW.meta||{};
+const REF=(META.generatedOn&&!isNaN(new Date(META.generatedOn)))?new Date(META.generatedOn):new Date();
+REF.setHours(0,0,0,0);
 
-function ptmaCode(name){
-  const stop=new Set(["of","and","the","for","de","des","du","la","le","les","&","medical","association","society","société","fédération","doctors"]);
+/* ── derived helpers ── */
+function statusClass(s){const k=(s||"").toLowerCase();return k.startsWith("active")?"s-active":k.startsWith("laps")?"s-lapsed":k.startsWith("cancel")?"s-cancelled":"";}
+function isActive(r){return statusClass(r.status)==="s-active";}
+function memberType(cat){const c=(cat||"").toLowerCase();
+  if(/retir|lifetime|à vie|a vie/.test(c))return"Lifetime";
+  if(/resident|résident|resident/.test(c))return"Resident";
+  if(/student|étudiant|etudiant/.test(c))return"Student";
+  return"Physician";}
+function genderNorm(g){const s=(g==null?"":String(g)).toLowerCase();
+  if(/non.?binary/.test(s))return"Non-Binary";
+  if(/female|femme/.test(s)||s==="2")return"Female";
+  if(/male|homme/.test(s)||s==="1")return"Male";
+  return"Unknown";}
+function langNorm(l){const s=(l==null?"":String(l)).toLowerCase();
+  if(/fren|français|francais/.test(s))return"French";
+  if(/eng|anglais/.test(s))return"English";
+  return s?"Other":"Unknown";}
+function ptmaCode(name){const stop=new Set(["of","and","the","for","de","des","du","la","le","les","&","medical","association","society","société","fédération","doctors"]);
   const words=(name||"").replace(/[/(),.]/g," ").split(/\s+/).filter(Boolean);
   let letters=words.filter(w=>!stop.has(w.toLowerCase())).map(w=>w[0]).join("").toUpperCase();
-  if(letters.length<2) letters=words.map(w=>w[0]).join("").toUpperCase();
-  return letters.slice(0,3)||"—";
-}
-function normalize(r){
-  const cm=(typeof r.createdMonth==="number")?r.createdMonth
-    :(r.created&&/^\d{4}-\d{2}/.test(r.created)?(parseInt(r.created.slice(5,7),10)-1):0);
-  return {contact:r.contact||"(no contact)",category:r.category||"(no category)",
-    ptma:r.ptma||"(no PTMA)",ptmaCode:ptmaCode(r.ptma),
-    expiry:r.expiry||null,year:String(r.year||""),status:r.status||"(no status)",
-    created:r.created||"",createdMonth:cm};
-}
-const RECORDS=RAW.records.map(normalize);
+  if(letters.length<2)letters=words.map(w=>w[0]).join("").toUpperCase();return letters.slice(0,3)||"—";}
+function daysUntil(expiry){if(!expiry)return null;const d=new Date(expiry+"T00:00:00");return Math.round((d-REF)/86400000);}
+function yearsLeftKey(r){if(memberType(r.category)==="Lifetime")return"Lifetime";if(!r.expiry)return"(Blank)";
+  return Math.trunc(daysUntil(r.expiry)/365);}
+function ageBucket(a){if(a==null||a===""||isNaN(a))return"Unknown Age";a=+a;
+  if(a<30)return"< 30";if(a<=34)return"30 - 34";if(a<=39)return"35 - 39";if(a<=44)return"40 - 44";
+  if(a<=49)return"45 - 49";if(a<=54)return"50 - 54";if(a<=59)return"55 - 59";if(a<=64)return"60 - 64";return"65 & Over";}
+
+const RECORDS=RAW.records.map(r=>{
+  const cm=(typeof r.createdMonth==="number")?r.createdMonth:(r.created&&/^\d{4}-\d{2}/.test(r.created)?(parseInt(r.created.slice(5,7),10)-1):0);
+  return {id:r.id,contactId:r.contactId||r.contact||r.id,contact:r.contact||"(no contact)",
+    category:r.category||"(no category)",type:memberType(r.category),ptma:r.ptma||"(no PTMA)",ptmaCode:ptmaCode(r.ptma),
+    expiry:r.expiry||null,year:String(r.year||""),status:r.status||"(no status)",created:r.created||"",createdMonth:cm,
+    gender:genderNorm(r.gender),age:(r.age==null||r.age===""?null:+r.age),language:langNorm(r.language)};});
 
 const YEARS=[...new Set(RECORDS.map(r=>r.year).filter(Boolean))].sort((a,b)=>b.localeCompare(a));
 const CATS=[...new Set(RECORDS.map(r=>r.category))].sort();
-const PTMA_NAMES=[...new Set(RECORDS.map(r=>r.ptma))].sort();
+const PTMAS=[...new Set(RECORDS.map(r=>r.ptma))].sort();
 const defaultYear=(META.defaultYear&&YEARS.includes(String(META.defaultYear)))?String(META.defaultYear):(YEARS[0]||"");
-const defaultStatus=(META.statusFilter==="All")?"All":"Active";
 
-const state={year:defaultYear,status:defaultStatus,ptma:"all",cat:"all",view:"month",month:null};
+const state={report:"membership",year:defaultYear,memStatus:"Active",demoStatus:"Active",expStatus:"Active",
+  ptma:"all",cat:"all",memView:"month",month:null,expWindow:90};
 
-/* ── filter controls ── */
-$("#fYear").innerHTML=YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")||`<option>—</option>`;
-$("#fYear").value=state.year;
-$("#fPtma").innerHTML=`<option value="all">All PTMAs</option>`+PTMA_NAMES.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
-$("#fCat").innerHTML=`<option value="all">All categories</option>`+CATS.map(c=>`<option value="${esc(c)}">${esc(c.split(" / ")[0])}</option>`).join("");
-document.querySelectorAll(".seg button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.status===state.status)));
-
-function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-function statusClass(s){const k=(s||"").toLowerCase();return k.startsWith("active")?"s-active":k.startsWith("laps")?"s-lapsed":k.startsWith("cancel")?"s-cancelled":"";}
-
-/* ── header meta ── */
-(function meta(){
-  const env=META.environment||META.source||"CRM";
-  $("#connText").textContent="Connected · "+env;
-  const when=META.generatedOn?new Date(META.generatedOn):null;
-  const stamp=when&&!isNaN(when)?when.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"}):"—";
-  $("#metaSub").innerHTML=`Membership analytics &middot; <span class="mono">new_cmamembershipdetail</span> &middot; ${RECORDS.length.toLocaleString()} records &middot; data as of ${esc(stamp)}`;
-  if(META.source==="demo") $("#connChip").classList.add("offline");
-  $("#footNote").innerHTML=`Grouped on <code>createdon</code>; "Active" reads the <code>new_status</code> label. Lookups resolved: `+
-    `<code>new_Contact</code> &rarr; Contact.fullname, <code>new_Categoryproductid</code> &rarr; Product.name, `+
-    `<code>new_divassocaccountid</code> &rarr; Account.name.`;
-})();
-
-/* ── filtering ── */
-function filtered(ignoreMonth){
-  return RECORDS.filter(r=>
-    r.year===state.year &&
-    (state.status==="All"||statusClass(r.status)==="s-active") &&
-    (state.ptma==="all"||r.ptma===state.ptma) &&
-    (state.cat==="all"||r.category===state.cat) &&
-    (ignoreMonth||state.month===null||r.createdMonth===state.month));
-}
+/* ── colours ── */
+const COL={teal:"var(--c-teal)",navy:"var(--c-navy)",sky:"var(--c-sky)",grey:"var(--c-grey)",orange:"var(--c-orange)",mid:"var(--c-mid)"};
 
 /* ── tooltip ── */
 function showTip(html,e){tt.innerHTML=html;tt.classList.add("on");moveTip(e);}
-function moveTip(e){const pad=14;let x=e.clientX+pad,y=e.clientY+pad;const r=tt.getBoundingClientRect();
-  if(x+r.width>innerWidth-8)x=e.clientX-r.width-pad;if(y+r.height>innerHeight-8)y=e.clientY-r.height-pad;
-  tt.style.left=x+"px";tt.style.top=y+"px";}
+function moveTip(e){const p=14;let x=e.clientX+p,y=e.clientY+p;const r=tt.getBoundingClientRect();
+  if(x+r.width>innerWidth-8)x=e.clientX-r.width-p;if(y+r.height>innerHeight-8)y=e.clientY-r.height-p;tt.style.left=x+"px";tt.style.top=y+"px";}
 function hideTip(){tt.classList.remove("on");}
-
-/* ── KPIs ── */
-function renderKPIs(){
-  const rows=filtered(true);
-  const byMonth=MONTHS.map((_,i)=>rows.filter(r=>r.createdMonth===i).length);
-  const total=rows.length, ptmaCount=new Set(rows.map(r=>r.ptma)).size;
-  let peak=0;byMonth.forEach((c,i)=>{if(c>byMonth[peak])peak=i;});
-  const retired=rows.filter(r=>/retir/i.test(r.category)).length;
-  const retiredPct=total?Math.round(retired/total*100):0;
-  const statusLabel=state.status==="All"?"all statuses":"active";
-  $("#kpis").innerHTML=`
-    <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div>
-      <div class="k-val">${total.toLocaleString()}</div>
-      <div class="k-note">${esc(state.year||"—")} &middot; ${statusLabel}${state.ptma!=="all"?" &middot; 1 PTMA":""}</div></div>
-    <div class="kpi"><span class="rail"></span><div class="k-label">PTMAs Reporting</div>
-      <div class="k-val">${ptmaCount}</div><div class="k-note">of ${PTMA_NAMES.length} in data</div></div>
-    <div class="kpi peak"><span class="rail"></span><div class="k-label">Peak Month</div>
-      <div class="k-val">${total?MONTHS[peak]:"—"}</div><div class="k-note">${byMonth[peak]||0} records created</div></div>
-    <div class="kpi"><span class="rail"></span><div class="k-label">Retired / Lifetime</div>
-      <div class="k-val">${retiredPct}<span style="font-size:18px">%</span></div><div class="k-note">${retired.toLocaleString()} of total</div></div>`;
-}
-
-/* ── by-month chart ── */
-function renderMonthChart(){
-  const rows=filtered(true);
-  const counts=MONTHS.map((_,i)=>rows.filter(r=>r.createdMonth===i).length);
-  const max=Math.max(4,...counts);
-  const W=1000,H=300,padL=34,padR=8,padT=14,padB=42,plotW=W-padL-padR,plotH=H-padT-padB,bw=plotW/12,barW=bw*0.56,ticks=4;
-  let grid="";
-  for(let t=0;t<=ticks;t++){const val=Math.round(max*t/ticks),y=padT+plotH-(plotH*t/ticks);
-    grid+=`<line class="gridline" x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}"/><text class="axis-num" x="${padL-6}" y="${y+3}" text-anchor="end">${val}</text>`;}
-  const peakVal=Math.max(...counts);
-  let bars="";
-  counts.forEach((c,i)=>{
-    const h=max?plotH*c/max:0,x=padL+i*bw+(bw-barW)/2,y=padT+plotH-h;
-    const sel=state.month===i,fill=(sel||c===peakVal&&c>0)?"var(--maple)":"var(--accent)";
-    bars+=`<g class="col-bar" data-m="${i}"><rect x="${padL+i*bw}" y="${padT}" width="${bw}" height="${plotH}" fill="transparent"/>`+
-      `<rect x="${x}" y="${y}" width="${barW}" height="${Math.max(h,0)}" rx="4" fill="${fill}" ${sel?'stroke="var(--ink)" stroke-width="1.5"':''}/>`+
-      `${c>0?`<text class="col-count" x="${padL+i*bw+bw/2}" y="${y-6}" text-anchor="middle">${c}</text>`:""}`+
-      `<text class="col-label" x="${padL+i*bw+bw/2}" y="${H-padB+20}" text-anchor="middle">${MONTHS[i]}</text></g>`;});
-  $("#chartArea").innerHTML=`<svg class="cols" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Memberships created by month">${grid}${bars}</svg>`;
-  $("#chartArea").querySelectorAll(".col-bar").forEach(g=>{
-    const i=+g.dataset.m,c=counts[i];
-    g.addEventListener("mousemove",e=>showTip(`<div class="tt-t">${MONTHS[i]} ${esc(state.year)}</div><div class="tt-n">${c} membership${c!==1?"s":""} created</div>`,e));
-    g.addEventListener("mouseleave",hideTip);
-    g.addEventListener("click",()=>{state.month=state.month===i?null:i;hideTip();renderAll();});});
-}
-
-/* ── by-PTMA chart ── */
-function renderPtmaChart(){
-  const rows=filtered(true),map={};
-  rows.forEach(r=>{(map[r.ptma]??={name:r.ptma,code:r.ptmaCode,c:0}).c++;});
-  const arr=Object.values(map).sort((a,b)=>b.c-a.c);
-  const max=Math.max(1,...arr.map(d=>d.c));
-  $("#chartArea").innerHTML=`<div class="hbars">`+(arr.map(d=>{
-    const sel=state.ptma===d.name;
-    return `<div class="hbar-row ${sel?'sel':''}" data-ptma="${esc(d.name)}"><div class="hbar-name" title="${esc(d.name)}"><span class="code">${esc(d.code)}</span>${esc(d.name)}</div>`+
-      `<div class="hbar-track"><div class="hbar-fill" style="width:${d.c/max*100}%"></div></div><div class="hbar-val">${d.c}</div></div>`;
-  }).join("")||`<div class="hint">No records match these filters.</div>`)+`</div>`;
-  $("#chartArea").querySelectorAll(".hbar-row").forEach(row=>{
-    const name=row.dataset.ptma,d=map[name];
-    row.addEventListener("mousemove",e=>showTip(`<div class="tt-t">${esc(d.code)} &middot; ${esc(name)}</div><div class="tt-n">${d.c} membership${d.c!==1?"s":""}</div>`,e));
-    row.addEventListener("mouseleave",hideTip);
-    row.addEventListener("click",()=>{state.ptma=state.ptma===name?"all":name;$("#fPtma").value=state.ptma==="all"?"all":name;hideTip();renderAll();});});
-}
-
-/* ── table ── */
-let chipHandlers=[];
-function chip(label,handler){chipHandlers.push(handler);return `<span class="active-filter">${esc(label)}<button aria-label="Clear">&times;</button></span>`;}
-function renderTable(){
-  const rows=filtered(false).slice().sort((a,b)=>a.created<b.created?1:-1);
-  const shown=rows.slice(0,15);
-  $("#tbody").innerHTML=shown.map(r=>`<tr><td class="name">${esc(r.contact)}</td><td>${esc(r.category.split(" / ")[0])}</td>`+
-    `<td>${esc(r.ptmaCode)} &middot; ${esc(r.ptma)}</td><td class="num">${esc(r.created)}</td><td class="num">${esc(r.expiry||"—")}</td>`+
-    `<td class="num">${esc(r.year)}</td><td><span class="status ${statusClass(r.status)}">${esc(r.status)}</span></td></tr>`).join("")||
-    `<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:26px">No records match these filters.</td></tr>`;
-  $("#tfoot").innerHTML=`<span>Showing <b class="mono">${shown.length}</b> of <b class="mono">${rows.length.toLocaleString()}</b> filtered records</span><span>Sorted by created date (newest first)</span>`;
-  chipHandlers=[];const chips=[];
-  if(state.month!==null)chips.push(chip(`Month: ${MONTHS[state.month]}`,()=>{state.month=null;renderAll();}));
-  if(state.ptma!=="all")chips.push(chip(`PTMA: ${state.ptma.length>26?state.ptma.slice(0,24)+"…":state.ptma}`,()=>{state.ptma="all";$("#fPtma").value="all";renderAll();}));
-  if(state.cat!=="all")chips.push(chip(`Category: ${state.cat.split(" / ")[0]}`,()=>{state.cat="all";$("#fCat").value="all";renderAll();}));
-  $("#tableFilterChips").innerHTML=chips.join(" ");
-  $("#tableFilterChips").querySelectorAll("button").forEach((b,i)=>b.onclick=chipHandlers[i]);
-}
-
-/* ── orchestration ── */
-function renderAll(){
-  renderKPIs();
-  const monthMode=state.view==="month";
-  $("#panelTitle").childNodes[0].nodeValue=monthMode?"Memberships created by month":"Memberships by PTMA";
-  $("#panelSub").textContent=`${esc(state.year||"—")} · ${state.status==="All"?"all statuses":"active only"}${state.ptma!=="all"&&monthMode?" · "+state.ptma:""}`;
-  $("#chartHint").innerHTML=monthMode
-    ?`<b>Click a column</b> to filter the table to that month. Bars count <span class="mono">createdon</span> by month; peak highlighted in maple.`
-    :`<b>Click a bar</b> to filter everything to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span> &rarr; Account name.`;
-  $("#tabMonth").setAttribute("aria-selected",monthMode);$("#tabPtma").setAttribute("aria-selected",!monthMode);
-  if(monthMode)renderMonthChart();else renderPtmaChart();
-  renderTable();
-}
-
-/* ── events ── */
-$("#fYear").addEventListener("change",e=>{state.year=e.target.value;state.month=null;renderAll();});
-$("#fPtma").addEventListener("change",e=>{state.ptma=e.target.value;renderAll();});
-$("#fCat").addEventListener("change",e=>{state.cat=e.target.value;renderAll();});
-document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
-  document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed","false"));
-  b.setAttribute("aria-pressed","true");state.status=b.dataset.status;renderAll();}));
-$("#tabMonth").addEventListener("click",()=>{state.view="month";renderAll();});
-$("#tabPtma").addEventListener("click",()=>{state.view="ptma";renderAll();});
-$("#resetBtn").addEventListener("click",()=>{state.status="Active";state.ptma="all";state.cat="all";state.month=null;
-  document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.status==="Active"));
-  $("#fPtma").value="all";$("#fCat").value="all";renderAll();});
 addEventListener("mousemove",e=>{if(tt.classList.contains("on"))moveTip(e);});
 
-/* Refresh: in this POC the data is embedded, so refresh re-renders. In a Web
-   Resource build, wire this to loadFromDataverse() (see below) and re-render. */
-$("#refreshBtn").addEventListener("click",()=>{
-  const chip=$("#connChip"),txt=$("#connText"),btn=$("#refreshBtn"),was=txt.textContent;
-  chip.className="chip reconnecting";txt.textContent="Refreshing…";btn.querySelector("svg").classList.add("spin");
-  setTimeout(()=>{chip.className="chip"+(META.source==="demo"?" offline":"");txt.textContent=was;btn.querySelector("svg").classList.remove("spin");renderAll();},700);
-});
-$("#themeBtn").addEventListener("click",()=>{
-  const cur=document.documentElement.getAttribute("data-theme");
-  const next=cur==="dark"?"light":cur==="light"?"dark":(matchMedia("(prefers-color-scheme: dark)").matches?"light":"dark");
-  document.documentElement.setAttribute("data-theme",next);});
+/* ═══ generic vertical bar chart ═══ */
+function vbars(host,items,opts={}){
+  const n=Math.max(items.length,1),H=opts.height||300,W=1000,padL=42,padR=10,padT=18,padB=opts.rotate?70:42;
+  const plotW=W-padL-padR,plotH=H-padT-padB,bw=plotW/n,barW=Math.min(bw*0.62,70),max=Math.max(1,...items.map(d=>d.value));
+  let grid="";const ticks=4;
+  for(let t=0;t<=ticks;t++){const val=Math.round(max*t/ticks),y=padT+plotH-(plotH*t/ticks);
+    grid+=`<line class="gridline" x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}"/><text class="axis-num" x="${padL-6}" y="${y+3}" text-anchor="end">${val.toLocaleString()}</text>`;}
+  let bars="";
+  items.forEach((d,i)=>{const h=plotH*d.value/max,cx=padL+i*bw+bw/2,x=cx-barW/2,y=padT+plotH-h,fill=d.color||(d.selected?"var(--accent-deep)":"var(--accent)");
+    const lx=opts.rotate?`transform="rotate(-32 ${cx} ${H-padB+16})"`:"";
+    bars+=`<g class="bar ${opts.onClick?"clk":""}" data-i="${i}"><rect x="${padL+i*bw}" y="${padT}" width="${bw}" height="${plotH}" fill="transparent"/>`+
+      `<rect x="${x}" y="${y}" width="${barW}" height="${Math.max(h,0)}" rx="4" fill="${fill}" ${d.selected?'stroke="var(--ink)" stroke-width="1.5"':''}/>`+
+      `${d.value>0?`<text class="bar-count" x="${cx}" y="${y-6}" text-anchor="middle">${d.value.toLocaleString()}</text>`:""}`+
+      `<text class="bar-label" x="${cx}" y="${H-padB+16}" text-anchor="${opts.rotate?"end":"middle"}" ${lx}>${esc(d.label)}</text></g>`;});
+  host.innerHTML=`<svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img">${grid}${bars}</svg>`;
+  host.querySelectorAll(".bar").forEach(g=>{const d=items[+g.dataset.i];
+    g.addEventListener("mousemove",e=>showTip(`<div class="tt-t">${esc(d.tipTitle||d.label)}</div><div class="tt-n">${d.value.toLocaleString()}${d.tipSuffix||""}</div>`,e));
+    g.addEventListener("mouseleave",hideTip);
+    if(opts.onClick)g.addEventListener("click",()=>{hideTip();opts.onClick(d,+g.dataset.i);});});
+}
 
-renderAll();
+/* ═══ generic donut ═══ */
+function donut(host,items,opts={}){
+  const total=items.reduce((s,d)=>s+d.value,0);
+  const R=62,cx=82,cy=82,sw=24,C=2*Math.PI*R;let off=0,segs="";
+  items.filter(d=>d.value>0).forEach(d=>{const frac=total?d.value/total:0,len=frac*C;
+    segs+=`<circle class="donut-seg" data-lab="${esc(d.label)}" data-val="${d.value}" cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="${d.color}" stroke-width="${sw}" stroke-dasharray="${len} ${C-len}" stroke-dashoffset="${-off}" transform="rotate(-90 ${cx} ${cy})"/>`;
+    off+=len;});
+  const legend=items.map(d=>{const pct=total?Math.round(d.value/total*100):0;
+    return `<div class="leg-row"><span class="leg-sw" style="background:${d.color}"></span><span class="leg-lab">${esc(d.label)}</span><span><span class="leg-val">${d.value.toLocaleString()}</span><span class="leg-pct">${pct}%</span></span></div>`;}).join("");
+  host.innerHTML=`<div class="donut-wrap"><svg class="donut-svg" width="164" height="164" viewBox="0 0 164 164">${segs}`+
+    `<text class="donut-center" x="${cx}" y="${cy-2}" text-anchor="middle"><tspan class="dc-val">${total.toLocaleString()}</tspan></text>`+
+    `<text class="donut-center" x="${cx}" y="${cy+14}" text-anchor="middle"><tspan class="dc-lab">${esc(opts.centerLabel||"TOTAL")}</tspan></text></svg>`+
+    `<div class="legend">${legend}</div></div>`;
+  host.querySelectorAll(".donut-seg").forEach(s=>{const pct=total?Math.round((+s.dataset.val)/total*100):0;
+    s.addEventListener("mousemove",e=>showTip(`<div class="tt-t">${esc(s.dataset.lab)}</div><div class="tt-n">${(+s.dataset.val).toLocaleString()} · ${pct}%</div>`,e));
+    s.addEventListener("mouseleave",hideTip);});
+}
+function countBy(rows,keyFn){const m=new Map();rows.forEach(r=>{const k=keyFn(r);m.set(k,(m.get(k)||0)+1);});return m;}
+function pct(n,d){return d?Math.round(n/d*100):0;}
 
-/* ═════════════════════════════════════════════════════════════════════════════
-   WEB RESOURCE SEAM (for the next phase)
+/* ═══════════════ REPORT 1 — MEMBERSHIP ═══════════════ */
+function memFiltered(ignoreMonth){return RECORDS.filter(r=>r.year===state.year&&
+  (state.memStatus==="All"||isActive(r))&&(state.ptma==="all"||r.ptma===state.ptma)&&
+  (state.cat==="all"||r.category===state.cat)&&(ignoreMonth||state.month===null||r.createdMonth===state.month));}
+let memChip=[];
+function chip(label,h){memChip.push(h);return `<span class="active-filter">${esc(label)}<button aria-label="Clear">&times;</button></span>`;}
+function renderMembership(){
+  const rows=memFiltered(true);
+  const byMonth=MONTHS.map((_,i)=>rows.filter(r=>r.createdMonth===i).length);
+  const total=rows.length,ptmaCount=new Set(rows.map(r=>r.ptma)).size;
+  let peak=0;byMonth.forEach((c,i)=>{if(c>byMonth[peak])peak=i;});
+  const retired=rows.filter(r=>r.type==="Lifetime").length;
+  $("#memKpis").innerHTML=`
+    <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div><div class="k-val">${total.toLocaleString()}</div><div class="k-note">${esc(state.year||"—")} &middot; ${state.memStatus==="All"?"all statuses":"active"}</div></div>
+    <div class="kpi alt"><span class="rail"></span><div class="k-label">PTMAs Reporting</div><div class="k-val">${ptmaCount}</div><div class="k-note">of ${PTMAS.length} in data</div></div>
+    <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${total?MONTHS[peak]:"—"}</div><div class="k-note">${(byMonth[peak]||0).toLocaleString()} created</div></div>
+    <div class="kpi alt"><span class="rail"></span><div class="k-label">Retired / Lifetime</div><div class="k-val">${pct(retired,total)}<span style="font-size:17px">%</span></div><div class="k-note">${retired.toLocaleString()} of total</div></div>`;
+  const monthMode=state.memView==="month";
+  $("#memPanelTitle").childNodes[0].nodeValue=monthMode?"Memberships created by month":"Memberships by PTMA";
+  $("#memPanelSub").textContent=`${esc(state.year||"—")} · ${state.memStatus==="All"?"all statuses":"active only"}`;
+  $("#memHint").innerHTML=monthMode?`<b>Click a column</b> to filter the table to that month; peak highlighted.`:`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`;
+  $("#memTabMonth").setAttribute("aria-selected",monthMode);$("#memTabPtma").setAttribute("aria-selected",!monthMode);
+  if(monthMode){
+    const peakVal=Math.max(...byMonth);
+    vbars($("#memChart"),MONTHS.map((m,i)=>({label:m,value:byMonth[i],selected:state.month===i,color:(state.month===i||byMonth[i]===peakVal&&byMonth[i]>0)?"var(--accent-deep)":"var(--accent)",tipTitle:`${m} ${state.year}`,tipSuffix:" created"})),
+      {onClick:(d,i)=>{state.month=state.month===i?null:i;renderMembership();}});
+  }else{
+    const map={};rows.forEach(r=>{(map[r.ptma]??={name:r.ptma,code:r.ptmaCode,c:0}).c++;});
+    const arr=Object.values(map).sort((a,b)=>b.c-a.c),max=Math.max(1,...arr.map(d=>d.c));
+    $("#memChart").innerHTML=`<div class="hbars">`+(arr.map(d=>{const sel=state.ptma===d.name;
+      return `<div class="hbar-row ${sel?"sel":""}" data-ptma="${esc(d.name)}"><div class="hbar-name" title="${esc(d.name)}"><span class="code">${esc(d.code)}</span>${esc(d.name)}</div><div class="hbar-track"><div class="hbar-fill" style="width:${d.c/max*100}%"></div></div><div class="hbar-val">${d.c}</div></div>`;
+    }).join("")||`<div class="hint">No records match these filters.</div>`)+`</div>`;
+    $("#memChart").querySelectorAll(".hbar-row").forEach(row=>{const name=row.dataset.ptma,d=map[name];
+      row.addEventListener("mousemove",e=>showTip(`<div class="tt-t">${esc(d.code)} &middot; ${esc(name)}</div><div class="tt-n">${d.c} membership${d.c!==1?"s":""}</div>`,e));
+      row.addEventListener("mouseleave",hideTip);
+      row.addEventListener("click",()=>{state.ptma=state.ptma===name?"all":name;$("#fPtma").value=state.ptma==="all"?"all":name;hideTip();renderMembership();});});
+  }
+  // table
+  const trows=memFiltered(false).slice().sort((a,b)=>a.created<b.created?1:-1),shown=trows.slice(0,15);
+  $("#memBody").innerHTML=shown.map(r=>`<tr><td class="name">${esc(r.contact)}</td><td>${esc(r.category.split(" / ")[0])}</td><td>${esc(r.ptmaCode)} &middot; ${esc(r.ptma)}</td><td class="num">${esc(r.created)}</td><td class="num">${esc(r.expiry||"—")}</td><td class="num">${esc(r.year)}</td><td><span class="status ${statusClass(r.status)}">${esc(r.status)}</span></td></tr>`).join("")||`<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:26px">No records match these filters.</td></tr>`;
+  $("#memFoot").innerHTML=`<span>Showing <b class="mono">${shown.length}</b> of <b class="mono">${trows.length.toLocaleString()}</b> filtered records</span><span>Newest first</span>`;
+  memChip=[];const chips=[];
+  if(state.month!==null)chips.push(chip(`Month: ${MONTHS[state.month]}`,()=>{state.month=null;renderMembership();}));
+  if(state.ptma!=="all")chips.push(chip(`PTMA: ${state.ptma.length>24?state.ptma.slice(0,22)+"…":state.ptma}`,()=>{state.ptma="all";$("#fPtma").value="all";renderMembership();}));
+  if(state.cat!=="all")chips.push(chip(`Category: ${state.cat.split(" / ")[0]}`,()=>{state.cat="all";$("#fCat").value="all";renderMembership();}));
+  $("#memChips").innerHTML=chips.join(" ");
+  $("#memChips").querySelectorAll("button").forEach((b,i)=>b.onclick=memChip[i]);
+}
 
-   To host this inside Dynamics as a web resource instead of a generated file:
-   remove the injected #cma-data <script>, then load the same record shape from
-   Dataverse using the caller's session (no secret in the browser):
+/* ═══════════════ REPORT 2 — OVERVIEW ═══════════════ */
+const TYPE_COL={Physician:COL.teal,Student:COL.sky,Resident:COL.mid,Lifetime:COL.navy};
+function renderOverview(){
+  const rows=RECORDS.filter(r=>r.year===state.year&&isActive(r));
+  const t=n=>rows.filter(r=>r.type===n).length;
+  const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val.toLocaleString()}</div><div class="k-note">${note}</div></div>`;
+  $("#ovKpis").innerHTML=kpi("","Active Members",rows.length,`${esc(state.year)} · active`)+kpi("alt","Practising",t("Physician"),"physician members")+
+    kpi("alt","Retired / Lifetime",t("Lifetime"),"lifetime members")+kpi("alt","Resident",t("Resident"),"in training")+kpi("alt","Student",t("Student"),"student members");
+  // years to expiry
+  const m=countBy(rows,yearsLeftKey);
+  const nums=[...m.keys()].filter(k=>typeof k==="number").sort((a,b)=>b-a);
+  const order=[...nums,"Lifetime","(Blank)"].filter(k=>m.has(k));
+  vbars($("#ovYears"),order.map(k=>({label:String(k),value:m.get(k)||0,tipTitle:k==="Lifetime"?"Lifetime members":k==="(Blank)"?"No expiry date":`${k} year${Math.abs(+k)!==1?"s":""} ${(+k)<0?"expired":"left"}`,tipSuffix:" memberships"})),{height:300});
+  // donut by type
+  const td=["Physician","Student","Resident","Lifetime"].map(n=>({label:n,value:t(n),color:TYPE_COL[n]})).filter(d=>d.value>0);
+  donut($("#ovDonut"),td,{centerLabel:"MEMBERS"});
+}
 
-   async function loadFromDataverse() {
-     const fetchXml =
-       `<fetch no-lock="true">
-          <entity name="new_cmamembershipdetail">
-            <attribute name="new_cmamembershipdetailid"/>
-            <attribute name="new_expirydate"/>
-            <attribute name="new_membershipyear"/>
-            <attribute name="new_status"/>
-            <attribute name="createdon"/>
-            <order attribute="createdon" descending="true"/>
-            <link-entity name="contact" from="contactid" to="new_contact" link-type="outer" alias="con">
-              <attribute name="fullname"/></link-entity>
-            <link-entity name="product" from="productid" to="new_categoryproductid" link-type="outer" alias="prod">
-              <attribute name="name"/></link-entity>
-            <link-entity name="account" from="accountid" to="new_divassocaccountid" link-type="outer" alias="acct">
-              <attribute name="name"/></link-entity>
-          </entity></fetch>`;
-     const res = await Xrm.WebApi.retrieveMultipleRecords(
-       "new_cmamembershipdetail", "?fetchXml=" + encodeURIComponent(fetchXml));
-     window.__CMA_DATA__ = {
-       meta: { source: "Xrm.WebApi", generatedOn: new Date().toISOString() },
-       records: res.entities.map(e => {
-         const created = e.createdon ? new Date(e.createdon) : null;
-         return {
-           id: e.new_cmamembershipdetailid,
-           contact: e["con.fullname"] ?? "(no contact)",
-           category: e["prod.name"] ?? "(no category)",
-           ptma: e["acct.name"] ?? "(no PTMA)",
-           expiry: e.new_expirydate ? e.new_expirydate.slice(0,10) : null,
-           year: e["new_membershipyear@OData.Community.Display.V1.FormattedValue"] ?? String(e.new_membershipyear ?? ""),
-           status: e["new_status@OData.Community.Display.V1.FormattedValue"] ?? String(e.new_status ?? ""),
-           created: created ? created.toISOString().slice(0,10) : "",
-           createdMonth: created ? created.getMonth() : 0
-         };
-       })
-     };
-     // then re-run the render pipeline with the new dataset.
-   }
-   ═════════════════════════════════════════════════════════════════════════════ */
+/* ═══════════════ REPORT 3 — DEMOGRAPHICS ═══════════════ */
+function demoMembers(){
+  // one row per distinct contact (latest membership), optionally active-only
+  const src=RECORDS.filter(r=>state.demoStatus==="All"||isActive(r));
+  const byC=new Map();
+  src.forEach(r=>{const k=r.contactId;const cur=byC.get(k);if(!cur||(r.created>cur.created))byC.set(k,r);});
+  return [...byC.values()];
+}
+const AGE_ORDER=["< 30","30 - 34","35 - 39","40 - 44","45 - 49","50 - 54","55 - 59","60 - 64","65 & Over","Unknown Age"];
+const GENDER_COL={Male:COL.teal,Female:COL.navy,Unknown:COL.orange,"Non-Binary":COL.grey};
+const LANG_COL={English:COL.teal,French:COL.navy,Other:COL.sky,Unknown:COL.grey};
+function renderDemographics(){
+  const mem=demoMembers(),total=mem.length;
+  const ages=mem.map(r=>r.age).filter(a=>a!=null&&!isNaN(a));
+  const avgAge=ages.length?Math.round(ages.reduce((s,a)=>s+a,0)/ages.length):0;
+  const gm=countBy(mem,r=>r.gender),lm=countBy(mem,r=>r.language);
+  const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val}</div><div class="k-note">${note}</div></div>`;
+  $("#demoKpis").innerHTML=kpi("","Members",total.toLocaleString(),`${state.demoStatus==="All"?"all statuses":"active"} · distinct contacts`)+
+    kpi("alt","Average Age",avgAge||"—",`${ages.length.toLocaleString()} with age`)+
+    kpi("alt","Female",pct(gm.get("Female")||0,total)+"%",`${(gm.get("Female")||0).toLocaleString()} members`)+
+    kpi("alt","French",pct(lm.get("French")||0,total)+"%",`${(lm.get("French")||0).toLocaleString()} members`);
+  // age bar (sorted by count desc, Unknown last) matching the source dashboard
+  const am=countBy(mem,r=>ageBucket(r.age));
+  const ageArr=AGE_ORDER.filter(k=>am.has(k)).map(k=>({label:k,value:am.get(k)||0}));
+  ageArr.sort((a,b)=>(a.label==="Unknown Age")-(b.label==="Unknown Age")||b.value-a.value);
+  vbars($("#demoAge"),ageArr.map(d=>({...d,tipSuffix:" members",rotate:false})),{height:320,rotate:true});
+  // gender & language donuts
+  donut($("#demoGender"),["Male","Female","Unknown","Non-Binary"].map(g=>({label:g,value:gm.get(g)||0,color:GENDER_COL[g]})).filter(d=>d.value>0),{centerLabel:"MEMBERS"});
+  donut($("#demoLang"),["English","French","Other","Unknown"].map(l=>({label:l,value:lm.get(l)||0,color:LANG_COL[l]})).filter(d=>d.value>0),{centerLabel:"MEMBERS"});
+}
+
+/* ═══════════════ REPORT 4 — UPCOMING EXPIRY ═══════════════ */
+function renderExpiry(){
+  $("#expRef").textContent=REF.toISOString().slice(0,10);
+  const win=state.expWindow;
+  const base=RECORDS.filter(r=>(state.expStatus==="All"||isActive(r))&&r.expiry);
+  const cnt=d=>base.filter(r=>{const dd=daysUntil(r.expiry);return dd>=0&&dd<=d;}).length;
+  const expired=base.filter(r=>daysUntil(r.expiry)<0).length;
+  const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val.toLocaleString()}</div><div class="k-note">${note}</div></div>`;
+  $("#expKpis").innerHTML=kpi("warn","Next 30 days",cnt(30),"expiring soon")+kpi("","Next 90 days",cnt(90),"upcoming renewals")+
+    kpi("alt","Next 12 months",cnt(365),"expiring this year")+kpi("alt","Expired (active)",expired,"lapsed, still active");
+  // by-month next 12 months
+  const buckets=[];for(let i=0;i<12;i++){const d=new Date(REF.getFullYear(),REF.getMonth()+i,1);buckets.push({y:d.getFullYear(),m:d.getMonth(),label:MONTHS[d.getMonth()]+" '"+String(d.getFullYear()).slice(2),count:0});}
+  base.forEach(r=>{const dd=daysUntil(r.expiry);if(dd<0||dd>365)return;const d=new Date(r.expiry+"T00:00:00");const b=buckets.find(b=>b.y===d.getFullYear()&&b.m===d.getMonth());if(b)b.count++;});
+  vbars($("#expMonths"),buckets.map(b=>({label:b.label,value:b.count,tipTitle:MONTHS[b.m]+" "+b.y,tipSuffix:" expiring"})),{height:280});
+  // table — soonest expiring within window
+  const upcoming=base.filter(r=>{const dd=daysUntil(r.expiry);return dd>=0&&dd<=win;}).sort((a,b)=>daysUntil(a.expiry)-daysUntil(b.expiry));
+  $("#expTableTitle").textContent=`Expiring within ${win} days`;
+  const shown=upcoming.slice(0,15);
+  $("#expBody").innerHTML=shown.map(r=>{const dd=daysUntil(r.expiry);
+    return `<tr><td class="name">${esc(r.contact)}</td><td>${esc(r.category.split(" / ")[0])}</td><td>${esc(r.ptmaCode)} &middot; ${esc(r.ptma)}</td><td class="num">${esc(r.expiry)}</td><td><span class="pill-days ${dd<=30?"soon":""}">${dd} d</span></td><td><span class="status ${statusClass(r.status)}">${esc(r.status)}</span></td></tr>`;
+  }).join("")||`<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:26px">Nothing expiring in this window.</td></tr>`;
+  $("#expFoot").innerHTML=`<span>Showing <b class="mono">${shown.length}</b> of <b class="mono">${upcoming.length.toLocaleString()}</b> within ${win} days</span><span>Soonest first</span>`;
+}
+
+/* ═══ nav + shared controls ═══ */
+const RENDER={membership:renderMembership,overview:renderOverview,demographics:renderDemographics,expiry:renderExpiry};
+function renderActive(){RENDER[state.report]();}
+function showReport(name){state.report=name;
+  $$(".rtab").forEach(t=>t.setAttribute("aria-selected",String(t.dataset.report===name)));
+  $$(".report").forEach(s=>s.hidden=s.dataset.report!==name);
+  renderActive();}
+$$(".rtab").forEach(t=>t.addEventListener("click",()=>showReport(t.dataset.report)));
+
+/* year selects (shared: membership + overview) */
+$$(".yearsel").forEach(sel=>{sel.innerHTML=YEARS.map(y=>`<option value="${y}">${y}</option>`).join("")||`<option>—</option>`;sel.value=state.year;
+  sel.addEventListener("change",e=>{state.year=e.target.value;$$(".yearsel").forEach(s=>s.value=state.year);state.month=null;renderActive();});});
+$("#fPtma").innerHTML=`<option value="all">All PTMAs</option>`+PTMAS.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
+$("#fCat").innerHTML=`<option value="all">All categories</option>`+CATS.map(c=>`<option value="${esc(c)}">${esc(c.split(" / ")[0])}</option>`).join("");
+$("#fPtma").addEventListener("change",e=>{state.ptma=e.target.value;renderMembership();});
+$("#fCat").addEventListener("change",e=>{state.cat=e.target.value;renderMembership();});
+function bindSeg(id,key,after){$(`#${id}`).querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{
+  $(`#${id}`).querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");state[key]=b.dataset.status;after();}));}
+bindSeg("memStatus","memStatus",renderMembership);
+bindSeg("demoStatus","demoStatus",renderDemographics);
+bindSeg("expStatus","expStatus",renderExpiry);
+$("#memTabMonth").addEventListener("click",()=>{state.memView="month";renderMembership();});
+$("#memTabPtma").addEventListener("click",()=>{state.memView="ptma";renderMembership();});
+$("#memReset").addEventListener("click",()=>{state.memStatus="Active";state.ptma="all";state.cat="all";state.month=null;
+  $("#memStatus").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x.dataset.status==="Active"));$("#fPtma").value="all";$("#fCat").value="all";renderMembership();});
+$("#expWindow").addEventListener("change",e=>{state.expWindow=+e.target.value;renderExpiry();});
+
+/* header meta */
+(function(){const env=META.environment||META.source||"CRM";$("#connText").textContent="Connected · "+env;
+  const when=META.generatedOn?new Date(META.generatedOn):null,stamp=when&&!isNaN(when)?when.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"}):"—";
+  $("#metaSub").innerHTML=`<span class="mono">new_cmamembershipdetail</span> &middot; ${RECORDS.length.toLocaleString()} records &middot; data as of ${esc(stamp)}`;
+  if(META.source==="demo")$("#connChip").classList.add("offline");
+  $("#footNote").innerHTML=`Four reports from one dataset. Lookups: <code>new_Contact</code>&rarr;fullname, <code>new_Categoryproductid</code>&rarr;Product.name, <code>new_divassocaccountid</code>&rarr;Account.name. Demographics from <code>gendercode</code> / <code>new_age</code> / <code>new_language</code>; expiry from <code>new_expirydate</code>.`;})();
+
+$("#refreshBtn").addEventListener("click",()=>{const c=$("#connChip"),t=$("#connText"),b=$("#refreshBtn"),was=t.textContent;
+  c.className="chip reconnecting";t.textContent="Refreshing…";b.querySelector("svg").classList.add("spin");
+  setTimeout(()=>{c.className="chip"+(META.source==="demo"?" offline":"");t.textContent=was;b.querySelector("svg").classList.remove("spin");renderActive();},700);});
+$("#themeBtn").addEventListener("click",()=>{const cur=document.documentElement.getAttribute("data-theme");
+  const next=cur==="dark"?"light":cur==="light"?"dark":(matchMedia("(prefers-color-scheme: dark)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",next);});
+
+showReport("membership");
+
+/* ═══ WEB RESOURCE SEAM — load the same record shape via Xrm.WebApi (no secret in browser).
+   Add gendercode / new_age / new_language to the contact link and read them like the
+   generator does; then set window.__CMA_DATA__ and re-run showReport(state.report). ═══ */
 </script>
 </body>
 </html>
