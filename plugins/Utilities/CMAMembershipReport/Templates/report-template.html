@@ -114,6 +114,12 @@
   .gridline{stroke:var(--grid);stroke-width:1;}
   .axis-num{font-family:"IBM Plex Mono",monospace;font-size:10px;fill:var(--faint);}
 
+  /* total-only card (createdon incompatible with membership year) */
+  .totalcard{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;padding:38px 20px;min-height:220px;}
+  .totalcard .tc-num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:56px;font-weight:600;color:var(--accent-deep);line-height:1;letter-spacing:-.03em;}
+  .totalcard .tc-lab{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);font-weight:600;}
+  .totalcard .tc-note{font-size:12.5px;color:var(--muted);max-width:52ch;line-height:1.6;margin-top:4px;}
+
   /* horizontal bars */
   .hbars{display:flex;flex-direction:column;gap:9px;}
   .hbar-row{display:grid;grid-template-columns:220px 1fr 48px;align-items:center;gap:12px;cursor:pointer;padding:3px 6px;border-radius:7px;transition:background .12s;}
@@ -336,17 +342,22 @@ function ageBucket(a){if(a==null||a===""||isNaN(a))return"Unknown Age";a=+a;
 
 const RECORDS=RAW.records.map(r=>{
   const cm=(typeof r.createdMonth==="number")?r.createdMonth:(r.created&&/^\d{4}-\d{2}/.test(r.created)?(parseInt(r.created.slice(5,7),10)-1):0);
+  const yr=String(r.year||"");
+  // sameYear = createdon falls within the membership year, so a by-month breakdown is meaningful.
+  const sameYear=!!yr&&(r.created||"").slice(0,4)===yr;
   return {id:r.id,contactId:r.contactId||r.contact||r.id,contact:r.contact||"(no contact)",
     category:r.category||"(no category)",type:memberType(r.category),ptma:r.ptma||"(no PTMA)",ptmaCode:ptmaCode(r.ptma),
-    expiry:r.expiry||null,year:String(r.year||""),status:r.status||"(no status)",created:r.created||"",createdMonth:cm,
+    expiry:r.expiry||null,year:yr,status:r.status||"(no status)",created:r.created||"",createdMonth:cm,sameYear,
     gender:genderNorm(r.gender),age:(r.age==null||r.age===""?null:+r.age),language:langNorm(r.language)};});
 
 const YEARS=[...new Set(RECORDS.map(r=>r.year).filter(Boolean))].sort((a,b)=>b.localeCompare(a));
+const HAS_BLANK_YEAR=RECORDS.some(r=>!r.year);
 const CATS=[...new Set(RECORDS.map(r=>r.category))].sort();
 const PTMAS=[...new Set(RECORDS.map(r=>r.ptma))].sort();
 const defaultYear=(META.defaultYear&&YEARS.includes(String(META.defaultYear)))?String(META.defaultYear):(YEARS[0]||"");
 // Default to "all" so every year the app downloaded (including very old ones) shows at once.
-const yearLabel=()=>state.year==="all"?"all years":state.year;
+const yearLabel=()=>state.year==="all"?"all years":state.year==="none"?"no membership year":state.year;
+const yearMatch=r=>state.year==="all"||(state.year==="none"?!r.year:r.year===state.year);
 
 const state={report:"membership",year:"all",memStatus:"Active",demoStatus:"Active",expStatus:"Active",
   ptma:"all",cat:"all",memView:"month",month:null,expWindow:90};
@@ -403,31 +414,44 @@ function countBy(rows,keyFn){const m=new Map();rows.forEach(r=>{const k=keyFn(r)
 function pct(n,d){return d?Math.round(n/d*100):0;}
 
 /* ═══════════════ REPORT 1 — MEMBERSHIP ═══════════════ */
-function memFiltered(ignoreMonth){return RECORDS.filter(r=>(state.year==="all"||r.year===state.year)&&
+function memFiltered(ignoreMonth){return RECORDS.filter(r=>yearMatch(r)&&
   (state.memStatus==="All"||isActive(r))&&(state.ptma==="all"||r.ptma===state.ptma)&&
   (state.cat==="all"||r.category===state.cat)&&(ignoreMonth||state.month===null||r.createdMonth===state.month));}
 let memChip=[];
 function chip(label,h){memChip.push(h);return `<span class="active-filter">${esc(label)}<button aria-label="Clear">&times;</button></span>`;}
 function renderMembership(){
   const rows=memFiltered(true);
-  const byMonth=MONTHS.map((_,i)=>rows.filter(r=>r.createdMonth===i).length);
+  // Only records whose createdon falls inside their membership year can be charted by month.
+  // The rest (migrated / off-year / blank-year) are counted in the total but not month-bucketed.
+  const inYear=rows.filter(r=>r.sameYear);
+  const offYear=rows.length-inYear.length;
+  const byMonth=MONTHS.map((_,i)=>inYear.filter(r=>r.createdMonth===i).length);
+  const anyInYear=byMonth.some(c=>c>0);
   const total=rows.length,ptmaCount=new Set(rows.map(r=>r.ptma)).size;
   let peak=0;byMonth.forEach((c,i)=>{if(c>byMonth[peak])peak=i;});
   const retired=rows.filter(r=>r.type==="Lifetime").length;
   $("#memKpis").innerHTML=`
     <div class="kpi"><span class="rail"></span><div class="k-label">Total Memberships</div><div class="k-val">${total.toLocaleString()}</div><div class="k-note">${esc(yearLabel())} &middot; ${state.memStatus==="All"?"all statuses":"active"}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">PTMAs Reporting</div><div class="k-val">${ptmaCount}</div><div class="k-note">of ${PTMAS.length} in data</div></div>
-    <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${total?MONTHS[peak]:"—"}</div><div class="k-note">${(byMonth[peak]||0).toLocaleString()} created</div></div>
+    <div class="kpi"><span class="rail"></span><div class="k-label">Peak Month</div><div class="k-val">${anyInYear?MONTHS[peak]:"—"}</div><div class="k-note">${anyInYear?(byMonth[peak]||0).toLocaleString()+" created in-year":"no in-year creations"}</div></div>
     <div class="kpi alt"><span class="rail"></span><div class="k-label">Retired / Lifetime</div><div class="k-val">${pct(retired,total)}<span style="font-size:17px">%</span></div><div class="k-note">${retired.toLocaleString()} of total</div></div>`;
   const monthMode=state.memView==="month";
   $("#memPanelTitle").childNodes[0].nodeValue=monthMode?"Memberships created by month":"Memberships by PTMA";
   $("#memPanelSub").textContent=`${esc(yearLabel())} · ${state.memStatus==="All"?"all statuses":"active only"}`;
-  $("#memHint").innerHTML=monthMode?`<b>Click a column</b> to filter the table to that month; peak highlighted.`:`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`;
+  const offNote=offYear>0?` <b>${offYear.toLocaleString()}</b> record${offYear!==1?"s":""} created outside the membership year — counted in the total, not shown by month.`:"";
+  $("#memHint").innerHTML=monthMode?(anyInYear?`<b>Click a column</b> to filter the table to that month; peak highlighted.${offNote}`:offNote.trim()||`No records match these filters.`):`<b>Click a bar</b> to filter to that PTMA. Grouped on <span class="mono">new_divassocaccountid</span>.`;
   $("#memTabMonth").setAttribute("aria-selected",monthMode);$("#memTabPtma").setAttribute("aria-selected",!monthMode);
   if(monthMode){
-    const peakVal=Math.max(...byMonth);
-    vbars($("#memChart"),MONTHS.map((m,i)=>({label:m,value:byMonth[i],selected:state.month===i,color:(state.month===i||byMonth[i]===peakVal&&byMonth[i]>0)?"var(--accent-deep)":"var(--accent)",tipTitle:`${m} · ${yearLabel()}`,tipSuffix:" created"})),
-      {onClick:(d,i)=>{state.month=state.month===i?null:i;renderMembership();}});
+    if(anyInYear){
+      const peakVal=Math.max(...byMonth);
+      vbars($("#memChart"),MONTHS.map((m,i)=>({label:m,value:byMonth[i],selected:state.month===i,color:(state.month===i||byMonth[i]===peakVal&&byMonth[i]>0)?"var(--accent-deep)":"var(--accent)",tipTitle:`${m} · ${yearLabel()}`,tipSuffix:" created"})),
+        {onClick:(d,i)=>{state.month=state.month===i?null:i;renderMembership();}});
+    }else{
+      // createdon incompatible with the membership year → show a single total for the year.
+      state.month=null;
+      $("#memChart").innerHTML=`<div class="totalcard"><div class="tc-num">${total.toLocaleString()}</div><div class="tc-lab">total memberships &middot; ${esc(yearLabel())}</div>`+
+        `<div class="tc-note">Created-on dates fall outside the membership year (e.g. migrated records), so a by-month breakdown isn't meaningful. Use <b>By PTMA</b> or the table for the breakdown.</div></div>`;
+    }
   }else{
     const map={};rows.forEach(r=>{(map[r.ptma]??={name:r.ptma,code:r.ptmaCode,c:0}).c++;});
     const arr=Object.values(map).sort((a,b)=>b.c-a.c),max=Math.max(1,...arr.map(d=>d.c));
@@ -454,7 +478,7 @@ function renderMembership(){
 /* ═══════════════ REPORT 2 — OVERVIEW ═══════════════ */
 const TYPE_COL={Physician:COL.teal,Student:COL.sky,Resident:COL.mid,Lifetime:COL.navy};
 function renderOverview(){
-  const rows=RECORDS.filter(r=>(state.year==="all"||r.year===state.year)&&isActive(r));
+  const rows=RECORDS.filter(r=>yearMatch(r)&&isActive(r));
   const t=n=>rows.filter(r=>r.type===n).length;
   const kpi=(cls,lab,val,note)=>`<div class="kpi ${cls}"><span class="rail"></span><div class="k-label">${lab}</div><div class="k-val">${val.toLocaleString()}</div><div class="k-note">${note}</div></div>`;
   $("#ovKpis").innerHTML=kpi("","Active Members",rows.length,`${esc(yearLabel())} · active`)+kpi("alt","Practising",t("Physician"),"physician members")+
@@ -534,7 +558,7 @@ function showReport(name){state.report=name;
 $$(".rtab").forEach(t=>t.addEventListener("click",()=>showReport(t.dataset.report)));
 
 /* year selects (shared: membership + overview) */
-$$(".yearsel").forEach(sel=>{sel.innerHTML=`<option value="all">All years</option>`+YEARS.map(y=>`<option value="${y}">${y}</option>`).join("");sel.value=state.year;
+$$(".yearsel").forEach(sel=>{sel.innerHTML=`<option value="all">All years</option>`+(HAS_BLANK_YEAR?`<option value="none">(No membership year)</option>`:"")+YEARS.map(y=>`<option value="${y}">${y}</option>`).join("");sel.value=state.year;
   sel.addEventListener("change",e=>{state.year=e.target.value;$$(".yearsel").forEach(s=>s.value=state.year);state.month=null;renderActive();});});
 $("#fPtma").innerHTML=`<option value="all">All PTMAs</option>`+PTMAS.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
 $("#fCat").innerHTML=`<option value="all">All categories</option>`+CATS.map(c=>`<option value="${esc(c)}">${esc(c.split(" / ")[0])}</option>`).join("");

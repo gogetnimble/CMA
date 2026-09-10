@@ -11,6 +11,12 @@ query, so all history (right back to the oldest records) is downloaded. In the
 report the Membership and Overview tabs default to **All years**; the year
 dropdown (All years + every year found in the data) drills into one year.
 
+The **created-by-month** chart only buckets records whose `createdon` falls inside
+their membership year. For years whose records were created on incompatible dates
+(migrated data, or a blank `new_membershipyear`), a monthly breakdown is
+meaningless, so the report shows a **single total for that year** instead — the
+records still appear in the total and in the table.
+
 1. **Membership** — memberships for the selected year (All years by default),
    grouped by the **month** they
    were created (`createdon`) and **by PTMA** (`new_divassocaccountid` → Account
